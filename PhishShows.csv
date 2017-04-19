@@ -1,0 +1,1514 @@
+id,date,duration,tour_id,likes_count,venue_name,location,ratings,name,tour
+1905,2017-01-15T00:00:00Z,10690062,100,2,Barcelo Maya Beach,"Riviera Maya, Quintana Roo Mexico",4.5703,2017 Riviera Maya Run,2017-riviera-maya-run
+1904,2017-01-14T00:00:00Z,10835436,100,0,Barcelo Maya Beach,"Riviera Maya, Quintana Roo Mexico",3.7176,2017 Riviera Maya Run,2017-riviera-maya-run
+1903,2017-01-13T00:00:00Z,10340152,100,0,Barcelo Maya Beach,"Riviera Maya, Quintana Roo Mexico",3.8495,2017 Riviera Maya Run,2017-riviera-maya-run
+1902,2016-12-31T00:00:00Z,13435559,99,8,Madison Square Garden,"New York, NY",4.1387,2016-2017 New Years Run,2016-2017-new-years-run
+1900,2016-12-30T00:00:00Z,10395977,99,13,Madison Square Garden,"New York, NY",4.6719,2016-2017 New Years Run,2016-2017-new-years-run
+1899,2016-12-29T00:00:00Z,9687874,99,6,Madison Square Garden,"New York, NY",4.1985,2016-2017 New Years Run,2016-2017-new-years-run
+1897,2016-12-28T00:00:00Z,9975624,99,11,Madison Square Garden,"New York, NY",4.2702,2016-2017 New Years Run,2016-2017-new-years-run
+1895,2016-10-31T00:00:00Z,12595201,98,18,MGM Grand Garden Arena,"Las Vegas, NV",4.5728,2016 Fall Tour,2016-fall-tour
+1894,2016-10-30T00:00:00Z,9616300,98,8,MGM Grand Garden Arena,"Las Vegas, NV",4.5933,2016 Fall Tour,2016-fall-tour
+1893,2016-10-29T00:00:00Z,9486342,98,11,MGM Grand Garden Arena,"Las Vegas, NV",4.6049,2016 Fall Tour,2016-fall-tour
+1892,2016-10-28T00:00:00Z,10521574,98,9,MGM Grand Garden Arena,"Las Vegas, NV",4.622,2016 Fall Tour,2016-fall-tour
+1890,2016-10-25T00:00:00Z,9576278,98,2,Verizon Theatre at Grand Prairie,"Grand Prairie, TX",2.3653,2016 Fall Tour,2016-fall-tour
+1889,2016-10-24T00:00:00Z,10278374,98,2,Verizon Theatre at Grand Prairie,"Grand Prairie, TX",3.7218,2016 Fall Tour,2016-fall-tour
+1891,2016-10-22T00:00:00Z,9597336,98,7,Verizon Wireless Amphitheatre at Encore Park,"Alpharetta, GA",4.5994,2016 Fall Tour,2016-fall-tour
+1888,2016-10-21T00:00:00Z,9481979,98,7,Verizon Wireless Amphitheatre at Encore Park,"Alpharetta, GA",4.3195,2016 Fall Tour,2016-fall-tour
+1887,2016-10-19T00:00:00Z,9458756,98,6,Ascend Amphitheater,"Nashville, TN",4.3673,2016 Fall Tour,2016-fall-tour
+1886,2016-10-18T00:00:00Z,9332401,98,11,Ascend Amphitheater,"Nashville, TN",4.4125,2016 Fall Tour,2016-fall-tour
+1885,2016-10-16T00:00:00Z,10110304,98,5,Jacksonville Veterans Memorial Arena,"Jacksonville, FL",3.768,2016 Fall Tour,2016-fall-tour
+1884,2016-10-15T00:00:00Z,9598745,98,4,North Charleston Coliseum,"North Charleston, SC",3.3478,2016 Fall Tour,2016-fall-tour
+1883,2016-10-14T00:00:00Z,10647329,98,9,North Charleston Coliseum,"North Charleston, SC",3.8341,2016 Fall Tour,2016-fall-tour
+1877,2016-09-04T00:00:00Z,10505692,97,20,Dick's Sporting Goods Park,"Commerce City, CO",4.6861,2016 Summer Tour,2016-summer-tour
+1876,2016-09-03T00:00:00Z,10925637,97,14,Dick's Sporting Goods Park,"Commerce City, CO",4.491,2016 Summer Tour,2016-summer-tour
+1875,2016-09-02T00:00:00Z,10567915,97,14,Dick's Sporting Goods Park,"Commerce City, CO",4.4056,2016 Summer Tour,2016-summer-tour
+1874,2016-08-28T00:00:00Z,9314509,97,10,Oak Ridge Farm,"Arrington, VA",3.7193,2016 Summer Tour,2016-summer-tour
+1873,2016-08-26T00:00:00Z,10065864,97,9,Oak Ridge Farm,"Arrington, VA",4.1187,2016 Summer Tour,2016-summer-tour
+1872,2016-07-23T00:00:00Z,9593052,97,4,Sleep Train Amphitheatre,"Chula Vista, CA",4.3323,2016 Summer Tour,2016-summer-tour
+1871,2016-07-22T00:00:00Z,11240465,97,2,The Forum,"Inglewood, CA",2.6358,2016 Summer Tour,2016-summer-tour
+1870,2016-07-20T00:00:00Z,9660891,97,9,Bill Graham Civic Auditorium,"San Francisco, CA",3.9821,2016 Summer Tour,2016-summer-tour
+1869,2016-07-19T00:00:00Z,10099750,97,10,Bill Graham Civic Auditorium,"San Francisco, CA",4.561,2016 Summer Tour,2016-summer-tour
+1868,2016-07-18T00:00:00Z,10214165,97,6,Bill Graham Civic Auditorium,"San Francisco, CA",4.1886,2016 Summer Tour,2016-summer-tour
+1867,2016-07-16T00:00:00Z,11346051,97,10,Gorge Amphitheatre,"George, WA",3.5306,2016 Summer Tour,2016-summer-tour
+1866,2016-07-15T00:00:00Z,11062725,97,18,Gorge Amphitheatre,"George, WA",4.4473,2016 Summer Tour,2016-summer-tour
+1865,2016-07-10T00:00:00Z,9896566,97,9,Lakeview Amphitheater,"Syracuse, NY",3.6688,2016 Summer Tour,2016-summer-tour
+1863,2016-07-09T00:00:00Z,9856053,97,17,XFINITY Theatre,"Hartford, CT",4.4328,2016 Summer Tour,2016-summer-tour
+1862,2016-07-08T00:00:00Z,9058690,97,12,Xfinity Center,"Mansfield, MA",4.174,2016 Summer Tour,2016-summer-tour
+1861,2016-07-06T00:00:00Z,10221872,97,4,Cross Insurance Arena,"Portland, ME",2.9848,2016 Summer Tour,2016-summer-tour
+1860,2016-07-03T00:00:00Z,9396532,97,11,Saratoga Performing Arts Center,"Saratoga Springs, NY",3.4192,2016 Summer Tour,2016-summer-tour
+1859,2016-07-02T00:00:00Z,9593678,97,12,Saratoga Performing Arts Center,"Saratoga Springs, NY",3.3634,2016 Summer Tour,2016-summer-tour
+1858,2016-07-01T00:00:00Z,10439523,97,9,Saratoga Performing Arts Center,"Saratoga Springs, NY",4.2054,2016 Summer Tour,2016-summer-tour
+1857,2016-06-29T00:00:00Z,9950736,97,4,The Mann Center for the Performing Arts,"Philadelphia, PA",3.436,2016 Summer Tour,2016-summer-tour
+1854,2016-06-28T00:00:00Z,9750753,97,7,The Mann Center for the Performing Arts,"Philadelphia, PA",3.939,2016 Summer Tour,2016-summer-tour
+1853,2016-06-26T00:00:00Z,9451859,97,10,Klipsch Music Center,"Noblesville, IN",3.6793,2016 Summer Tour,2016-summer-tour
+1852,2016-06-25T00:00:00Z,8997226,97,15,Wrigley Field,"Chicago, IL",4.243,2016 Summer Tour,2016-summer-tour
+1851,2016-06-24T00:00:00Z,9443681,97,18,Wrigley Field,"Chicago, IL",3.8935,2016 Summer Tour,2016-summer-tour
+1850,2016-06-22T00:00:00Z,9880581,97,6,Xcel Energy Center,"St. Paul, MN",3.4021,2016 Summer Tour,2016-summer-tour
+1846,2016-01-02T00:00:00Z,9825384,96,18,Madison Square Garden,"New York, NY",4.5702,2015-2016 New Years Run,2015-2016-new-years-run
+1845,2016-01-01T00:00:00Z,9844247,96,11,Madison Square Garden,"New York, NY",3.6127,2015-2016 New Years Run,2015-2016-new-years-run
+1844,2015-12-31T00:00:00Z,12891297,96,25,Madison Square Garden,"New York, NY",4.6484,2015-2016 New Years Run,2015-2016-new-years-run
+1843,2015-12-30T00:00:00Z,9691009,96,14,Madison Square Garden,"New York, NY",4.2483,2015-2016 New Years Run,2015-2016-new-years-run
+1841,2015-09-06T00:00:00Z,11766805,95,21,Dick's Sporting Goods Park,"Commerce City, CO",4.5596,2015 Summer Tour,2015-summer-tour
+1840,2015-09-05T00:00:00Z,9973788,95,10,Dick's Sporting Goods Park,"Commerce City, CO",3.8301,2015 Summer Tour,2015-summer-tour
+1839,2015-09-04T00:00:00Z,10699153,95,10,Dick's Sporting Goods Park,"Commerce City, CO",3.8031,2015 Summer Tour,2015-summer-tour
+1838,2015-08-23T00:00:00Z,11585386,95,29,Watkins Glen International,"Watkins Glen, NY",4.4836,2015 Summer Tour,2015-summer-tour
+1836,2015-08-22T00:00:00Z,18616502,95,72,Watkins Glen International,"Watkins Glen, NY",4.7006,2015 Summer Tour,2015-summer-tour
+1835,2015-08-21T00:00:00Z,10851631,95,47,Watkins Glen International,"Watkins Glen, NY",4.6749,2015 Summer Tour,2015-summer-tour
+1834,2015-08-20T00:00:00Z,2809025,95,34,Watkins Glen International,"Watkins Glen, NY",4.6111,2015 Summer Tour,2015-summer-tour
+1833,2015-08-16T00:00:00Z,9741350,95,12,Merriweather Post Pavillion,"Columbia, MD",3.5135,2015 Summer Tour,2015-summer-tour
+1832,2015-08-15T00:00:00Z,9939539,95,23,Merriweather Post Pavillion,"Columbia, MD",4.614,2015 Summer Tour,2015-summer-tour
+1831,2015-08-14T00:00:00Z,10045048,95,13,Walnut Creek Amphitheater,"Raleigh, NC",3.8306,2015 Summer Tour,2015-summer-tour
+1830,2015-08-12T00:00:00Z,9833769,95,21,The Mann Center for the Performing Arts,"Philadelphia, PA",4.6492000000000004,2015 Summer Tour,2015-summer-tour
+1829,2015-08-11T00:00:00Z,9676982,95,10,The Mann Center for the Performing Arts,"Philadelphia, PA",4.0061,2015 Summer Tour,2015-summer-tour
+1827,2015-08-09T00:00:00Z,9869298,95,14,Alpine Valley Music Theatre,"East Troy, WI",4.5977,2015 Summer Tour,2015-summer-tour
+1828,2015-08-08T00:00:00Z,9980031,95,14,Alpine Valley Music Theatre,"East Troy, WI",3.8028,2015 Summer Tour,2015-summer-tour
+1826,2015-08-07T00:00:00Z,9780583,95,10,Blossom Music Center,"Cuyahoga Falls, OH",4.6061,2015 Summer Tour,2015-summer-tour
+1825,2015-08-05T00:00:00Z,9819247,95,2,Starlight Theatre,"Kansas City, MO",3.5764,2015 Summer Tour,2015-summer-tour
+1824,2015-08-04T00:00:00Z,9804748,95,13,Ascend Amphitheater,"Nashville, TN",4.4313,2015 Summer Tour,2015-summer-tour
+1823,2015-08-02T00:00:00Z,9187161,95,5,Tuscaloosa Amphitheater,"Tuscaloosa, AL",3.6393,2015 Summer Tour,2015-summer-tour
+1822,2015-08-01T00:00:00Z,9397265,95,11,Lakewood Amphitheatre,"Atlanta, GA",4.3464,2015 Summer Tour,2015-summer-tour
+1819,2015-07-31T00:00:00Z,9990975,95,21,Lakewood Amphitheatre,"Atlanta, GA",4.6717,2015 Summer Tour,2015-summer-tour
+1818,2015-07-29T00:00:00Z,9828808,95,5,Verizon Theatre at Grand Prairie,"Grand Prairie, TX",3.8352,2015 Summer Tour,2015-summer-tour
+1821,2015-07-28T00:00:00Z,10570659,95,2,Austin360 Amphitheatre,"Austin, TX",2.8051,2015 Summer Tour,2015-summer-tour
+1817,2015-07-25T00:00:00Z,9979297,95,12,The Forum,"Inglewood, CA",4.1189,2015 Summer Tour,2015-summer-tour
+1820,2015-07-24T00:00:00Z,9146408,95,8,Shoreline Amphitheatre,"Mountain View, CA",4.3729,2015 Summer Tour,2015-summer-tour
+1816,2015-07-22T00:00:00Z,9521555,95,8,Les Schwab Amphitheatre,"Bend, OR",3.8456,2015 Summer Tour,2015-summer-tour
+1815,2015-07-21T00:00:00Z,10084416,95,10,Les Schwab Amphitheatre,"Bend, OR",3.3121,2015 Summer Tour,2015-summer-tour
+1803,2015-01-03T00:00:00Z,10190314,94,18,American Airlines Arena,"Miami, FL",4.4623,2014-2015 New Years Run,2014-2015-new-years-run
+1802,2015-01-02T00:00:00Z,9894243,94,11,American Airlines Arena,"Miami, FL",4.23,2014-2015 New Years Run,2014-2015-new-years-run
+1801,2015-01-01T00:00:00Z,8285807,94,10,American Airlines Arena,"Miami, FL",3.0252,2014-2015 New Years Run,2014-2015-new-years-run
+1800,2014-12-31T00:00:00Z,13351474,94,9,American Airlines Arena,"Miami, FL",4.265,2014-2015 New Years Run,2014-2015-new-years-run
+1796,2014-11-02T00:00:00Z,11376798,92,18,MGM Grand Garden Arena,"Las Vegas, NV",4.5702,2014 Fall Tour,2014-fall-tour
+1795,2014-11-01T00:00:00Z,10142252,92,18,MGM Grand Garden Arena,"Las Vegas, NV",4.4372,2014 Fall Tour,2014-fall-tour
+1794,2014-10-31T00:00:00Z,13275788,92,62,MGM Grand Garden Arena,"Las Vegas, NV",4.6974,2014 Fall Tour,2014-fall-tour
+1799,2014-10-29T00:00:00Z,9524479,92,2,Bill Graham Civic Auditorium,"San Francisco, CA",4.0313,2014 Fall Tour,2014-fall-tour
+1792,2014-10-28T00:00:00Z,9817418,92,10,Bill Graham Civic Auditorium,"San Francisco, CA",4.533,2014 Fall Tour,2014-fall-tour
+1791,2014-10-27T00:00:00Z,10215368,92,6,Bill Graham Civic Auditorium,"San Francisco, CA",3.9064,2014 Fall Tour,2014-fall-tour
+1789,2014-10-25T00:00:00Z,9999909,92,3,Sleep Train Amphitheatre,"Chula Vista, CA",3.4026,2014 Fall Tour,2014-fall-tour
+1790,2014-10-24T00:00:00Z,10312542,92,8,The Forum,"Inglewood, CA",4.0166,2014 Fall Tour,2014-fall-tour
+1788,2014-10-22T00:00:00Z,11095380,92,7,Santa Barbara County Bowl,"Santa Barbara, CA",4.1822,2014 Fall Tour,2014-fall-tour
+1787,2014-10-21T00:00:00Z,10172499,92,2,Santa Barbara County Bowl,"Santa Barbara, CA",3.1989,2014 Fall Tour,2014-fall-tour
+1786,2014-10-18T00:00:00Z,9818750,92,9,Key Arena,"Seattle, WA",3.2358,2014 Fall Tour,2014-fall-tour
+1785,2014-10-17T00:00:00Z,11051339,92,8,Matthew Knight Arena,"Eugene, OR",4.03,2014 Fall Tour,2014-fall-tour
+1784,2014-08-31T00:00:00Z,11320479,91,9,Dick's Sporting Goods Park,"Commerce City, CO",4.3386,2014 Summer Tour,2014-summer-tour
+1798,2014-08-30T00:00:00Z,11118391,91,11,Dick's Sporting Goods Park,"Commerce City, CO",4.1074,2014 Summer Tour,2014-summer-tour
+1782,2014-08-29T00:00:00Z,10339031,91,19,Dick's Sporting Goods Park,"Commerce City, CO",4.2915,2014 Summer Tour,2014-summer-tour
+1776,2014-08-03T00:00:00Z,10709315,91,30,Verizon Wireless Amphitheatre at Encore Park,"Alpharetta, GA",4.2189,2014 Summer Tour,2014-summer-tour
+1775,2014-08-02T00:00:00Z,10703991,91,20,Oak Mountain Amphitheatre,"Pelham, AL",3.4934,2014 Summer Tour,2014-summer-tour
+1774,2014-08-01T00:00:00Z,10329050,91,13,Amphitheater at the Wharf,"Orange Beach, AL US",3.8298,2014 Summer Tour,2014-summer-tour
+1769,2014-07-30T00:00:00Z,10767704,91,10,nTelos Pavilion,"Portsmouth, VA",4.1934,2014 Summer Tour,2014-summer-tour
+1767,2014-07-29T00:00:00Z,11983044,91,8,nTelos Pavilion,"Portsmouth, VA",3.5127,2014 Summer Tour,2014-summer-tour
+1765,2014-07-27T00:00:00Z,10283598,91,60,Merriweather Post Pavillion,"Columbia, MD",4.687,2014 Summer Tour,2014-summer-tour
+1764,2014-07-26T00:00:00Z,10104739,91,16,Merriweather Post Pavillion,"Columbia, MD",4.1543,2014 Summer Tour,2014-summer-tour
+1763,2014-07-25T00:00:00Z,10446758,91,12,PNC Music Pavilion,"Charlotte, NC",3.5311,2014 Summer Tour,2014-summer-tour
+1781,2014-07-20T00:00:00Z,10503786,91,11,FirstMerit Bank Pavilion at Northerly Island,"Chicago, IL",4.4741,2014 Summer Tour,2014-summer-tour
+1780,2014-07-19T00:00:00Z,10851293,91,12,FirstMerit Bank Pavilion at Northerly Island,"Chicago, IL",3.7738,2014 Summer Tour,2014-summer-tour
+1779,2014-07-18T00:00:00Z,10312778,91,13,FirstMerit Bank Pavilion at Northerly Island,"Chicago, IL",3.9813,2014 Summer Tour,2014-summer-tour
+1778,2014-07-16T00:00:00Z,10114170,91,6,DTE Energy Music Theater,"Clarkston, MI",3.1803,2014 Summer Tour,2014-summer-tour
+1761,2014-07-15T00:00:00Z,10396471,91,6,CMAC,"Canandaigua, NY",3.6011,2014 Summer Tour,2014-summer-tour
+1880,2014-07-14T00:00:00Z,904124,71,0,"NBC Studios, New York","New York, NY",3.3824,Not Part of a Tour,not-part-of-a-tour
+1756,2014-07-13T00:00:00Z,10645629,91,37,Randall's Island,"New York, NY",4.6678,2014 Summer Tour,2014-summer-tour
+1757,2014-07-12T00:00:00Z,10256067,91,12,Randall's Island,"New York, NY",4.146,2014 Summer Tour,2014-summer-tour
+1762,2014-07-11T00:00:00Z,9597023,91,9,Randall's Island,"New York, NY",4.1325,2014 Summer Tour,2014-summer-tour
+1751,2014-07-09T00:00:00Z,10126394,91,7,The Mann Center for the Performing Arts,"Philadelphia, PA",3.9014,2014 Summer Tour,2014-summer-tour
+1752,2014-07-08T00:00:00Z,10997707,91,12,The Mann Center for the Performing Arts,"Philadelphia, PA",3.6083,2014 Summer Tour,2014-summer-tour
+1750,2014-07-05T00:00:00Z,11082372,91,12,Saratoga Performing Arts Center,"Saratoga Springs, NY",4.0166,2014 Summer Tour,2014-summer-tour
+1749,2014-07-04T00:00:00Z,10223385,91,16,Saratoga Performing Arts Center,"Saratoga Springs, NY",4.3665,2014 Summer Tour,2014-summer-tour
+1748,2014-07-03T00:00:00Z,9823583,91,8,Saratoga Performing Arts Center,"Saratoga Springs, NY",3.6042,2014 Summer Tour,2014-summer-tour
+1747,2014-07-01T00:00:00Z,9587330,91,9,Xfinity Center,"Mansfield, MA",4.0934,2014 Summer Tour,2014-summer-tour
+1882,2014-06-24T00:00:00Z,3931979,71,1,Ed Sullivan Theater,"New York, NY",3.2857,Not Part of a Tour,not-part-of-a-tour
+1746,2014-04-26T00:00:00Z,10083891,71,3,"Main Stage, New Orleans Fairgrounds","New Orleans, LA",3.1812,Not Part of a Tour,not-part-of-a-tour
+1703,2013-12-31T00:00:00Z,12447037,90,36,Madison Square Garden,"New York, NY",4.6287,2013-14 New Years Run,2013-14-new-years-run
+1702,2013-12-30T00:00:00Z,10353058,90,14,Madison Square Garden,"New York, NY",4.2219,2013-14 New Years Run,2013-14-new-years-run
+1708,2013-12-29T00:00:00Z,9656060,90,16,Madison Square Garden,"New York, NY",4.6688,2013-14 New Years Run,2013-14-new-years-run
+1709,2013-12-28T00:00:00Z,10369229,90,13,Madison Square Garden,"New York, NY",3.6373,2013-14 New Years Run,2013-14-new-years-run
+1691,2013-11-02T00:00:00Z,10522146,89,13,Boardwalk Hall,"Atlantic City, NJ",4.2444,2013 Fall Tour,2013-fall-tour
+1710,2013-11-01T00:00:00Z,11188740,89,19,Boardwalk Hall,"Atlantic City, NJ",4.6532,2013 Fall Tour,2013-fall-tour
+1689,2013-10-31T00:00:00Z,14193609,89,39,Boardwalk Hall,"Atlantic City, NJ",4.3692,2013 Fall Tour,2013-fall-tour
+1688,2013-10-29T00:00:00Z,10982086,89,31,Santander Arena,"Reading, PA",4.5514,2013 Fall Tour,2013-fall-tour
+1687,2013-10-27T00:00:00Z,10468386,89,9,XL Center,"Hartford, CT",4.4595,2013 Fall Tour,2013-fall-tour
+1686,2013-10-26T00:00:00Z,10427090,89,25,DCU Center,"Worcester, MA",4.5529,2013 Fall Tour,2013-fall-tour
+1685,2013-10-25T00:00:00Z,11016281,89,12,DCU Center,"Worcester, MA",4.4251,2013 Fall Tour,2013-fall-tour
+1684,2013-10-23T00:00:00Z,9630955,89,6,Glens Falls Civic Center,"Glens Falls, NY",4.0142,2013 Fall Tour,2013-fall-tour
+1683,2013-10-22T00:00:00Z,10813625,89,4,BlueCross Arena,"Rochester, NY",2.9348,2013 Fall Tour,2013-fall-tour
+1693,2013-10-20T00:00:00Z,10149825,89,24,Hampton Coliseum,"Hampton, VA",4.6792,2013 Fall Tour,2013-fall-tour
+1681,2013-10-19T00:00:00Z,9908611,89,12,Hampton Coliseum,"Hampton, VA",4.0602,2013 Fall Tour,2013-fall-tour
+1680,2013-10-18T00:00:00Z,11043212,89,15,Hampton Coliseum,"Hampton, VA",3.8594,2013 Fall Tour,2013-fall-tour
+1679,2013-09-01T00:00:00Z,10782092,87,11,Dick's Sporting Goods Park,"Commerce City, CO",3.7186,2013 Summer Tour,2013-summer-tour
+1678,2013-08-31T00:00:00Z,10182584,87,13,Dick's Sporting Goods Park,"Commerce City, CO",4.1667,2013 Summer Tour,2013-summer-tour
+1677,2013-08-30T00:00:00Z,11108911,87,10,Dick's Sporting Goods Park,"Commerce City, CO",3.8545,2013 Summer Tour,2013-summer-tour
+1676,2013-08-05T00:00:00Z,9504418,87,11,Hollywood Bowl,"Hollywood, CA",3.75,2013 Summer Tour,2013-summer-tour
+1675,2013-08-04T00:00:00Z,11656438,87,4,Bill Graham Civic Auditorium,"San Francisco, CA",4.3761,2013 Summer Tour,2013-summer-tour
+1674,2013-08-03T00:00:00Z,10960769,87,2,Bill Graham Civic Auditorium,"San Francisco, CA",3.8529,2013 Summer Tour,2013-summer-tour
+1673,2013-08-02T00:00:00Z,11153869,87,2,Bill Graham Civic Auditorium,"San Francisco, CA",3.9752,2013 Summer Tour,2013-summer-tour
+1694,2013-07-31T00:00:00Z,9637459,87,15,Lake Tahoe Outdoor Arena at Harveys,"Stateline, NV",4.6064,2013 Summer Tour,2013-summer-tour
+1671,2013-07-30T00:00:00Z,9937138,87,6,Lake Tahoe Outdoor Arena at Harveys,"Stateline, NV",3.6914,2013 Summer Tour,2013-summer-tour
+1670,2013-07-27T00:00:00Z,11343963,87,11,Gorge Amphitheatre,"George, WA",4.5941,2013 Summer Tour,2013-summer-tour
+1669,2013-07-26T00:00:00Z,11559287,87,9,Gorge Amphitheatre,"George, WA",4.5052,2013 Summer Tour,2013-summer-tour
+1659,2013-07-22T00:00:00Z,10794893,87,1,Molson Canadian Amphitheatre,"Toronto, Ontario, Canada",3.6715,2013 Summer Tour,2013-summer-tour
+1668,2013-07-21T00:00:00Z,8201745,87,18,FirstMerit Bank Pavilion at Northerly Island,"Chicago, IL",4.1398,2013 Summer Tour,2013-summer-tour
+1667,2013-07-20T00:00:00Z,12411766,87,16,FirstMerit Bank Pavilion at Northerly Island,"Chicago, IL",4.2118,2013 Summer Tour,2013-summer-tour
+1666,2013-07-19T00:00:00Z,5217620,87,10,FirstMerit Bank Pavilion at Northerly Island,"Chicago, IL",2.5321,2013 Summer Tour,2013-summer-tour
+1665,2013-07-17T00:00:00Z,10593600,87,12,Verizon Wireless Amphitheatre at Encore Park,"Alpharetta, GA",3.9223,2013 Summer Tour,2013-summer-tour
+1711,2013-07-16T00:00:00Z,10458456,87,10,Verizon Wireless Amphitheatre at Encore Park,"Alpharetta, GA",4.0926,2013 Summer Tour,2013-summer-tour
+1663,2013-07-14T00:00:00Z,9990219,87,10,Merriweather Post Pavillion,"Columbia, MD",4.4494,2013 Summer Tour,2013-summer-tour
+1662,2013-07-13T00:00:00Z,9576045,87,9,Merriweather Post Pavillion,"Columbia, MD",3.8997,2013 Summer Tour,2013-summer-tour
+1661,2013-07-12T00:00:00Z,10266624,87,8,Nikon at Jones Beach Theater,"Wantagh, NY",4.1014,2013 Summer Tour,2013-summer-tour
+1660,2013-07-10T00:00:00Z,9609192,87,12,PNC Bank Arts Center,"Holmdel, NJ",3.9605,2013 Summer Tour,2013-summer-tour
+1658,2013-07-07T00:00:00Z,10238249,87,15,Saratoga Performing Arts Center,"Saratoga Springs, NY",4.3397,2013 Summer Tour,2013-summer-tour
+1744,2013-07-06T00:00:00Z,9371088,87,15,Saratoga Performing Arts Center,"Saratoga Springs, NY",3.7853,2013 Summer Tour,2013-summer-tour
+1656,2013-07-05T00:00:00Z,10189193,87,17,Saratoga Performing Arts Center,"Saratoga Springs, NY",4.1045,2013 Summer Tour,2013-summer-tour
+1655,2013-07-03T00:00:00Z,10896276,87,5,Darling's Waterfront Pavilion,"Bangor, ME",3.3388,2013 Summer Tour,2013-summer-tour
+1329,2012-12-31T00:00:00Z,12618761,78,14,Madison Square Garden,"New York, NY",4.4295,2012-2013 New Years Run,2012-2013-new-years-run
+1696,2012-12-30T00:00:00Z,10284749,78,15,Madison Square Garden,"New York, NY",4.6116,2012-2013 New Years Run,2012-2013-new-years-run
+1327,2012-12-29T00:00:00Z,9655484,78,18,Madison Square Garden,"New York, NY",3.486,2012-2013 New Years Run,2012-2013-new-years-run
+1326,2012-12-28T00:00:00Z,10383282,78,15,Madison Square Garden,"New York, NY",4.4431,2012-2013 New Years Run,2012-2013-new-years-run
+1712,2012-09-02T00:00:00Z,11019782,70,9,Dick's Sporting Goods Park,"Commerce City, CO",4.6244,2012 Late Summer Tour,2012-late-summer-tour
+1302,2012-09-01T00:00:00Z,11262301,70,32,Dick's Sporting Goods Park,"Commerce City, CO",4.5718,2012 Late Summer Tour,2012-late-summer-tour
+1301,2012-08-31T00:00:00Z,9543994,70,57,Dick's Sporting Goods Park,"Commerce City, CO",4.6918,2012 Late Summer Tour,2012-late-summer-tour
+1300,2012-08-29T00:00:00Z,10755003,70,4,Oklahoma City Zoo Amphitheatre,"Oklahoma City, OK",2.7829,2012 Late Summer Tour,2012-late-summer-tour
+1299,2012-08-28T00:00:00Z,10822220,70,7,"Chaifetz Arena, Saint Louis University","St. Louis, MO",4.4658,2012 Late Summer Tour,2012-late-summer-tour
+1298,2012-08-26T00:00:00Z,10099854,70,12,PNC Music Pavilion,"Charlotte, NC",4.1294,2012 Late Summer Tour,2012-late-summer-tour
+1297,2012-08-25T00:00:00Z,9615959,70,18,Lakewood Amphitheatre,"Atlanta, GA",3.3422,2012 Late Summer Tour,2012-late-summer-tour
+1296,2012-08-24T00:00:00Z,10612089,70,10,Oak Mountain Amphitheatre,"Pelham, AL",3.8486,2012 Late Summer Tour,2012-late-summer-tour
+1309,2012-08-22T00:00:00Z,10585287,70,2,Starlight Theatre,"Kansas City, MO",3.482,2012 Late Summer Tour,2012-late-summer-tour
+1295,2012-08-19T00:00:00Z,11713906,70,13,Bill Graham Civic Auditorium,"San Francisco, CA",4.648,2012 Late Summer Tour,2012-late-summer-tour
+1294,2012-08-18T00:00:00Z,11747108,70,1,Bill Graham Civic Auditorium,"San Francisco, CA",3.2988,2012 Late Summer Tour,2012-late-summer-tour
+1293,2012-08-17T00:00:00Z,10076002,70,3,Bill Graham Civic Auditorium,"San Francisco, CA",3.4267,2012 Late Summer Tour,2012-late-summer-tour
+1292,2012-08-15T00:00:00Z,9887477,70,8,Long Beach Arena,"Long Beach, CA",4.3254,2012 Late Summer Tour,2012-late-summer-tour
+1291,2012-07-08T00:00:00Z,12148061,69,13,Saratoga Performing Arts Center,"Saratoga Springs, NY",4.5613,2012 Early Summer Tour,2012-early-summer-tour
+1290,2012-07-07T00:00:00Z,9508832,69,18,Saratoga Performing Arts Center,"Saratoga Springs, NY",4.061,2012 Early Summer Tour,2012-early-summer-tour
+1289,2012-07-06T00:00:00Z,10855290,69,22,Saratoga Performing Arts Center,"Saratoga Springs, NY",4.528,2012 Early Summer Tour,2012-early-summer-tour
+1288,2012-07-04T00:00:00Z,11158206,69,5,Nikon at Jones Beach Theater,"Wantagh, NY",3.6694,2012 Early Summer Tour,2012-early-summer-tour
+1287,2012-07-03T00:00:00Z,10664127,69,10,Nikon at Jones Beach Theater,"Wantagh, NY",4.0793,2012 Early Summer Tour,2012-early-summer-tour
+1286,2012-07-01T00:00:00Z,10606079,69,16,Alpine Valley Music Theatre,"East Troy, WI",4.2046,2012 Early Summer Tour,2012-early-summer-tour
+1284,2012-06-30T00:00:00Z,11147629,69,15,Alpine Valley Music Theatre,"East Troy, WI",3.7403,2012 Early Summer Tour,2012-early-summer-tour
+1283,2012-06-29T00:00:00Z,10284750,69,10,Klipsch Music Center,"Noblesville, IN",4.3166,2012 Early Summer Tour,2012-early-summer-tour
+1282,2012-06-28T00:00:00Z,10664986,69,11,Klipsch Music Center,"Noblesville, IN",4.4539,2012 Early Summer Tour,2012-early-summer-tour
+1281,2012-06-24T00:00:00Z,10377664,69,8,Blossom Music Center,"Cuyahoga Falls, OH",3.8436,2012 Early Summer Tour,2012-early-summer-tour
+1280,2012-06-23T00:00:00Z,10353556,69,8,Star Lake Amphitheatre,"Burgettstown, PA",4.5327,2012 Early Summer Tour,2012-early-summer-tour
+1279,2012-06-22T00:00:00Z,11033572,69,7,Riverbend Music Center,"Cincinnati, OH",4.2525,2012 Early Summer Tour,2012-early-summer-tour
+1278,2012-06-20T00:00:00Z,10719714,69,2,nTelos Pavilion,"Portsmouth, VA",3.6178,2012 Early Summer Tour,2012-early-summer-tour
+1277,2012-06-19T00:00:00Z,11090731,69,3,nTelos Pavilion,"Portsmouth, VA",3.7083,2012 Early Summer Tour,2012-early-summer-tour
+1276,2012-06-17T00:00:00Z,10629012,69,10,Bader Field,"Atlantic City, NJ",3.8025,2012 Early Summer Tour,2012-early-summer-tour
+1275,2012-06-16T00:00:00Z,10294255,69,12,Bader Field,"Atlantic City, NJ",4.2317,2012 Early Summer Tour,2012-early-summer-tour
+1274,2012-06-15T00:00:00Z,10771460,69,10,Bader Field,"Atlantic City, NJ",4.3467,2012 Early Summer Tour,2012-early-summer-tour
+1273,2012-06-10T00:00:00Z,10839822,69,7,Bonnaroo Music & Arts Festival,"Manchester, TN",2.8108,2012 Early Summer Tour,2012-early-summer-tour
+1285,2012-06-08T00:00:00Z,9615308,69,10,DCU Center,"Worcester, MA",4.0646,2012 Early Summer Tour,2012-early-summer-tour
+163,2012-06-07T00:00:00Z,9823400,69,8,DCU Center,"Worcester, MA",4.653,2012 Early Summer Tour,2012-early-summer-tour
+1258,2011-12-31T00:00:00Z,12545147,68,10,Madison Square Garden,"New York, NY",3.6156,2011-12 New Years Run,2011-12-new-years-run
+1257,2011-12-30T00:00:00Z,10012812,68,12,Madison Square Garden,"New York, NY",3.4422,2011-12 New Years Run,2011-12-new-years-run
+1256,2011-12-29T00:00:00Z,9809214,68,12,Madison Square Garden,"New York, NY",3.9071,2011-12 New Years Run,2011-12-new-years-run
+1255,2011-12-28T00:00:00Z,10168504,68,9,Madison Square Garden,"New York, NY",4.0882,2011-12 New Years Run,2011-12-new-years-run
+1269,2011-09-14T00:00:00Z,10621651,67,4,Champlain Valley Exposition,"Essex Junction, VT",3.5,2011 Late Summer Tour,2011-late-summer-tour
+1272,2011-09-04T00:00:00Z,10346607,67,8,Dick's Sporting Goods Park,"Commerce City, CO",4.568,2011 Late Summer Tour,2011-late-summer-tour
+1271,2011-09-03T00:00:00Z,11031798,67,4,Dick's Sporting Goods Park,"Commerce City, CO",4.0917,2011 Late Summer Tour,2011-late-summer-tour
+1270,2011-09-02T00:00:00Z,10949956,67,6,Dick's Sporting Goods Park,"Commerce City, CO",4.4219,2011 Late Summer Tour,2011-late-summer-tour
+1264,2011-08-17T00:00:00Z,11386882,67,6,"UIC Pavilion, University of Illinois","Chicago, IL",4.0796,2011 Late Summer Tour,2011-late-summer-tour
+1263,2011-08-16T00:00:00Z,11259113,67,7,"UIC Pavilion, University of Illinois","Chicago, IL",4.1744,2011 Late Summer Tour,2011-late-summer-tour
+1262,2011-08-15T00:00:00Z,11427056,67,12,"UIC Pavilion, University of Illinois","Chicago, IL",4.6573,2011 Late Summer Tour,2011-late-summer-tour
+1261,2011-08-12T00:00:00Z,10535079,67,1,"Polo Fields, Golden Gate Park","San Francisco, CA",3.3613,2011 Late Summer Tour,2011-late-summer-tour
+1654,2011-08-10T00:00:00Z,10393051,67,4,Lake Tahoe Outdoor Arena at Harveys,"Stateline, NV",3.392,2011 Late Summer Tour,2011-late-summer-tour
+1268,2011-08-09T00:00:00Z,9909317,67,7,Lake Tahoe Outdoor Arena at Harveys,"Stateline, NV",3.8824,2011 Late Summer Tour,2011-late-summer-tour
+1267,2011-08-08T00:00:00Z,10028099,67,7,Hollywood Bowl,"Hollywood, CA",3.4276,2011 Late Summer Tour,2011-late-summer-tour
+1266,2011-08-06T00:00:00Z,11368933,67,9,Gorge Amphitheatre,"George, WA",3.8642,2011 Late Summer Tour,2011-late-summer-tour
+1713,2011-08-05T00:00:00Z,10079189,67,16,Gorge Amphitheatre,"George, WA",4.4678,2011 Late Summer Tour,2011-late-summer-tour
+1308,2011-07-03T00:00:00Z,12966269,79,28,Watkins Glen International,"Watkins Glen, NY",4.6216,Super Ball IX,super-ball-ix
+1322,2011-07-02T00:00:00Z,22829479,79,17,Watkins Glen International,"Watkins Glen, NY",4.3262,Super Ball IX,super-ball-ix
+1259,2011-07-01T00:00:00Z,11932969,79,17,Watkins Glen International,"Watkins Glen, NY",4.2492,Super Ball IX,super-ball-ix
+1250,2011-06-30T00:00:00Z,3796819,79,15,Watkins Glen International,"Watkins Glen, NY",4.2442,Super Ball IX,super-ball-ix
+1307,2011-06-19T00:00:00Z,11298929,66,3,nTelos Pavilion,"Portsmouth, VA",4.0647,2011 Early Summer Tour,2011-early-summer-tour
+1240,2011-06-18T00:00:00Z,10530040,66,5,Walnut Creek Amphitheater,"Raleigh, NC",3.5714,2011 Early Summer Tour,2011-early-summer-tour
+1238,2011-06-17T00:00:00Z,10856200,66,12,PNC Music Pavilion,"Charlotte, NC",4.4205,2011 Early Summer Tour,2011-early-summer-tour
+1236,2011-06-15T00:00:00Z,8885368,66,10,Verizon Wireless Amphitheatre at Encore Park,"Alpharetta, GA",3.136,2011 Early Summer Tour,2011-early-summer-tour
+1234,2011-06-14T00:00:00Z,10076421,66,9,Verizon Wireless Amphitheatre at Encore Park,"Alpharetta, GA",3.5203,2011 Early Summer Tour,2011-early-summer-tour
+1232,2011-06-12T00:00:00Z,10782772,66,4,Merriweather Post Pavillion,"Columbia, MD",3.7254,2011 Early Summer Tour,2011-early-summer-tour
+1230,2011-06-11T00:00:00Z,10743509,66,4,Merriweather Post Pavillion,"Columbia, MD",3.6225,2011 Early Summer Tour,2011-early-summer-tour
+1228,2011-06-10T00:00:00Z,10928956,66,12,Susquehanna Bank Center,"Camden, NJ",3.615,2011 Early Summer Tour,2011-early-summer-tour
+1254,2011-06-08T00:00:00Z,9970702,66,2,Darien Lake Performing Arts Center,"Darien Center, NY",3.6842,2011 Early Summer Tour,2011-early-summer-tour
+1253,2011-06-07T00:00:00Z,9416856,66,5,Xfinity Center,"Mansfield, MA",3.6524,2011 Early Summer Tour,2011-early-summer-tour
+1252,2011-06-05T00:00:00Z,10266567,66,6,Riverbend Music Center,"Cincinnati, OH",3.7586,2011 Early Summer Tour,2011-early-summer-tour
+1251,2011-06-04T00:00:00Z,10359536,66,15,Blossom Music Center,"Cuyahoga Falls, OH",4.5138,2011 Early Summer Tour,2011-early-summer-tour
+1249,2011-06-03T00:00:00Z,9498621,66,7,DTE Energy Music Theater,"Clarkston, MI",4.5195,2011 Early Summer Tour,2011-early-summer-tour
+1227,2011-06-01T00:00:00Z,9111666,66,8,PNC Bank Arts Center,"Holmdel, NJ",3.4483,2011 Early Summer Tour,2011-early-summer-tour
+1226,2011-05-31T00:00:00Z,10033346,66,9,PNC Bank Arts Center,"Holmdel, NJ",3.8571,2011 Early Summer Tour,2011-early-summer-tour
+1225,2011-05-29T00:00:00Z,10302384,66,4,Bethel Woods Center for the Arts,"Bethel, NY",3.4072,2011 Early Summer Tour,2011-early-summer-tour
+1306,2011-05-28T00:00:00Z,9565363,66,9,Bethel Woods Center for the Arts,"Bethel, NY",4.3812,2011 Early Summer Tour,2011-early-summer-tour
+1224,2011-05-27T00:00:00Z,10500704,66,10,Bethel Woods Center for the Arts,"Bethel, NY",4.1872,2011 Early Summer Tour,2011-early-summer-tour
+1223,2011-05-26T00:00:00Z,1715801,66,5,Bethel Woods Center for the Arts,"Bethel, NY",4.6149,2011 Early Summer Tour,2011-early-summer-tour
+1714,2011-01-01T00:00:00Z,10143999,65,12,Madison Square Garden,"New York, NY",4.5567,2010-2011 New Years Run,2010-2011-new-years-run
+1715,2010-12-31T00:00:00Z,12520150,65,23,Madison Square Garden,"New York, NY",4.5617,2010-2011 New Years Run,2010-2011-new-years-run
+1219,2010-12-30T00:00:00Z,10526486,65,18,Madison Square Garden,"New York, NY",4.1598,2010-2011 New Years Run,2010-2011-new-years-run
+1218,2010-12-28T00:00:00Z,9670582,65,8,DCU Center,"Worcester, MA",4.0338,2010-2011 New Years Run,2010-2011-new-years-run
+1330,2010-12-27T00:00:00Z,9971749,65,5,DCU Center,"Worcester, MA",3.3709,2010-2011 New Years Run,2010-2011-new-years-run
+1216,2010-10-31T00:00:00Z,15275466,62,13,Boardwalk Hall,"Atlantic City, NJ",4.3186,2010 Fall Tour,2010-fall-tour
+1215,2010-10-30T00:00:00Z,10266697,62,16,Boardwalk Hall,"Atlantic City, NJ",4.5514,2010 Fall Tour,2010-fall-tour
+1214,2010-10-29T00:00:00Z,10682830,62,7,Boardwalk Hall,"Atlantic City, NJ",3.464,2010 Fall Tour,2010-fall-tour
+1305,2010-10-26T00:00:00Z,10862683,62,13,Verizon Wireless Arena,"Manchester, NH",4.5404,2010 Fall Tour,2010-fall-tour
+1213,2010-10-24T00:00:00Z,11032346,62,3,"Mullins Center, University of Massachusetts","Amherst, MA",3.4492,2010 Fall Tour,2010-fall-tour
+1304,2010-10-23T00:00:00Z,10410841,62,4,"Mullins Center, University of Massachusetts","Amherst, MA",3.6636,2010 Fall Tour,2010-fall-tour
+1212,2010-10-22T00:00:00Z,10468859,62,10,Providence Civic Center,"Providence, RI",3.9205,2010 Fall Tour,2010-fall-tour
+1211,2010-10-20T00:00:00Z,10789746,62,8,Utica Memorial Auditorium,"Utica, NY",4.4511,2010 Fall Tour,2010-fall-tour
+1210,2010-10-19T00:00:00Z,11073566,62,4,Augusta Civic Center,"Augusta, ME",4.1364,2010 Fall Tour,2010-fall-tour
+1209,2010-10-16T00:00:00Z,10748684,62,15,North Charleston Coliseum,"North Charleston, SC",4.427,2010 Fall Tour,2010-fall-tour
+1208,2010-10-15T00:00:00Z,11073278,62,8,North Charleston Coliseum,"North Charleston, SC",3.6124,2010 Fall Tour,2010-fall-tour
+1207,2010-10-12T00:00:00Z,10517055,62,3,1stBank Center,"Broomfield, CO",2.7253,2010 Fall Tour,2010-fall-tour
+1206,2010-10-11T00:00:00Z,10840763,62,3,1stBank Center,"Broomfield, CO",3.2564,2010 Fall Tour,2010-fall-tour
+1205,2010-10-10T00:00:00Z,9694719,62,5,1stBank Center,"Broomfield, CO",3.3095,2010 Fall Tour,2010-fall-tour
+1217,2010-10-08T00:00:00Z,6927020,62,1,Zilker Park,"Austin, TX",3.0328,2010 Fall Tour,2010-fall-tour
+1196,2010-08-18T00:00:00Z,10482051,64,9,Nikon at Jones Beach Theater,"Wantagh, NY",3.6911,2010 Late Summer Tour,2010-late-summer-tour
+1195,2010-08-17T00:00:00Z,10207141,64,8,Nikon at Jones Beach Theater,"Wantagh, NY",3.8828,2010 Late Summer Tour,2010-late-summer-tour
+1194,2010-08-15T00:00:00Z,10515537,64,9,Alpine Valley Music Theatre,"East Troy, WI",4.1293,2010 Late Summer Tour,2010-late-summer-tour
+1193,2010-08-14T00:00:00Z,9989174,64,11,Alpine Valley Music Theatre,"East Troy, WI",4.3711,2010 Late Summer Tour,2010-late-summer-tour
+1192,2010-08-13T00:00:00Z,10536386,64,7,Klipsch Music Center,"Noblesville, IN",4.1875,2010 Late Summer Tour,2010-late-summer-tour
+1191,2010-08-12T00:00:00Z,10803984,64,7,Klipsch Music Center,"Noblesville, IN",3.8923,2010 Late Summer Tour,2010-late-summer-tour
+1190,2010-08-10T00:00:00Z,9722986,64,1,Telluride Town Park,"Telluride, CO",3.4487,2010 Late Summer Tour,2010-late-summer-tour
+1200,2010-08-09T00:00:00Z,9785024,64,1,Telluride Town Park,"Telluride, CO",3.5443,2010 Late Summer Tour,2010-late-summer-tour
+1199,2010-08-07T00:00:00Z,10553888,64,3,William Randolph Hearst Greek Theatre,"Berkeley, CA",4.224,2010 Late Summer Tour,2010-late-summer-tour
+1198,2010-08-06T00:00:00Z,10389944,64,6,William Randolph Hearst Greek Theatre,"Berkeley, CA",4.0336,2010 Late Summer Tour,2010-late-summer-tour
+1197,2010-08-05T00:00:00Z,10668984,64,5,William Randolph Hearst Greek Theatre,"Berkeley, CA",3.3663,2010 Late Summer Tour,2010-late-summer-tour
+1879,2010-07-04T00:00:00Z,10180467,63,0,Verizon Wireless Amphitheatre at Encore Park,"Alpharetta, GA",4.4,2010 Early Summer Tour,2010-early-summer-tour
+1203,2010-07-03T00:00:00Z,11007947,63,14,Verizon Wireless Amphitheatre at Encore Park,"Alpharetta, GA",4.0275,2010 Early Summer Tour,2010-early-summer-tour
+1202,2010-07-02T00:00:00Z,8972332,63,9,PNC Music Pavilion,"Charlotte, NC",4.3,2010 Early Summer Tour,2010-early-summer-tour
+1201,2010-07-01T00:00:00Z,10080653,63,4,Walnut Creek Amphitheater,"Raleigh, NC",3.9224,2010 Early Summer Tour,2010-early-summer-tour
+1248,2010-06-29T00:00:00Z,10205414,63,3,CMAC,"Canandaigua, NY",3.4082,2010 Early Summer Tour,2010-early-summer-tour
+1247,2010-06-27T00:00:00Z,10044264,63,10,Merriweather Post Pavillion,"Columbia, MD",4.3443,2010 Early Summer Tour,2010-early-summer-tour
+1246,2010-06-26T00:00:00Z,10262073,63,6,Merriweather Post Pavillion,"Columbia, MD",3.6216,2010 Early Summer Tour,2010-early-summer-tour
+1245,2010-06-25T00:00:00Z,9430467,63,9,Susquehanna Bank Center,"Camden, NJ",4.1512,2010 Early Summer Tour,2010-early-summer-tour
+1244,2010-06-24T00:00:00Z,11362874,63,8,Susquehanna Bank Center,"Camden, NJ",3.713,2010 Early Summer Tour,2010-early-summer-tour
+1243,2010-06-22T00:00:00Z,9880006,63,2,Xfinity Center,"Mansfield, MA",3.2353,2010 Early Summer Tour,2010-early-summer-tour
+1242,2010-06-20T00:00:00Z,9637250,63,10,Saratoga Performing Arts Center,"Saratoga Springs, NY",3.9638,2010 Early Summer Tour,2010-early-summer-tour
+1241,2010-06-19T00:00:00Z,10227643,63,11,Saratoga Performing Arts Center,"Saratoga Springs, NY",3.6053,2010 Early Summer Tour,2010-early-summer-tour
+1239,2010-06-18T00:00:00Z,10330853,63,8,XFINITY Theatre,"Hartford, CT",4.037,2010 Early Summer Tour,2010-early-summer-tour
+1237,2010-06-17T00:00:00Z,10634396,63,8,XFINITY Theatre,"Hartford, CT",3.4219,2010 Early Summer Tour,2010-early-summer-tour
+1235,2010-06-15T00:00:00Z,10007172,63,1,nTelos Pavilion,"Portsmouth, VA",3.0723,2010 Early Summer Tour,2010-early-summer-tour
+1233,2010-06-13T00:00:00Z,10334275,63,5,Hersheypark Stadium,"Hershey, PA",3.7786,2010 Early Summer Tour,2010-early-summer-tour
+1231,2010-06-12T00:00:00Z,9937659,63,5,Blossom Music Center,"Cuyahoga Falls, OH",3.5082,2010 Early Summer Tour,2010-early-summer-tour
+1229,2010-06-11T00:00:00Z,10782329,63,9,Toyota Park,"Bridgeview, IL",3.8599,2010 Early Summer Tour,2010-early-summer-tour
+1222,2010-05-13T00:00:00Z,650031,71,0,"NBC Studios, New York","New York, NY",2.7692,Not Part of a Tour,not-part-of-a-tour
+1325,2010-03-15T00:00:00Z,1138287,71,1,The Waldorf Astoria,"New York, NY",3.7391,Not Part of a Tour,not-part-of-a-tour
+1159,2009-12-31T00:00:00Z,13644905,59,13,American Airlines Arena,"Miami, FL",3.7813,2009-2010 New Years Run,2009-2010-new-years-run
+1158,2009-12-30T00:00:00Z,10279419,59,15,American Airlines Arena,"Miami, FL",4.2742000000000004,2009-2010 New Years Run,2009-2010-new-years-run
+1156,2009-12-29T00:00:00Z,9885153,59,10,American Airlines Arena,"Miami, FL",3.8125,2009-2010 New Years Run,2009-2010-new-years-run
+1155,2009-12-28T00:00:00Z,10539651,59,9,American Airlines Arena,"Miami, FL",3.0984,2009-2010 New Years Run,2009-2010-new-years-run
+1161,2009-12-05T00:00:00Z,10540540,57,3,John Paul Jones Arena,"Charlottesville, VA",3.875,2009 Fall Tour,2009-fall-tour
+1160,2009-12-04T00:00:00Z,10322915,57,7,Madison Square Garden,"New York, NY",3.6964,2009 Fall Tour,2009-fall-tour
+1157,2009-12-03T00:00:00Z,10028669,57,7,Madison Square Garden,"New York, NY",3.2527,2009 Fall Tour,2009-fall-tour
+1154,2009-12-02T00:00:00Z,10157845,57,11,Madison Square Garden,"New York, NY",3.3708,2009 Fall Tour,2009-fall-tour
+1153,2009-11-29T00:00:00Z,10873834,57,4,Cross Insurance Arena,"Portland, ME",3.5789,2009 Fall Tour,2009-fall-tour
+1152,2009-11-28T00:00:00Z,11231609,57,14,Times Union Center,"Albany, NY",4.4802,2009 Fall Tour,2009-fall-tour
+1151,2009-11-27T00:00:00Z,10343629,57,6,Times Union Center,"Albany, NY",3.63,2009 Fall Tour,2009-fall-tour
+1849,2009-11-25T00:00:00Z,10234801,57,3,Wachovia Center,"Philadelphia, PA",2.7245,2009 Fall Tour,2009-fall-tour
+1149,2009-11-24T00:00:00Z,10729510,57,7,Wachovia Center,"Philadelphia, PA",3.7228,2009 Fall Tour,2009-fall-tour
+1148,2009-11-22T00:00:00Z,10551717,57,5,War Memorial at Oncenter,"Syracuse, NY",3.1228,2009 Fall Tour,2009-fall-tour
+1147,2009-11-21T00:00:00Z,9651829,57,12,U.S. Bank Arena,"Cincinnati, OH",3.6327,2009 Fall Tour,2009-fall-tour
+1146,2009-11-20T00:00:00Z,11144647,57,13,U.S. Bank Arena,"Cincinnati, OH",3.8043,2009 Fall Tour,2009-fall-tour
+1145,2009-11-18T00:00:00Z,10832298,57,4,Cobo Arena,"Detroit, MI",3.3857,2009 Fall Tour,2009-fall-tour
+1144,2009-11-01T00:00:00Z,17265608,80,25,Empire Polo Club,"Indio, CA",4.1515,Festival 8,festival-8
+1143,2009-10-31T00:00:00Z,15927462,80,29,Empire Polo Club,"Indio, CA",4.3006,Festival 8,festival-8
+1142,2009-10-30T00:00:00Z,11702415,80,22,Empire Polo Club,"Indio, CA",3.3016,Festival 8,festival-8
+1323,2009-10-29T00:00:00Z,2885825,80,18,Empire Polo Club,"Indio, CA",3.5143,Festival 8,festival-8
+1185,2009-08-16T00:00:00Z,10858031,61,9,Saratoga Performing Arts Center,"Saratoga Springs, NY",3.5128,2009 Late Summer Tour,2009-late-summer-tour
+1184,2009-08-15T00:00:00Z,9871020,61,2,Merriweather Post Pavillion,"Columbia, MD",2.4057,2009 Late Summer Tour,2009-late-summer-tour
+1183,2009-08-14T00:00:00Z,10473271,61,14,XFINITY Theatre,"Hartford, CT",4.5049,2009 Late Summer Tour,2009-late-summer-tour
+1182,2009-08-13T00:00:00Z,9449560,61,7,Darien Lake Performing Arts Center,"Darien Center, NY",3.3684,2009 Late Summer Tour,2009-late-summer-tour
+1181,2009-08-11T00:00:00Z,10392477,61,12,Toyota Park,"Bridgeview, IL",2.9154,2009 Late Summer Tour,2009-late-summer-tour
+1189,2009-08-08T00:00:00Z,11318493,61,7,Gorge Amphitheatre,"George, WA",3.7885,2009 Late Summer Tour,2009-late-summer-tour
+1716,2009-08-07T00:00:00Z,10696203,61,9,Gorge Amphitheatre,"George, WA",4.4265,2009 Late Summer Tour,2009-late-summer-tour
+1187,2009-08-05T00:00:00Z,11088956,61,4,Shoreline Amphitheatre,"Mountain View, CA",2.9079,2009 Late Summer Tour,2009-late-summer-tour
+1186,2009-08-02T00:00:00Z,10808503,61,5,Red Rocks Amphitheatre,"Morrison, CO",3.4634,2009 Late Summer Tour,2009-late-summer-tour
+1180,2009-08-01T00:00:00Z,10282136,61,4,Red Rocks Amphitheatre,"Morrison, CO",3.6761,2009 Late Summer Tour,2009-late-summer-tour
+1319,2009-07-31T00:00:00Z,9622311,61,4,Red Rocks Amphitheatre,"Morrison, CO",3.8533,2009 Late Summer Tour,2009-late-summer-tour
+1179,2009-07-30T00:00:00Z,10442895,61,3,Red Rocks Amphitheatre,"Morrison, CO",3.4531,2009 Late Summer Tour,2009-late-summer-tour
+1173,2009-06-21T00:00:00Z,10219362,60,14,Alpine Valley Music Theatre,"East Troy, WI",3.9917,2009 Early Summer Tour,2009-early-summer-tour
+1172,2009-06-20T00:00:00Z,10476330,60,15,Alpine Valley Music Theatre,"East Troy, WI",3.4103,2009 Early Summer Tour,2009-early-summer-tour
+1170,2009-06-19T00:00:00Z,10537091,60,13,Klipsch Music Center,"Noblesville, IN",4.016,2009 Early Summer Tour,2009-early-summer-tour
+1169,2009-06-18T00:00:00Z,11375413,60,8,Star Lake Amphitheatre,"Burgettstown, PA",3.3585,2009 Early Summer Tour,2009-early-summer-tour
+1310,2009-06-16T00:00:00Z,10593854,60,4,Fox Theatre,"St. Louis, MO",2.4032,2009 Early Summer Tour,2009-early-summer-tour
+1168,2009-06-14T00:00:00Z,11036449,60,11,Bonnaroo Music & Arts Festival,"Manchester, TN",3.2301,2009 Early Summer Tour,2009-early-summer-tour
+1167,2009-06-12T00:00:00Z,10661590,60,11,Bonnaroo Music & Arts Festival,"Manchester, TN",3.544,2009 Early Summer Tour,2009-early-summer-tour
+1166,2009-06-10T00:00:00Z,10175635,60,12,Thompson-Boling Arena,"Knoxville, TN",3.5351,2009 Early Summer Tour,2009-early-summer-tour
+1178,2009-06-09T00:00:00Z,10204785,60,5,Asheville Civic Center,"Asheville, NC",3.3625,2009 Early Summer Tour,2009-early-summer-tour
+1177,2009-06-07T00:00:00Z,10837238,60,14,Susquehanna Bank Center,"Camden, NJ",4.0576,2009 Early Summer Tour,2009-early-summer-tour
+1176,2009-06-06T00:00:00Z,9370699,60,5,Xfinity Center,"Mansfield, MA",2.4386,2009 Early Summer Tour,2009-early-summer-tour
+1175,2009-06-05T00:00:00Z,8534100,60,7,Nikon at Jones Beach Theater,"Wantagh, NY",3.1978,2009 Early Summer Tour,2009-early-summer-tour
+1174,2009-06-04T00:00:00Z,9635972,60,5,Nikon at Jones Beach Theater,"Wantagh, NY",2.9545,2009 Early Summer Tour,2009-early-summer-tour
+1171,2009-06-02T00:00:00Z,9474820,60,7,Nikon at Jones Beach Theater,"Wantagh, NY",2.6667,2009 Early Summer Tour,2009-early-summer-tour
+1165,2009-05-31T00:00:00Z,11856302,60,6,Fenway Park,"Boston, MA",3.0143,2009 Early Summer Tour,2009-early-summer-tour
+1164,2009-03-08T00:00:00Z,12606667,58,12,Hampton Coliseum,"Hampton, VA",3.3365,2009 Hampton Reunion Run,2009-hampton-reunion-run
+1163,2009-03-07T00:00:00Z,12055747,58,12,Hampton Coliseum,"Hampton, VA",3.2136,2009 Hampton Reunion Run,2009-hampton-reunion-run
+1162,2009-03-06T00:00:00Z,13208187,58,23,Hampton Coliseum,"Hampton, VA",4.0855,2009 Hampton Reunion Run,2009-hampton-reunion-run
+1140,2004-08-15T00:00:00Z,15547484,86,20,Newport State Airport,"Coventry, VT",2.1597,Coventry,coventry
+1139,2004-08-14T00:00:00Z,17230264,86,18,Newport State Airport,"Coventry, VT",2.4856,Coventry,coventry
+1138,2004-08-13T00:00:00Z,3511328,86,12,Newport State Airport,"Coventry, VT",4.2295,Coventry,coventry
+1137,2004-08-12T00:00:00Z,9541296,55,4,Susquehanna Bank Center,"Camden, NJ",4.0081,2004 Late Summer Tour,2004-late-summer-tour
+1312,2004-08-11T00:00:00Z,8871812,55,4,Xfinity Center,"Mansfield, MA",3.4889,2004 Late Summer Tour,2004-late-summer-tour
+1136,2004-08-10T00:00:00Z,8934635,55,5,Xfinity Center,"Mansfield, MA",3.2759,2004 Late Summer Tour,2004-late-summer-tour
+1141,2004-08-09T00:00:00Z,10721726,55,6,Hampton Coliseum,"Hampton, VA",2.9833,2004 Late Summer Tour,2004-late-summer-tour
+1135,2004-06-26T00:00:00Z,9899390,54,18,Alpine Valley Music Theatre,"East Troy, WI",4.1037,2004 Early Summer Tour,2004-early-summer-tour
+1134,2004-06-25T00:00:00Z,9033614,54,10,Alpine Valley Music Theatre,"East Troy, WI",3.5714,2004 Early Summer Tour,2004-early-summer-tour
+1133,2004-06-24T00:00:00Z,8839263,54,9,Klipsch Music Center,"Noblesville, IN",3.7379,2004 Early Summer Tour,2004-early-summer-tour
+1132,2004-06-23T00:00:00Z,9464895,54,9,Klipsch Music Center,"Noblesville, IN",3.5789,2004 Early Summer Tour,2004-early-summer-tour
+1131,2004-06-21T00:00:00Z,1906208,54,0,Ed Sullivan Theater,"New York, NY",3.7333,2004 Early Summer Tour,2004-early-summer-tour
+1130,2004-06-20T00:00:00Z,9628632,54,16,Saratoga Performing Arts Center,"Saratoga Springs, NY",4.6243,2004 Early Summer Tour,2004-early-summer-tour
+1129,2004-06-19T00:00:00Z,10046068,54,23,Saratoga Performing Arts Center,"Saratoga Springs, NY",4.6356,2004 Early Summer Tour,2004-early-summer-tour
+1128,2004-06-18T00:00:00Z,8452597,54,6,KeySpan Park,"Brooklyn, NY",3.0595,2004 Early Summer Tour,2004-early-summer-tour
+1127,2004-06-17T00:00:00Z,11352268,54,5,KeySpan Park,"Brooklyn, NY",4.0229,2004 Early Summer Tour,2004-early-summer-tour
+1126,2004-04-17T00:00:00Z,10633667,56,10,Thomas & Mack Center,"Las Vegas, NV",2.8763,2004 Vegas Run,2004-vegas-run
+1125,2004-04-16T00:00:00Z,10993128,56,9,Thomas & Mack Center,"Las Vegas, NV",2.6989,2004 Vegas Run,2004-vegas-run
+1124,2004-04-15T00:00:00Z,11144304,56,7,Thomas & Mack Center,"Las Vegas, NV",2.0672,2004 Vegas Run,2004-vegas-run
+1091,2003-12-31T00:00:00Z,13303080,51,8,American Airlines Arena,"Miami, FL",4.1375,2003-2004 New Years Run,2003-2004-new-years-run
+1089,2003-12-30T00:00:00Z,9500976,51,8,American Airlines Arena,"Miami, FL",4.3868,2003-2004 New Years Run,2003-2004-new-years-run
+1088,2003-12-29T00:00:00Z,9225840,51,9,American Airlines Arena,"Miami, FL",4.0879,2003-2004 New Years Run,2003-2004-new-years-run
+1087,2003-12-28T00:00:00Z,9711960,51,7,American Airlines Arena,"Miami, FL",3.8533,2003-2004 New Years Run,2003-2004-new-years-run
+1086,2003-12-02T00:00:00Z,9988050,50,10,FleetCenter,"Boston, MA",3.5495,20th Anniversary Run,20th-anniversary-run
+1083,2003-12-01T00:00:00Z,9249621,50,4,Times Union Center,"Albany, NY",3.5455,20th Anniversary Run,20th-anniversary-run
+1082,2003-11-29T00:00:00Z,8732447,50,9,The Spectrum,"Philadelphia, PA",2.6304,20th Anniversary Run,20th-anniversary-run
+1081,2003-11-28T00:00:00Z,10601901,50,7,Nassau Coliseum,"Uniondale, NY",3.0,20th Anniversary Run,20th-anniversary-run
+1123,2003-08-03T00:00:00Z,15382231,81,27,Loring Commerce Center at Loring Air Force Base,"Limestone, ME",4.538,IT Festival,it-festival
+1717,2003-08-02T00:00:00Z,19707561,81,37,Loring Commerce Center at Loring Air Force Base,"Limestone, ME",4.7037,IT Festival,it-festival
+1121,2003-08-01T00:00:00Z,3400594,81,11,Loring Commerce Center at Loring Air Force Base,"Limestone, ME",4.2456,IT Festival,it-festival
+1117,2003-07-31T00:00:00Z,10535915,52,12,Susquehanna Bank Center,"Camden, NJ",4.0545,2003 Summer Tour,2003-summer-tour
+1116,2003-07-30T00:00:00Z,10299689,52,13,Susquehanna Bank Center,"Camden, NJ",4.4395,2003 Summer Tour,2003-summer-tour
+1115,2003-07-29T00:00:00Z,9633515,52,17,Star Lake Amphitheatre,"Burgettstown, PA",4.6207,2003 Summer Tour,2003-summer-tour
+1114,2003-07-27T00:00:00Z,9442454,52,6,Walnut Creek Amphitheater,"Raleigh, NC",2.9481,2003 Summer Tour,2003-summer-tour
+1113,2003-07-26T00:00:00Z,10495532,52,11,Lakewood Amphitheatre,"Atlanta, GA",3.6056,2003 Summer Tour,2003-summer-tour
+1112,2003-07-25T00:00:00Z,10504253,52,9,PNC Music Pavilion,"Charlotte, NC",4.0543,2003 Summer Tour,2003-summer-tour
+1111,2003-07-23T00:00:00Z,9729880,52,12,Klipsch Music Center,"Noblesville, IN",4.2016,2003 Summer Tour,2003-summer-tour
+1110,2003-07-22T00:00:00Z,9670974,52,11,Klipsch Music Center,"Noblesville, IN",4.2661,2003 Summer Tour,2003-summer-tour
+1109,2003-07-21T00:00:00Z,10163776,52,9,Klipsch Music Center,"Noblesville, IN",4.066,2003 Summer Tour,2003-summer-tour
+1108,2003-07-19T00:00:00Z,9908611,52,15,Alpine Valley Music Theatre,"East Troy, WI",4.0088,2003 Summer Tour,2003-summer-tour
+1107,2003-07-18T00:00:00Z,9765666,52,13,Alpine Valley Music Theatre,"East Troy, WI",3.3258,2003 Summer Tour,2003-summer-tour
+1106,2003-07-17T00:00:00Z,9743881,52,3,Cricket Wireless Amphitheater,"Bonner Springs, KS",3.3387,2003 Summer Tour,2003-summer-tour
+1105,2003-07-15T00:00:00Z,10151157,52,6,USANA Amphitheatre,"West Valley City, UT",4.5484,2003 Summer Tour,2003-summer-tour
+1104,2003-07-13T00:00:00Z,10149512,52,8,Gorge Amphitheatre,"George, WA",3.8987,2003 Summer Tour,2003-summer-tour
+1103,2003-07-12T00:00:00Z,9604545,52,8,Gorge Amphitheatre,"George, WA",3.3521,2003 Summer Tour,2003-summer-tour
+1102,2003-07-10T00:00:00Z,9427801,52,8,Shoreline Amphitheatre,"Mountain View, CA",2.8462,2003 Summer Tour,2003-summer-tour
+1120,2003-07-09T00:00:00Z,9560581,52,8,Shoreline Amphitheatre,"Mountain View, CA",3.9896,2003 Summer Tour,2003-summer-tour
+1119,2003-07-08T00:00:00Z,8964833,52,3,Sleep Train Amphitheatre,"Chula Vista, CA",3.0702,2003 Summer Tour,2003-summer-tour
+1118,2003-07-07T00:00:00Z,8949602,52,1,Desert Sky Pavilion,"Phoenix, AZ",3.1077,2003 Summer Tour,2003-summer-tour
+1101,2003-03-01T00:00:00Z,11921083,53,12,Greensboro Coliseum,"Greensboro, NC",4.2524,2003 Winter Tour,2003-winter-tour
+526,2003-02-28T00:00:00Z,10307135,53,43,Nassau Coliseum,"Uniondale, NY",4.7109,2003 Winter Tour,2003-winter-tour
+1100,2003-02-26T00:00:00Z,10940476,53,13,DCU Center,"Worcester, MA",4.3464,2003 Winter Tour,2003-winter-tour
+1099,2003-02-25T00:00:00Z,10351777,53,7,The Spectrum,"Philadelphia, PA",3.1613,2003 Winter Tour,2003-winter-tour
+1098,2003-02-24T00:00:00Z,11137909,53,8,Continental Airlines Arena,"East Rutherford, NJ",3.1031,2003 Winter Tour,2003-winter-tour
+1097,2003-02-22T00:00:00Z,9605618,53,13,U.S. Bank Arena,"Cincinnati, OH",4.391,2003 Winter Tour,2003-winter-tour
+1096,2003-02-21T00:00:00Z,9439661,53,11,U.S. Bank Arena,"Cincinnati, OH",3.8785,2003 Winter Tour,2003-winter-tour
+1095,2003-02-20T00:00:00Z,10314239,53,14,Rosemont Horizon,"Rosemont, IL",4.2394,2003 Winter Tour,2003-winter-tour
+1314,2003-02-18T00:00:00Z,10365624,53,3,Pepsi Center,"Denver, CO",3.1918,2003 Winter Tour,2003-winter-tour
+1094,2003-02-16T00:00:00Z,8457065,53,10,Thomas & Mack Center,"Las Vegas, NV",4.0885,2003 Winter Tour,2003-winter-tour
+1093,2003-02-15T00:00:00Z,8716644,53,11,Thomas & Mack Center,"Las Vegas, NV",3.8,2003 Winter Tour,2003-winter-tour
+1092,2003-02-14T00:00:00Z,9369340,53,7,The Forum,"Inglewood, CA",3.8333,2003 Winter Tour,2003-winter-tour
+1080,2003-01-04T00:00:00Z,9813161,49,5,Hampton Coliseum,"Hampton, VA",3.4634,2002-2003 Inverted New Years Run,2002-2003-inverted-new-years-run
+1079,2003-01-03T00:00:00Z,9460845,49,5,Hampton Coliseum,"Hampton, VA",3.1096,2002-2003 Inverted New Years Run,2002-2003-inverted-new-years-run
+1078,2003-01-02T00:00:00Z,10089458,49,5,Hampton Coliseum,"Hampton, VA",3.1954,2002-2003 Inverted New Years Run,2002-2003-inverted-new-years-run
+1718,2002-12-31T00:00:00Z,12393690,71,9,Madison Square Garden,"New York, NY",3.6759,Not Part of a Tour,not-part-of-a-tour
+1085,2002-12-19T00:00:00Z,226586,71,0,Ed Sullivan Theater,"New York, NY",3.0,Not Part of a Tour,not-part-of-a-tour
+1084,2002-12-14T00:00:00Z,486975,71,0,"NBC Studios, New York","New York, NY",3.1,Not Part of a Tour,not-part-of-a-tour
+1048,2000-10-07T00:00:00Z,9444232,45,11,Shoreline Amphitheatre,"Mountain View, CA",4.2439,2000 Fall Tour,2000-fall-tour
+1030,2000-10-06T00:00:00Z,10025406,45,9,Shoreline Amphitheatre,"Mountain View, CA",3.875,2000 Fall Tour,2000-fall-tour
+1047,2000-10-05T00:00:00Z,8277264,45,6,Verizon Wireless Amphitheater,"Irvine, CA",3.3784,2000 Fall Tour,2000-fall-tour
+1046,2000-10-04T00:00:00Z,7959197,45,4,Sleep Train Amphitheatre,"Chula Vista, CA",3.0968,2000 Fall Tour,2000-fall-tour
+1316,2000-10-03T00:00:00Z,255582,45,0,"NBC Studios, Burbank","Burbank, CA",2.7778,2000 Fall Tour,2000-fall-tour
+1045,2000-10-01T00:00:00Z,8265378,45,2,Desert Sky Pavilion,"Phoenix, AZ",3.7045,2000 Fall Tour,2000-fall-tour
+1076,2000-09-30T00:00:00Z,10178586,45,14,Thomas & Mack Center,"Las Vegas, NV",4.2151,2000 Fall Tour,2000-fall-tour
+1075,2000-09-29T00:00:00Z,7947547,45,11,Thomas & Mack Center,"Las Vegas, NV",3.8,2000 Fall Tour,2000-fall-tour
+1074,2000-09-27T00:00:00Z,9839490,45,3,Fiddler's Green,"Englewood, CO",3.8333,2000 Fall Tour,2000-fall-tour
+1315,2000-09-25T00:00:00Z,9583570,45,2,Cricket Wireless Amphitheater,"Bonner Springs, KS",3.0541,2000 Fall Tour,2000-fall-tour
+1313,2000-09-24T00:00:00Z,9212839,45,4,Target Center,"Minneapolis, MN",3.7021,2000 Fall Tour,2000-fall-tour
+1036,2000-09-23T00:00:00Z,8411037,45,10,Rosemont Horizon,"Rosemont, IL",3.6735,2000 Fall Tour,2000-fall-tour
+1035,2000-09-22T00:00:00Z,9889411,45,11,Rosemont Horizon,"Rosemont, IL",4.2985,2000 Fall Tour,2000-fall-tour
+1073,2000-09-20T00:00:00Z,9871438,45,6,Riverbend Music Center,"Cincinnati, OH",3.7544,2000 Fall Tour,2000-fall-tour
+1072,2000-09-18T00:00:00Z,8314175,45,6,Blossom Music Center,"Cuyahoga Falls, OH",3.8772,2000 Fall Tour,2000-fall-tour
+1034,2000-09-17T00:00:00Z,10560602,45,9,Merriweather Post Pavillion,"Columbia, MD",4.4268,2000 Fall Tour,2000-fall-tour
+1071,2000-09-15T00:00:00Z,8285388,45,13,Hersheypark Stadium,"Hershey, PA",3.7846,2000 Fall Tour,2000-fall-tour
+1077,2000-09-14T00:00:00Z,8834717,45,15,Darien Lake Performing Arts Center,"Darien Center, NY",4.3534,2000 Fall Tour,2000-fall-tour
+1070,2000-09-12T00:00:00Z,9630356,45,3,Xfinity Center,"Mansfield, MA",3.4681,2000 Fall Tour,2000-fall-tour
+1069,2000-09-11T00:00:00Z,9758015,45,5,Xfinity Center,"Mansfield, MA",3.5556,2000 Fall Tour,2000-fall-tour
+1038,2000-09-09T00:00:00Z,9051482,45,11,Times Union Center,"Albany, NY",3.9091,2000 Fall Tour,2000-fall-tour
+1037,2000-09-08T00:00:00Z,9400214,45,10,Times Union Center,"Albany, NY",3.7368,2000 Fall Tour,2000-fall-tour
+1318,2000-07-17T00:00:00Z,3219149,48,1,"KLRU Studios, University of Texas","Austin, TX",3.35,2000 Summer U.S. Tour,2000-summer-u-s-tour
+1065,2000-07-15T00:00:00Z,10670890,48,16,Polaris Amphitheater,"Columbus, OH",3.8308,2000 Summer U.S. Tour,2000-summer-u-s-tour
+1064,2000-07-14T00:00:00Z,11344849,48,19,Polaris Amphitheater,"Columbus, OH",4.0972,2000 Summer U.S. Tour,2000-summer-u-s-tour
+1063,2000-07-12T00:00:00Z,8281968,48,10,Klipsch Music Center,"Noblesville, IN",3.631,2000 Summer U.S. Tour,2000-summer-u-s-tour
+1896,2000-07-11T00:00:00Z,9805416,48,34,Klipsch Music Center,"Noblesville, IN",4.6864,2000 Summer U.S. Tour,2000-summer-u-s-tour
+1061,2000-07-10T00:00:00Z,9590962,48,10,Klipsch Music Center,"Noblesville, IN",3.8462,2000 Summer U.S. Tour,2000-summer-u-s-tour
+1068,2000-07-08T00:00:00Z,9243558,48,9,Alpine Valley Music Theatre,"East Troy, WI",4.1852,2000 Summer U.S. Tour,2000-summer-u-s-tour
+1067,2000-07-07T00:00:00Z,9889331,48,9,Star Lake Amphitheatre,"Burgettstown, PA",3.7843,2000 Summer U.S. Tour,2000-summer-u-s-tour
+1066,2000-07-06T00:00:00Z,11863119,48,3,Molson Canadian Amphitheatre,"Toronto, Ontario, Canada",3.4667,2000 Summer U.S. Tour,2000-summer-u-s-tour
+1720,2000-07-04T00:00:00Z,9057098,48,13,Susquehanna Bank Center,"Camden, NJ",4.4818,2000 Summer U.S. Tour,2000-summer-u-s-tour
+162,2000-07-03T00:00:00Z,9964278,48,10,Susquehanna Bank Center,"Camden, NJ",3.9888,2000 Summer U.S. Tour,2000-summer-u-s-tour
+1033,2000-07-01T00:00:00Z,9687822,48,10,XFINITY Theatre,"Hartford, CT",3.8824,2000 Summer U.S. Tour,2000-summer-u-s-tour
+1059,2000-06-30T00:00:00Z,10338768,48,9,XFINITY Theatre,"Hartford, CT",4.1263,2000 Summer U.S. Tour,2000-summer-u-s-tour
+1311,2000-06-29T00:00:00Z,9421791,48,10,PNC Bank Arts Center,"Holmdel, NJ",4.5877,2000 Summer U.S. Tour,2000-summer-u-s-tour
+1032,2000-06-28T00:00:00Z,8821421,48,15,PNC Bank Arts Center,"Holmdel, NJ",4.4196,2000 Summer U.S. Tour,2000-summer-u-s-tour
+1058,2000-06-27T00:00:00Z,204722,48,0,"NBC Studios, New York","New York, NY",3.3333,2000 Summer U.S. Tour,2000-summer-u-s-tour
+1057,2000-06-25T00:00:00Z,10035697,48,3,Walnut Creek Amphitheater,"Raleigh, NC",2.5968,2000 Summer U.S. Tour,2000-summer-u-s-tour
+1056,2000-06-24T00:00:00Z,9815770,48,14,Lakewood Amphitheatre,"Atlanta, GA",3.9577,2000 Summer U.S. Tour,2000-summer-u-s-tour
+1055,2000-06-23T00:00:00Z,10187731,48,13,Lakewood Amphitheatre,"Atlanta, GA",3.7308,2000 Summer U.S. Tour,2000-summer-u-s-tour
+1054,2000-06-22T00:00:00Z,10266750,48,10,Starwood Ampitheater,"Antioch, TN",4.0984,2000 Summer U.S. Tour,2000-summer-u-s-tour
+1053,2000-06-16T00:00:00Z,10589700,47,4,Zepp,"Koto-ku, Tokyo, Japan",3.8438,2000 Summer Japan Tour,2000-summer-japan-tour
+1031,2000-06-15T00:00:00Z,9881132,47,4,Big Cat,"Chuo-ku, Osaka, Japan",4.12,2000 Summer Japan Tour,2000-summer-japan-tour
+1052,2000-06-14T00:00:00Z,8754651,47,26,Drum Logos,"Chuo-ku, Fukuoka, Japan",4.7044,2000 Summer Japan Tour,2000-summer-japan-tour
+1051,2000-06-13T00:00:00Z,10494902,47,0,Club Quattro,"Naka-ku, Nagoya, Japan",3.7778,2000 Summer Japan Tour,2000-summer-japan-tour
+1050,2000-06-11T00:00:00Z,8817476,47,0,Hibiya Outdoor Theatre,"Chiyoda-ku, Tokyo, Japan",3.0435,2000 Summer Japan Tour,2000-summer-japan-tour
+1049,2000-06-10T00:00:00Z,9174623,47,0,Zepp,"Koto-ku, Tokyo, Japan",3.7778,2000 Summer Japan Tour,2000-summer-japan-tour
+1060,2000-06-09T00:00:00Z,10521366,47,5,On Air East,"Shibuya-ku, Tokyo, Japan",4.0488,2000 Summer Japan Tour,2000-summer-japan-tour
+1044,2000-05-23T00:00:00Z,11883886,46,10,Roseland Ballroom,"New York, NY",3.7447,2000 NYC Tour,2000-nyc-tour
+1043,2000-05-22T00:00:00Z,10257111,46,10,Radio City Music Hall,"New York, NY",3.9286,2000 NYC Tour,2000-nyc-tour
+1042,2000-05-21T00:00:00Z,9868854,46,6,Radio City Music Hall,"New York, NY",3.2632,2000 NYC Tour,2000-nyc-tour
+1317,2000-05-19T00:00:00Z,5281959,88,2,Key Club,"Los Angeles, CA",3.125,Farmhouse Promo,farmhouse-promo
+1041,2000-05-18T00:00:00Z,3142478,88,0,KFOG Fantasy Studios,"Berkeley, CA",3.0909,Farmhouse Promo,farmhouse-promo
+1040,2000-05-16T00:00:00Z,283037,88,0,Ed Sullivan Theater,"New York, NY",3.4286,Farmhouse Promo,farmhouse-promo
+1706,2000-05-15T00:00:00Z,5993013,88,2,Sonic Studios,"Philadelphia, PA",3.75,Farmhouse Promo,farmhouse-promo
+974,1999-12-31T00:00:00Z,32773118,82,168,Big Cypress Seminole Indian Reservation,"Big Cypress, FL",4.7373,Big Cypress,big-cypress
+973,1999-12-30T00:00:00Z,16945113,82,62,Big Cypress Seminole Indian Reservation,"Big Cypress, FL",4.649,Big Cypress,big-cypress
+1027,1999-12-29T00:00:00Z,4290325,82,26,Big Cypress Seminole Indian Reservation,"Big Cypress, FL",4.3111,Big Cypress,big-cypress
+1026,1999-12-18T00:00:00Z,11156636,44,10,Hampton Coliseum,"Hampton, VA",4.2658,1999 Winter Tour,1999-winter-tour
+1025,1999-12-17T00:00:00Z,9239485,44,7,Hampton Coliseum,"Hampton, VA",2.8246000000000002,1999 Winter Tour,1999-winter-tour
+1024,1999-12-16T00:00:00Z,9075252,44,17,Reynolds Coliseum,"Raleigh, NC",4.2952,1999 Winter Tour,1999-winter-tour
+1023,1999-12-15T00:00:00Z,9654335,44,4,MCI Center,"Washington, DC",3.5273,1999 Winter Tour,1999-winter-tour
+1022,1999-12-13T00:00:00Z,8710819,44,7,Providence Civic Center,"Providence, RI",3.6,1999 Winter Tour,1999-winter-tour
+1021,1999-12-12T00:00:00Z,9033115,44,6,XL Center,"Hartford, CT",3.5965,1999 Winter Tour,1999-winter-tour
+972,1999-12-11T00:00:00Z,9120079,44,59,The Spectrum,"Philadelphia, PA",4.6632,1999 Winter Tour,1999-winter-tour
+1020,1999-12-10T00:00:00Z,9452538,44,11,The Spectrum,"Philadelphia, PA",3.4912,1999 Winter Tour,1999-winter-tour
+1019,1999-12-08T00:00:00Z,9736491,44,4,Cross Insurance Arena,"Portland, ME",4.0741,1999 Winter Tour,1999-winter-tour
+1018,1999-12-07T00:00:00Z,9550731,44,6,Cross Insurance Arena,"Portland, ME",4.0877,1999 Winter Tour,1999-winter-tour
+971,1999-12-05T00:00:00Z,10358700,44,9,BlueCross Arena,"Rochester, NY",3.25,1999 Winter Tour,1999-winter-tour
+970,1999-12-04T00:00:00Z,8565055,44,6,U.S. Bank Arena,"Cincinnati, OH",3.4746,1999 Winter Tour,1999-winter-tour
+969,1999-12-03T00:00:00Z,8612440,44,9,U.S. Bank Arena,"Cincinnati, OH",3.7581,1999 Winter Tour,1999-winter-tour
+1721,1999-12-02T00:00:00Z,9898186,44,6,The Palace of Auburn Hills,"Auburn Hills, MI",4.1724,1999 Winter Tour,1999-winter-tour
+1016,1999-10-10T00:00:00Z,8902949,41,8,Times Union Center,"Albany, NY",3.3898,1999 Fall Tour,1999-fall-tour
+1015,1999-10-09T00:00:00Z,9346090,41,9,Times Union Center,"Albany, NY",3.6078,1999 Fall Tour,1999-fall-tour
+1014,1999-10-08T00:00:00Z,9441725,41,6,Nassau Coliseum,"Uniondale, NY",3.9846,1999 Fall Tour,1999-fall-tour
+1013,1999-10-07T00:00:00Z,10888045,41,8,Nassau Coliseum,"Uniondale, NY",3.7347,1999 Fall Tour,1999-fall-tour
+1012,1999-10-04T00:00:00Z,8834245,41,3,"Redbird Arena, Illinois State University","Normal, IL",3.5556,1999 Fall Tour,1999-fall-tour
+1011,1999-10-03T00:00:00Z,11403023,41,8,Rosemont Horizon,"Rosemont, IL",3.48,1999 Fall Tour,1999-fall-tour
+1010,1999-10-02T00:00:00Z,9980080,41,7,Target Center,"Minneapolis, MN",4.2258,1999 Fall Tour,1999-fall-tour
+1009,1999-10-01T00:00:00Z,9580068,41,6,Hilton Coliseum,"Ames, IA",3.8056,1999 Fall Tour,1999-fall-tour
+1008,1999-09-29T00:00:00Z,10071588,41,21,Pyramid Arena,"Memphis, TN",4.3684,1999 Fall Tour,1999-fall-tour
+1007,1999-09-28T00:00:00Z,10326907,41,8,Oak Mountain Amphitheatre,"Pelham, AL",4.1702,1999 Fall Tour,1999-fall-tour
+1006,1999-09-26T00:00:00Z,9034736,41,3,"Kiefer UNO Lakefront Arena, University of New Orleans","New Orleans, LA",3.4688,1999 Fall Tour,1999-fall-tour
+1005,1999-09-25T00:00:00Z,8936466,41,2,Cynthia Woods Mitchell Pavilion,"The Woodlands, TX",3.1667,1999 Fall Tour,1999-fall-tour
+1722,1999-09-24T00:00:00Z,10126915,41,3,South Park Meadows,"Austin, TX",4.1667,1999 Fall Tour,1999-fall-tour
+161,1999-09-22T00:00:00Z,9915874,41,8,Pan American Center,"Las Cruces, NM",4.2985,1999 Fall Tour,1999-fall-tour
+1003,1999-09-21T00:00:00Z,10181931,41,4,Pima County Fairgrounds,"Tucson, AZ",3.9556,1999 Fall Tour,1999-fall-tour
+1002,1999-09-19T00:00:00Z,9102864,41,4,Verizon Wireless Amphitheater,"Irvine, CA",3.2381,1999 Fall Tour,1999-fall-tour
+1001,1999-09-18T00:00:00Z,8735843,41,14,Sleep Train Amphitheatre,"Chula Vista, CA",4.4026,1999 Fall Tour,1999-fall-tour
+1000,1999-09-17T00:00:00Z,11694787,41,17,Shoreline Amphitheatre,"Mountain View, CA",4.3433,1999 Fall Tour,1999-fall-tour
+999,1999-09-16T00:00:00Z,11633398,41,9,Shoreline Amphitheatre,"Mountain View, CA",3.6,1999 Fall Tour,1999-fall-tour
+968,1999-09-14T00:00:00Z,8924393,41,24,Boise State University Pavilion,"Boise, ID",4.6741,1999 Fall Tour,1999-fall-tour
+998,1999-09-12T00:00:00Z,9595769,41,6,Portland Meadows,"Portland, OR",4.2895,1999 Fall Tour,1999-fall-tour
+997,1999-09-11T00:00:00Z,9927862,41,5,Gorge Amphitheatre,"George, WA",3.8148,1999 Fall Tour,1999-fall-tour
+996,1999-09-10T00:00:00Z,10173415,41,0,Gorge Amphitheatre,"George, WA",3.4444,1999 Fall Tour,1999-fall-tour
+995,1999-09-09T00:00:00Z,10999953,41,1,Rogers Arena,"Vancouver, British Columbia, Canada",3.92,1999 Fall Tour,1999-fall-tour
+994,1999-08-01T00:00:00Z,11037284,43,2,Naeba Ski Resort,"Niigata, Japan",3.5263,1999 Summer Japan Tour,1999-summer-japan-tour
+993,1999-07-31T00:00:00Z,10619218,43,2,Naeba Ski Resort,"Niigata, Japan",3.931,1999 Summer Japan Tour,1999-summer-japan-tour
+1705,1999-07-30T00:00:00Z,12446013,43,2,Naeba Ski Resort,"Niigata, Japan",2.9333,1999 Summer Japan Tour,1999-summer-japan-tour
+967,1999-07-26T00:00:00Z,10164401,42,15,Klipsch Music Center,"Noblesville, IN",3.623,1999 Summer U.S. Tour,1999-summer-u-s-tour
+966,1999-07-25T00:00:00Z,9252414,42,32,Klipsch Music Center,"Noblesville, IN",4.6712,1999 Summer U.S. Tour,1999-summer-u-s-tour
+965,1999-07-24T00:00:00Z,8706689,42,29,Alpine Valley Music Theatre,"East Troy, WI",4.3386,1999 Summer U.S. Tour,1999-summer-u-s-tour
+991,1999-07-23T00:00:00Z,9424351,42,14,Polaris Amphitheater,"Columbus, OH",4.314,1999 Summer U.S. Tour,1999-summer-u-s-tour
+990,1999-07-21T00:00:00Z,9638609,42,11,Star Lake Amphitheatre,"Burgettstown, PA",3.8393,1999 Summer U.S. Tour,1999-summer-u-s-tour
+989,1999-07-20T00:00:00Z,9807988,42,6,Molson Canadian Amphitheatre,"Toronto, Ontario, Canada",3.6863,1999 Summer U.S. Tour,1999-summer-u-s-tour
+1723,1999-07-18T00:00:00Z,16899971,42,18,Oswego County Airport,"Volney, NY",4.544,1999 Summer U.S. Tour,1999-summer-u-s-tour
+987,1999-07-17T00:00:00Z,11622295,42,18,Oswego County Airport,"Volney, NY",4.2946,1999 Summer U.S. Tour,1999-summer-u-s-tour
+986,1999-07-16T00:00:00Z,9053885,42,6,PNC Bank Arts Center,"Holmdel, NJ",3.3462,1999 Summer U.S. Tour,1999-summer-u-s-tour
+985,1999-07-15T00:00:00Z,10606185,42,14,PNC Bank Arts Center,"Holmdel, NJ",4.4688,1999 Summer U.S. Tour,1999-summer-u-s-tour
+984,1999-07-13T00:00:00Z,9202627,42,8,Xfinity Center,"Mansfield, MA",4.3012,1999 Summer U.S. Tour,1999-summer-u-s-tour
+983,1999-07-12T00:00:00Z,9439502,42,8,Xfinity Center,"Mansfield, MA",4.1266,1999 Summer U.S. Tour,1999-summer-u-s-tour
+976,1999-07-10T00:00:00Z,9008037,42,24,Susquehanna Bank Center,"Camden, NJ",4.5583,1999 Summer U.S. Tour,1999-summer-u-s-tour
+982,1999-07-09T00:00:00Z,9481090,42,11,Merriweather Post Pavillion,"Columbia, MD",3.7,1999 Summer U.S. Tour,1999-summer-u-s-tour
+981,1999-07-08T00:00:00Z,10040505,42,4,Virginia Beach Amphitheater,"Virginia Beach, VA",3.5278,1999 Summer U.S. Tour,1999-summer-u-s-tour
+980,1999-07-07T00:00:00Z,10800171,42,16,PNC Music Pavilion,"Charlotte, NC",4.0988,1999 Summer U.S. Tour,1999-summer-u-s-tour
+979,1999-07-04T00:00:00Z,10083631,42,13,Lakewood Amphitheatre,"Atlanta, GA",4.3415,1999 Summer U.S. Tour,1999-summer-u-s-tour
+978,1999-07-03T00:00:00Z,10011350,42,12,Lakewood Amphitheatre,"Atlanta, GA",4.0152,1999 Summer U.S. Tour,1999-summer-u-s-tour
+977,1999-07-01T00:00:00Z,8712515,42,5,Starwood Ampitheater,"Antioch, TN",3.8431,1999 Summer U.S. Tour,1999-summer-u-s-tour
+975,1999-06-30T00:00:00Z,10261576,42,5,Cricket Wireless Amphitheater,"Bonner Springs, KS",3.8214,1999 Summer U.S. Tour,1999-summer-u-s-tour
+903,1998-12-31T00:00:00Z,11368986,38,18,Madison Square Garden,"New York, NY",4.3913,1998-1999 New Years Run,1998-1999-new-years-run
+964,1998-12-30T00:00:00Z,10228452,38,11,Madison Square Garden,"New York, NY",3.8143,1998-1999 New Years Run,1998-1999-new-years-run
+963,1998-12-29T00:00:00Z,9212498,38,17,Madison Square Garden,"New York, NY",4.404,1998-1999 New Years Run,1998-1999-new-years-run
+1724,1998-12-28T00:00:00Z,8761078,38,11,Madison Square Garden,"New York, NY",3.9254,1998-1999 New Years Run,1998-1999-new-years-run
+961,1998-11-29T00:00:00Z,10205753,36,13,DCU Center,"Worcester, MA",4.3385,1998 Fall Tour,1998-fall-tour
+960,1998-11-28T00:00:00Z,9816165,36,5,DCU Center,"Worcester, MA",3.8409,1998 Fall Tour,1998-fall-tour
+959,1998-11-27T00:00:00Z,12991948,36,21,DCU Center,"Worcester, MA",4.6901,1998 Fall Tour,1998-fall-tour
+958,1998-11-25T00:00:00Z,10293264,36,6,Times Union Center,"Albany, NY",3.6667,1998 Fall Tour,1998-fall-tour
+957,1998-11-24T00:00:00Z,9607994,36,9,New Haven Veterans Memorial Coliseum,"New Haven, CT",4.0175,1998 Fall Tour,1998-fall-tour
+1642,1998-11-21T00:00:00Z,9425684,36,7,Hampton Coliseum,"Hampton, VA",4.3368,1998 Fall Tour,1998-fall-tour
+956,1998-11-20T00:00:00Z,9492270,36,7,Hampton Coliseum,"Hampton, VA",4.0337,1998 Fall Tour,1998-fall-tour
+955,1998-11-19T00:00:00Z,9409985,36,8,Lawrence Joel Veterans Memorial Coliseum,"Winston-Salem, NC",3.5897,1998 Fall Tour,1998-fall-tour
+954,1998-11-18T00:00:00Z,9857124,36,9,BI-LO Center,"Greenville, SC",3.6757,1998 Fall Tour,1998-fall-tour
+953,1998-11-15T00:00:00Z,8156422,36,7,"Murphy Center, Middle Tennessee State University","Murfreesboro, TN",3.5435,1998 Fall Tour,1998-fall-tour
+952,1998-11-14T00:00:00Z,9841606,36,5,U.S. Bank Arena,"Cincinnati, OH",3.8636,1998 Fall Tour,1998-fall-tour
+951,1998-11-13T00:00:00Z,9176765,36,9,CSU Convocation Center,"Cleveland, OH",3.6364,1998 Fall Tour,1998-fall-tour
+950,1998-11-11T00:00:00Z,9760704,36,5,Van Andel Arena,"Grand Rapids, MI",4.4426,1998 Fall Tour,1998-fall-tour
+949,1998-11-09T00:00:00Z,9491515,36,12,"UIC Pavilion, University of Illinois","Chicago, IL",4.1833,1998 Fall Tour,1998-fall-tour
+948,1998-11-08T00:00:00Z,8626704,36,9,"UIC Pavilion, University of Illinois","Chicago, IL",3.7143,1998 Fall Tour,1998-fall-tour
+947,1998-11-07T00:00:00Z,8803659,36,14,"UIC Pavilion, University of Illinois","Chicago, IL",4.25,1998 Fall Tour,1998-fall-tour
+946,1998-11-06T00:00:00Z,8702039,36,12,Kohl Center,"Madison, WI",3.7,1998 Fall Tour,1998-fall-tour
+945,1998-11-04T00:00:00Z,9143382,36,1,McNichols Arena,"Denver, CO",3.5227,1998 Fall Tour,1998-fall-tour
+944,1998-11-03T00:00:00Z,1667815,36,3,KBCO Studios,"Boulder, CO",3.5,1998 Fall Tour,1998-fall-tour
+904,1998-11-02T00:00:00Z,11351978,36,53,The E Center,"West Valley City, UT",4.6872,1998 Fall Tour,1998-fall-tour
+942,1998-10-31T00:00:00Z,12925650,36,23,Thomas & Mack Center,"Las Vegas, NV",4.518,1998 Fall Tour,1998-fall-tour
+941,1998-10-30T00:00:00Z,8194272,36,16,Thomas & Mack Center,"Las Vegas, NV",4.2361,1998 Fall Tour,1998-fall-tour
+940,1998-10-29T00:00:00Z,9285643,36,10,Greek Theatre,"Los Angeles, CA",4.0,1998 Fall Tour,1998-fall-tour
+939,1998-10-27T00:00:00Z,293747,71,1,Ed Sullivan Theater,"New York, NY",4.0556,Not Part of a Tour,not-part-of-a-tour
+938,1998-10-20T00:00:00Z,4155743,71,1,Sony Music Studios,"New York, NY",3.7778,Not Part of a Tour,not-part-of-a-tour
+937,1998-10-18T00:00:00Z,3977640,71,2,Shoreline Amphitheatre,"Mountain View, CA",3.9667,Not Part of a Tour,not-part-of-a-tour
+936,1998-10-17T00:00:00Z,3131532,71,3,Shoreline Amphitheatre,"Mountain View, CA",3.7391,Not Part of a Tour,not-part-of-a-tour
+935,1998-10-15T00:00:00Z,11372487,71,4,The Fillmore,"San Francisco, CA",3.3871000000000002,Not Part of a Tour,not-part-of-a-tour
+943,1998-10-03T00:00:00Z,4390243,71,4,World Music Theatre,"Tinley Park, IL",4.06,Not Part of a Tour,not-part-of-a-tour
+933,1998-08-16T00:00:00Z,17133819,83,52,Loring Commerce Center at Loring Air Force Base,"Limestone, ME",4.4634,Lemonwheel,lemonwheel
+932,1998-08-15T00:00:00Z,19703404,83,31,Loring Commerce Center at Loring Air Force Base,"Limestone, ME",4.487,Lemonwheel,lemonwheel
+934,1998-08-14T00:00:00Z,4400117,83,26,Loring Commerce Center at Loring Air Force Base,"Limestone, ME",4.2353,Lemonwheel,lemonwheel
+931,1998-08-12T00:00:00Z,10318759,39,21,Vernon Downs,"Vernon, NY",4.4407,1998 Summer U.S. Tour,1998-summer-u-s-tour
+930,1998-08-11T00:00:00Z,10120175,39,14,Star Lake Amphitheatre,"Burgettstown, PA",4.6012,1998 Summer U.S. Tour,1998-summer-u-s-tour
+929,1998-08-09T00:00:00Z,10823027,39,19,Virginia Beach Amphitheater,"Virginia Beach, VA",4.5489,1998 Summer U.S. Tour,1998-summer-u-s-tour
+928,1998-08-08T00:00:00Z,8431099,39,17,Merriweather Post Pavillion,"Columbia, MD",4.5896,1998 Summer U.S. Tour,1998-summer-u-s-tour
+927,1998-08-07T00:00:00Z,9634951,39,10,Walnut Creek Amphitheater,"Raleigh, NC",3.8356,1998 Summer U.S. Tour,1998-summer-u-s-tour
+926,1998-08-06T00:00:00Z,9965219,39,11,Lakewood Amphitheatre,"Atlanta, GA",3.7727,1998 Summer U.S. Tour,1998-summer-u-s-tour
+925,1998-08-03T00:00:00Z,8213368,39,21,Klipsch Music Center,"Noblesville, IN",4.3652,1998 Summer U.S. Tour,1998-summer-u-s-tour
+1641,1998-08-02T00:00:00Z,9016322,39,16,Klipsch Music Center,"Noblesville, IN",4.2439,1998 Summer U.S. Tour,1998-summer-u-s-tour
+924,1998-08-01T00:00:00Z,9763816,39,23,Alpine Valley Music Theatre,"East Troy, WI",4.4188,1998 Summer U.S. Tour,1998-summer-u-s-tour
+921,1998-07-31T00:00:00Z,8664215,39,11,Polaris Amphitheater,"Columbus, OH",4.141,1998 Summer U.S. Tour,1998-summer-u-s-tour
+920,1998-07-29T00:00:00Z,8835079,39,22,Riverport Amphitheater,"Maryland Heights, MO",4.619,1998 Summer U.S. Tour,1998-summer-u-s-tour
+919,1998-07-28T00:00:00Z,9805243,39,5,Cricket Wireless Amphitheater,"Bonner Springs, KS",4.2603,1998 Summer U.S. Tour,1998-summer-u-s-tour
+918,1998-07-26T00:00:00Z,8495726,39,3,Starplex Amphitheatre,"Dallas, TX",3.7719,1998 Summer U.S. Tour,1998-summer-u-s-tour
+917,1998-07-25T00:00:00Z,9063003,39,4,South Park Meadows,"Austin, TX",3.9016,1998 Summer U.S. Tour,1998-summer-u-s-tour
+916,1998-07-24T00:00:00Z,8671609,39,9,Cynthia Woods Mitchell Pavilion,"The Woodlands, TX",3.963,1998 Summer U.S. Tour,1998-summer-u-s-tour
+902,1998-07-21T00:00:00Z,9582918,39,5,Desert Sky Pavilion,"Phoenix, AZ",4.2078,1998 Summer U.S. Tour,1998-summer-u-s-tour
+901,1998-07-20T00:00:00Z,9739440,39,11,Ventura County Fairgrounds,"Ventura, CA",4.3585,1998 Summer U.S. Tour,1998-summer-u-s-tour
+900,1998-07-19T00:00:00Z,10795650,39,9,Shoreline Amphitheatre,"Mountain View, CA",3.9259,1998 Summer U.S. Tour,1998-summer-u-s-tour
+915,1998-07-17T00:00:00Z,8622626,39,44,Gorge Amphitheatre,"George, WA",4.7171,1998 Summer U.S. Tour,1998-summer-u-s-tour
+1707,1998-07-16T00:00:00Z,9514658,39,9,Gorge Amphitheatre,"George, WA",4.1446,1998 Summer U.S. Tour,1998-summer-u-s-tour
+922,1998-07-15T00:00:00Z,10371264,39,12,Portland Meadows,"Portland, OR",4.5697,1998 Summer U.S. Tour,1998-summer-u-s-tour
+914,1998-07-10T00:00:00Z,7459527,40,4,Zeleste,"Barcelona, Spain",2.7297,1998 Summer European Tour,1998-summer-european-tour
+1640,1998-07-09T00:00:00Z,7818136,40,4,Zeleste,"Barcelona, Spain",4.1905,1998 Summer European Tour,1998-summer-european-tour
+1639,1998-07-08T00:00:00Z,8269508,40,7,Zeleste,"Barcelona, Spain",3.6071,1998 Summer European Tour,1998-summer-european-tour
+913,1998-07-06T00:00:00Z,8703947,40,16,Lucerna Theatre,"Prague, Czech Republic",4.6667,1998 Summer European Tour,1998-summer-european-tour
+899,1998-07-05T00:00:00Z,7425906,40,4,Lucerna Theatre,"Prague, Czech Republic",3.0,1998 Summer European Tour,1998-summer-european-tour
+912,1998-07-03T00:00:00Z,5009842,40,1,Dyrskuepladsen,"Ringe, Fyn, Denmark",2.8,1998 Summer European Tour,1998-summer-european-tour
+1726,1998-07-02T00:00:00Z,9282901,40,3,The Grey Hall,"Freetown Christiana, Copenhagen, Denmark",4.4493,1998 Summer European Tour,1998-summer-european-tour
+910,1998-07-01T00:00:00Z,8299544,40,4,The Grey Hall,"Freetown Christiana, Copenhagen, Denmark",4.275,1998 Summer European Tour,1998-summer-european-tour
+909,1998-06-30T00:00:00Z,11570100,40,3,The Grey Hall,"Freetown Christiana, Copenhagen, Denmark",3.6585,1998 Summer European Tour,1998-summer-european-tour
+908,1998-04-05T00:00:00Z,10150088,37,37,Providence Civic Center,"Providence, RI",4.6825,1998 Island Tour,1998-island-tour
+907,1998-04-04T00:00:00Z,10641817,37,30,Providence Civic Center,"Providence, RI",4.6888,1998 Island Tour,1998-island-tour
+906,1998-04-03T00:00:00Z,9397420,37,92,Nassau Coliseum,"Uniondale, NY",4.7101,1998 Island Tour,1998-island-tour
+905,1998-04-02T00:00:00Z,9406850,37,46,Nassau Coliseum,"Uniondale, NY",4.6515,1998 Island Tour,1998-island-tour
+893,1997-12-31T00:00:00Z,12475455,32,28,Madison Square Garden,"New York, NY",4.0625,1997-1998 New Years Run,1997-1998-new-years-run
+892,1997-12-30T00:00:00Z,11924661,32,58,Madison Square Garden,"New York, NY",4.708,1997-1998 New Years Run,1997-1998-new-years-run
+1727,1997-12-29T00:00:00Z,9826483,32,23,Madison Square Garden,"New York, NY",4.7025,1997-1998 New Years Run,1997-1998-new-years-run
+890,1997-12-28T00:00:00Z,11467415,32,12,USAir Arena,"Landover, MD",3.7356,1997-1998 New Years Run,1997-1998-new-years-run
+888,1997-12-13T00:00:00Z,10901943,31,19,Times Union Center,"Albany, NY",4.4537,1997 Fall Tour,1997-fall-tour
+887,1997-12-12T00:00:00Z,9165950,31,22,Times Union Center,"Albany, NY",4.1961,1997 Fall Tour,1997-fall-tour
+410,1997-12-11T00:00:00Z,8268043,31,112,BlueCross Arena,"Rochester, NY",4.6749,1997 Fall Tour,1997-fall-tour
+898,1997-12-09T00:00:00Z,9050408,31,13,"Bryce Jordan Center, Penn State University","State College, PA",3.9326,1997 Fall Tour,1997-fall-tour
+897,1997-12-07T00:00:00Z,8340165,31,51,"Ervin J. Nutter Center, Wright State University","Dayton, OH",4.6909,1997 Fall Tour,1997-fall-tour
+896,1997-12-06T00:00:00Z,8829935,31,34,The Palace of Auburn Hills,"Auburn Hills, MI",4.7067,1997 Fall Tour,1997-fall-tour
+895,1997-12-05T00:00:00Z,10495609,31,9,CSU Convocation Center,"Cleveland, OH",4.0198,1997 Fall Tour,1997-fall-tour
+894,1997-12-03T00:00:00Z,9793567,31,19,The Spectrum,"Philadelphia, PA",4.5396,1997 Fall Tour,1997-fall-tour
+889,1997-12-02T00:00:00Z,9866031,31,19,The Spectrum,"Philadelphia, PA",4.6848,1997 Fall Tour,1997-fall-tour
+885,1997-11-30T00:00:00Z,9133349,31,21,DCU Center,"Worcester, MA",4.1835,1997 Fall Tour,1997-fall-tour
+884,1997-11-29T00:00:00Z,11360262,31,21,DCU Center,"Worcester, MA",4.1942,1997 Fall Tour,1997-fall-tour
+883,1997-11-28T00:00:00Z,8797126,31,35,DCU Center,"Worcester, MA",4.3987,1997 Fall Tour,1997-fall-tour
+882,1997-11-26T00:00:00Z,10247365,31,17,XL Center,"Hartford, CT",4.2973,1997 Fall Tour,1997-fall-tour
+833,1997-11-23T00:00:00Z,9693622,31,24,Lawrence Joel Veterans Memorial Coliseum,"Winston-Salem, NC",4.6481,1997 Fall Tour,1997-fall-tour
+881,1997-11-22T00:00:00Z,8740207,31,43,Hampton Coliseum,"Hampton, VA",4.6963,1997 Fall Tour,1997-fall-tour
+880,1997-11-21T00:00:00Z,8491051,31,22,Hampton Coliseum,"Hampton, VA",4.6962,1997 Fall Tour,1997-fall-tour
+832,1997-11-19T00:00:00Z,10197810,31,36,"Assembly Hall, University of Illinois","Champaign, IL",4.6933,1997 Fall Tour,1997-fall-tour
+412,1997-11-17T00:00:00Z,8971076,31,71,McNichols Arena,"Denver, CO",4.7052,1997 Fall Tour,1997-fall-tour
+879,1997-11-16T00:00:00Z,8576652,31,4,McNichols Arena,"Denver, CO",4.0745,1997 Fall Tour,1997-fall-tour
+878,1997-11-14T00:00:00Z,8883933,31,10,The E Center,"West Valley City, UT",4.3462,1997 Fall Tour,1997-fall-tour
+877,1997-11-13T00:00:00Z,10054009,31,13,Thomas & Mack Center,"Las Vegas, NV",4.1224,1997 Fall Tour,1997-fall-tour
+886,1997-11-07T00:00:00Z,311406,71,2,"NBC Studios, New York","New York, NY",3.5556,Not Part of a Tour,not-part-of-a-tour
+872,1997-08-17T00:00:00Z,15042663,85,105,Loring Commerce Center at Loring Air Force Base,"Limestone, ME",4.6964,The Great Went,the-great-went
+871,1997-08-16T00:00:00Z,18427793,85,64,Loring Commerce Center at Loring Air Force Base,"Limestone, ME",4.6895,The Great Went,the-great-went
+870,1997-08-14T00:00:00Z,10757562,34,16,Darien Lake Performing Arts Center,"Darien Center, NY",4.2439,1997 Summer U.S. Tour,1997-summer-u-s-tour
+869,1997-08-13T00:00:00Z,9879015,34,17,Star Lake Amphitheatre,"Burgettstown, PA",4.3333,1997 Summer U.S. Tour,1997-summer-u-s-tour
+868,1997-08-11T00:00:00Z,9223105,34,10,Klipsch Music Center,"Noblesville, IN",3.6506,1997 Summer U.S. Tour,1997-summer-u-s-tour
+831,1997-08-10T00:00:00Z,9733668,34,18,Klipsch Music Center,"Noblesville, IN",4.5385,1997 Summer U.S. Tour,1997-summer-u-s-tour
+830,1997-08-09T00:00:00Z,10049855,34,15,Alpine Valley Music Theatre,"East Troy, WI",4.3238,1997 Summer U.S. Tour,1997-summer-u-s-tour
+876,1997-08-08T00:00:00Z,8245421,34,11,World Music Theatre,"Tinley Park, IL",3.4,1997 Summer U.S. Tour,1997-summer-u-s-tour
+875,1997-08-06T00:00:00Z,10742281,34,4,Riverport Amphitheater,"Maryland Heights, MO",3.6731,1997 Summer U.S. Tour,1997-summer-u-s-tour
+874,1997-08-03T00:00:00Z,10304469,34,4,Gorge Amphitheatre,"George, WA",3.7231,1997 Summer U.S. Tour,1997-summer-u-s-tour
+873,1997-08-02T00:00:00Z,10411939,34,11,Gorge Amphitheatre,"George, WA",4.1724,1997 Summer U.S. Tour,1997-summer-u-s-tour
+829,1997-07-31T00:00:00Z,10600540,34,16,Shoreline Amphitheatre,"Mountain View, CA",4.4388,1997 Summer U.S. Tour,1997-summer-u-s-tour
+864,1997-07-30T00:00:00Z,9339846,34,9,Ventura County Fairgrounds,"Ventura, CA",4.3982,1997 Summer U.S. Tour,1997-summer-u-s-tour
+863,1997-07-29T00:00:00Z,9147428,34,6,Desert Sky Pavilion,"Phoenix, AZ",4.0267,1997 Summer U.S. Tour,1997-summer-u-s-tour
+862,1997-07-26T00:00:00Z,9816919,34,5,South Park Meadows,"Austin, TX",3.7759,1997 Summer U.S. Tour,1997-summer-u-s-tour
+861,1997-07-25T00:00:00Z,8880509,34,8,Starplex Amphitheatre,"Dallas, TX",4.2034,1997 Summer U.S. Tour,1997-summer-u-s-tour
+828,1997-07-23T00:00:00Z,9162265,34,23,Lakewood Amphitheatre,"Atlanta, GA",4.5505,1997 Summer U.S. Tour,1997-summer-u-s-tour
+860,1997-07-22T00:00:00Z,8645852,34,14,Walnut Creek Amphitheater,"Raleigh, NC",4.5732,1997 Summer U.S. Tour,1997-summer-u-s-tour
+827,1997-07-21T00:00:00Z,9220649,34,26,Virginia Beach Amphitheater,"Virginia Beach, VA",4.4435,1997 Summer U.S. Tour,1997-summer-u-s-tour
+859,1997-07-11T00:00:00Z,5003363,33,0,Doctor Music Festival,"Catalonia, Spain",3.2632,1997 Summer European Tour,1997-summer-european-tour
+826,1997-07-10T00:00:00Z,8540630,33,10,Espace Julien,"Marseilles, France",4.3684,1997 Summer European Tour,1997-summer-european-tour
+1636,1997-07-09T00:00:00Z,8910105,33,11,Le Transbordeur,"Lyon/Villeurbanne, France",4.3462,1997 Summer European Tour,1997-summer-european-tour
+867,1997-07-06T00:00:00Z,10096642,33,1,Spiaggia di Rivoltella,"Desenzano, Italy",3.375,1997 Summer European Tour,1997-summer-european-tour
+866,1997-07-05T00:00:00Z,7754004,33,1,Piazza Risorgimento,"Como, Italy",3.6522,1997 Summer European Tour,1997-summer-european-tour
+865,1997-07-03T00:00:00Z,7795410,33,2,Serenadenhof,"Nüremberg, Germany",3.6571,1997 Summer European Tour,1997-summer-european-tour
+825,1997-07-02T00:00:00Z,8746660,33,12,Paradiso,"Amsterdam, Netherlands",4.6872,1997 Summer European Tour,1997-summer-european-tour
+1728,1997-07-01T00:00:00Z,9632289,33,18,Paradiso,"Amsterdam, Netherlands",4.676,1997 Summer European Tour,1997-summer-european-tour
+857,1997-06-29T00:00:00Z,4217444,33,0,Roskilde Festival,"Roskilde, Denmark",2.4,1997 Summer European Tour,1997-summer-european-tour
+856,1997-06-27T00:00:00Z,3247543,33,0,Worthy Farm,"Somerset, England",2.0,1997 Summer European Tour,1997-summer-european-tour
+855,1997-06-25T00:00:00Z,9892650,33,3,LAeronef,"Lille, France",4.3214,1997 Summer European Tour,1997-summer-european-tour
+854,1997-06-24T00:00:00Z,8977267,33,0,La Laiterie,"Strasbourg, France",3.6667,1997 Summer European Tour,1997-summer-european-tour
+853,1997-06-22T00:00:00Z,4627018,33,2,Loreley,"St. Goarshausen, Koblenz, Germany",3.4048,1997 Summer European Tour,1997-summer-european-tour
+823,1997-06-21T00:00:00Z,6661537,33,0,Hurricane Festival,"Scheessel, Germany",3.1667,1997 Summer European Tour,1997-summer-european-tour
+852,1997-06-20T00:00:00Z,8696816,33,4,Archa Theater,"Prague, Czech Republic",3.9583,1997 Summer European Tour,1997-summer-european-tour
+851,1997-06-19T00:00:00Z,9137266,33,2,Arena,"Vienna, Austria",3.5,1997 Summer European Tour,1997-summer-european-tour
+850,1997-06-16T00:00:00Z,8127790,33,4,Royal Albert Hall,"London, England",2.6765,1997 Summer European Tour,1997-summer-european-tour
+411,1997-06-14T00:00:00Z,8359105,33,1,The S.F.X. Centre,"Dublin, Ireland",3.5172,1997 Summer European Tour,1997-summer-european-tour
+849,1997-06-13T00:00:00Z,8760373,33,1,The S.F.X. Centre,"Dublin, Ireland",3.8222,1997 Summer European Tour,1997-summer-european-tour
+858,1997-06-06T00:00:00Z,4948846,71,5,Brad Sands's and Pete Carini's House,"Charlotte, VT",3.625,Not Part of a Tour,not-part-of-a-tour
+847,1997-03-18T00:00:00Z,9483050,71,1,The Flynn Theatre,"Burlington, VT",3.3556,Not Part of a Tour,not-part-of-a-tour
+846,1997-03-05T00:00:00Z,249208,71,0,Ed Sullivan Theater,"New York, NY",2.2857,Not Part of a Tour,not-part-of-a-tour
+845,1997-03-02T00:00:00Z,8947671,35,0,Pumpehuset,"Copenhagen, Denmark",3.2857,1997 Winter European Tour,1997-winter-european-tour
+844,1997-03-01T00:00:00Z,8881371,35,12,Markethalle,"Hamburg, Germany",4.6311,1997 Winter European Tour,1997-winter-european-tour
+843,1997-02-28T00:00:00Z,7130382,35,0,Huxleys Neue Welt,"Berlin, Germany",2.8571,1997 Winter European Tour,1997-winter-european-tour
+1704,1997-02-26T00:00:00Z,10331584,35,4,LKA-Longhorn,"Stuttgart, Germany",2.9,1997 Winter European Tour,1997-winter-european-tour
+842,1997-02-25T00:00:00Z,7692748,35,0,Incognito,"Munich, Germany",2.4571,1997 Winter European Tour,1997-winter-european-tour
+841,1997-02-23T00:00:00Z,8144876,35,7,Fillmore,"Cortemaggiore, Italy",3.8056,1997 Winter European Tour,1997-winter-european-tour
+840,1997-02-22T00:00:00Z,8244767,35,2,Teatro Olimpico,"Rome, Italy",3.0909,1997 Winter European Tour,1997-winter-european-tour
+1634,1997-02-21T00:00:00Z,9116395,35,5,Tenax,"Florence, Italy",3.9231,1997 Winter European Tour,1997-winter-european-tour
+839,1997-02-20T00:00:00Z,7796611,35,1,Teatro Smeraldo,"Milan, Italy",3.3143,1997 Winter European Tour,1997-winter-european-tour
+838,1997-02-18T00:00:00Z,8841560,35,1,Bataclan,"Paris, France",3.1714,1997 Winter European Tour,1997-winter-european-tour
+822,1997-02-17T00:00:00Z,9466123,35,16,Paradiso,"Amsterdam, Netherlands",4.6763,1997 Winter European Tour,1997-winter-european-tour
+837,1997-02-16T00:00:00Z,8412030,35,3,Alter Wartesaal,"Cologne, Germany",3.6538,1997 Winter European Tour,1997-winter-european-tour
+836,1997-02-14T00:00:00Z,9416200,35,1,Le Botanique,"Brussels, Belgium",3.1765,1997 Winter European Tour,1997-winter-european-tour
+835,1997-02-13T00:00:00Z,11056537,35,1,Shepherd's Bush Empire,"London, England",3.1892,1997 Winter European Tour,1997-winter-european-tour
+821,1996-12-31T00:00:00Z,11198929,28,17,FleetCenter,"Boston, MA",3.8529,1996-1997 New Years Run,1996-1997-new-years-run
+820,1996-12-30T00:00:00Z,9366544,28,10,FleetCenter,"Boston, MA",3.5102,1996-1997 New Years Run,1996-1997-new-years-run
+1633,1996-12-29T00:00:00Z,8903051,28,16,The Spectrum,"Philadelphia, PA",4.4225,1996-1997 New Years Run,1996-1997-new-years-run
+1632,1996-12-28T00:00:00Z,8522501,28,13,The Spectrum,"Philadelphia, PA",3.7292,1996-1997 New Years Run,1996-1997-new-years-run
+819,1996-12-06T00:00:00Z,11464334,27,9,PH Live,"Las Vegas, NV",4.6691,1996 Fall Tour,1996-fall-tour
+818,1996-12-04T00:00:00Z,9321166,27,2,Sports Arena,"San Diego, CA",3.4375,1996 Fall Tour,1996-fall-tour
+817,1996-12-02T00:00:00Z,8732944,27,0,America West Arena,"Phoenix, AZ",3.0385,1996 Fall Tour,1996-fall-tour
+816,1996-12-01T00:00:00Z,8675579,27,2,"Pauley Pavilion, University of California Los Angeles","Los Angeles, CA",3.5676,1996 Fall Tour,1996-fall-tour
+815,1996-11-30T00:00:00Z,9440129,27,5,ARCO Arena,"Sacramento, CA",4.1481,1996 Fall Tour,1996-fall-tour
+814,1996-11-29T00:00:00Z,9570952,27,7,The Cow Palace,"Daly City, CA",3.5263,1996 Fall Tour,1996-fall-tour
+813,1996-11-27T00:00:00Z,8602069,27,9,Key Arena,"Seattle, WA",4.2195,1996 Fall Tour,1996-fall-tour
+812,1996-11-24T00:00:00Z,8968805,27,2,Memorial Coliseum,"Portland, OR",3.8148,1996 Fall Tour,1996-fall-tour
+1630,1996-11-23T00:00:00Z,8824450,27,2,Pacific Coliseum,"Vancouver, British Columbia, Canada",3.6957,1996 Fall Tour,1996-fall-tour
+811,1996-11-22T00:00:00Z,8787306,27,2,Spokane Arena,"Spokane, WA",3.1364,1996 Fall Tour,1996-fall-tour
+764,1996-11-19T00:00:00Z,10392504,27,3,Municipal Auditorium,"Kansas City, MO",4.1579,1996 Fall Tour,1996-fall-tour
+763,1996-11-18T00:00:00Z,8664973,27,0,Mid-South Coliseum,"Memphis, TN",4.1538,1996 Fall Tour,1996-fall-tour
+810,1996-11-16T00:00:00Z,8183613,27,4,Civic Auditorium,"Omaha, NE",4.4694,1996 Fall Tour,1996-fall-tour
+809,1996-11-15T00:00:00Z,8880588,27,5,Kiel Center,"St. Louis, MO",4.1463,1996 Fall Tour,1996-fall-tour
+808,1996-11-14T00:00:00Z,7580866,27,3,Hilton Coliseum,"Ames, IA",3.0385,1996 Fall Tour,1996-fall-tour
+807,1996-11-13T00:00:00Z,8473287,27,6,Target Center,"Minneapolis, MN",3.5,1996 Fall Tour,1996-fall-tour
+806,1996-11-11T00:00:00Z,9169320,27,0,Van Andel Arena,"Grand Rapids, MI",3.5806,1996 Fall Tour,1996-fall-tour
+762,1996-11-09T00:00:00Z,8228857,27,3,The Palace of Auburn Hills,"Auburn Hills, MI",3.7317,1996 Fall Tour,1996-fall-tour
+761,1996-11-08T00:00:00Z,8890987,27,7,"Assembly Hall, University of Illinois","Champaign, IL",3.9268,1996 Fall Tour,1996-fall-tour
+760,1996-11-07T00:00:00Z,9288750,27,8,Rupp Arena,"Lexington, KY",4.5761,1996 Fall Tour,1996-fall-tour
+805,1996-11-06T00:00:00Z,8459758,27,3,Knoxville Civic Coliseum,"Knoxville, TN",3.7941,1996 Fall Tour,1996-fall-tour
+804,1996-11-03T00:00:00Z,8021028,27,2,"O'Connell Center, University of Florida","Gainesville, FL",3.5926,1996 Fall Tour,1996-fall-tour
+1629,1996-11-02T00:00:00Z,9080319,27,10,Cruzan Amphitheatre,"West Palm Beach, FL",4.5726,1996 Fall Tour,1996-fall-tour
+803,1996-10-31T00:00:00Z,13319549,27,40,The Omni,"Atlanta, GA",4.6872,1996 Fall Tour,1996-fall-tour
+759,1996-10-29T00:00:00Z,8781295,27,2,Leon County Civic Center,"Tallahassee, FL",4.0645,1996 Fall Tour,1996-fall-tour
+802,1996-10-27T00:00:00Z,9676409,27,2,North Charleston Coliseum,"North Charleston, SC",3.2941,1996 Fall Tour,1996-fall-tour
+801,1996-10-26T00:00:00Z,9106676,27,8,Charlotte Coliseum,"Charlotte, NC",3.6842,1996 Fall Tour,1996-fall-tour
+800,1996-10-25T00:00:00Z,8789497,27,4,Hampton Coliseum,"Hampton, VA",3.4571,1996 Fall Tour,1996-fall-tour
+799,1996-10-23T00:00:00Z,8981680,27,5,XL Center,"Hartford, CT",4.1136,1996 Fall Tour,1996-fall-tour
+798,1996-10-22T00:00:00Z,9588453,27,8,Madison Square Garden,"New York, NY",4.0698,1996 Fall Tour,1996-fall-tour
+797,1996-10-21T00:00:00Z,9031837,27,5,Madison Square Garden,"New York, NY",3.4865,1996 Fall Tour,1996-fall-tour
+796,1996-10-19T00:00:00Z,8743837,27,3,Marine Midland Arena,"Buffalo, NY",3.9318,1996 Fall Tour,1996-fall-tour
+795,1996-10-18T00:00:00Z,8971051,27,5,Civic Arena,"Pittsburgh, PA",3.55,1996 Fall Tour,1996-fall-tour
+794,1996-10-17T00:00:00Z,8102480,27,4,"Bryce Jordan Center, Penn State University","State College, PA",3.0769,1996 Fall Tour,1996-fall-tour
+793,1996-10-16T00:00:00Z,8379064,27,1,Olympic Center,"Lake Placid, NY",2.5714,1996 Fall Tour,1996-fall-tour
+1729,1996-08-17T00:00:00Z,13364427,84,34,Plattsburgh Air Force Base,"Plattsburgh, NY",4.686,The Clifford Ball,the-clifford-ball
+791,1996-08-16T00:00:00Z,14054531,84,35,Plattsburgh Air Force Base,"Plattsburgh, NY",4.6341,The Clifford Ball,the-clifford-ball
+790,1996-08-15T00:00:00Z,1923866,84,15,Plattsburgh Air Force Base,"Plattsburgh, NY",4.303,The Clifford Ball,the-clifford-ball
+1730,1996-08-14T00:00:00Z,10095648,30,7,Hersheypark Stadium,"Hershey, PA",4.1558,1996 Summer U.S. Tour,1996-summer-u-s-tour
+789,1996-08-13T00:00:00Z,10795390,30,11,Klipsch Music Center,"Noblesville, IN",4.6747,1996 Summer U.S. Tour,1996-summer-u-s-tour
+788,1996-08-12T00:00:00Z,8615994,30,10,Klipsch Music Center,"Noblesville, IN",3.7368,1996 Summer U.S. Tour,1996-summer-u-s-tour
+787,1996-08-10T00:00:00Z,10159987,30,8,Alpine Valley Music Theatre,"East Troy, WI",4.1343,1996 Summer U.S. Tour,1996-summer-u-s-tour
+765,1996-08-07T00:00:00Z,9084840,30,6,Red Rocks Amphitheatre,"Morrison, CO",3.7727,1996 Summer U.S. Tour,1996-summer-u-s-tour
+1628,1996-08-06T00:00:00Z,7942243,30,6,Red Rocks Amphitheatre,"Morrison, CO",4.0769,1996 Summer U.S. Tour,1996-summer-u-s-tour
+758,1996-08-05T00:00:00Z,9398937,30,5,Red Rocks Amphitheatre,"Morrison, CO",4.0,1996 Summer U.S. Tour,1996-summer-u-s-tour
+757,1996-08-04T00:00:00Z,8409181,30,7,Red Rocks Amphitheatre,"Morrison, CO",3.6383,1996 Summer U.S. Tour,1996-summer-u-s-tour
+786,1996-08-02T00:00:00Z,9214851,30,2,Wolf Mountain Amphitheatre,"Park City, UT",3.4474,1996 Summer U.S. Tour,1996-summer-u-s-tour
+785,1996-07-25T00:00:00Z,3036474,29,0,Stadtpark,"Hamburg, Germany",2.5455,1996 Summer European Tour,1996-summer-european-tour
+784,1996-07-24T00:00:00Z,2508408,29,0,The Music Hall,"Portsmouth, NH",2.2308,1996 Summer European Tour,1996-summer-european-tour
+783,1996-07-23T00:00:00Z,8821237,29,1,Markethalle,"Hamburg, Germany",3.875,1996 Summer European Tour,1996-summer-european-tour
+782,1996-07-22T00:00:00Z,3285814,29,0,Tanzbrunnen,"Cologne, Germany",2.4286,1996 Summer European Tour,1996-summer-european-tour
+781,1996-07-21T00:00:00Z,9842859,29,1,The Forum,"Nüremberg, Germany",3.3333,1996 Summer European Tour,1996-summer-european-tour
+780,1996-07-19T00:00:00Z,2481999,29,0,Les Arenes Romaines,"Arles, France",2.4,1996 Summer European Tour,1996-summer-european-tour
+779,1996-07-18T00:00:00Z,3097991,29,1,Theatre de Verdure,"Nice, France",2.5556,1996 Summer European Tour,1996-summer-european-tour
+778,1996-07-17T00:00:00Z,2384744,29,0,Theatre Antique,"Vienne, France",2.8462,1996 Summer European Tour,1996-summer-european-tour
+777,1996-07-15T00:00:00Z,8417410,29,0,La Marna,"Sesto Calende, Italy",3.125,1996 Summer European Tour,1996-summer-european-tour
+776,1996-07-13T00:00:00Z,4285284,29,1,Dour Festival,"Dour, Belgium",2.0769,1996 Summer European Tour,1996-summer-european-tour
+775,1996-07-12T00:00:00Z,10826084,29,2,Melkweg,"Amsterdam, Netherlands",2.6,1996 Summer European Tour,1996-summer-european-tour
+774,1996-07-11T00:00:00Z,8230661,29,2,Shepherd's Bush Empire,"London, England",3.16,1996 Summer European Tour,1996-summer-european-tour
+773,1996-07-10T00:00:00Z,3323403,29,1,Le Zenith,"Paris, France",2.9167,1996 Summer European Tour,1996-summer-european-tour
+772,1996-07-09T00:00:00Z,2334850,29,1,Centre International,"Deauville, France",2.2,1996 Summer European Tour,1996-summer-european-tour
+771,1996-07-07T00:00:00Z,4056555,29,0,Parco Aquatica,"Milan, Italy",2.5,1996 Summer European Tour,1996-summer-european-tour
+770,1996-07-06T00:00:00Z,2650305,29,0,Piazza del Duomo,"Pistoia, Italy",3.2308,1996 Summer European Tour,1996-summer-european-tour
+769,1996-07-05T00:00:00Z,2851658,29,0,Stadio Olimpico,"Rome, Italy",2.6667,1996 Summer European Tour,1996-summer-european-tour
+768,1996-07-03T00:00:00Z,2730317,29,2,Stadio Briamasco,"Trento, Italy",2.9444,1996 Summer European Tour,1996-summer-european-tour
+159,1996-06-06T00:00:00Z,9422680,71,4,Joyous Lake,"Woodstock, NY",3.4222,Not Part of a Tour,not-part-of-a-tour
+767,1996-04-26T00:00:00Z,6972031,71,8,"Main Stage, New Orleans Fairgrounds","New Orleans, LA",3.7414,Not Part of a Tour,not-part-of-a-tour
+1731,1995-12-31T00:00:00Z,12501761,25,30,Madison Square Garden,"New York, NY",4.707,1995-1996 New Years Run,1995-1996-new-years-run
+606,1995-12-30T00:00:00Z,9761985,25,10,Madison Square Garden,"New York, NY",4.1781,1995-1996 New Years Run,1995-1996-new-years-run
+605,1995-12-29T00:00:00Z,8744619,25,11,DCU Center,"Worcester, MA",4.6786,1995-1996 New Years Run,1995-1996-new-years-run
+667,1995-12-28T00:00:00Z,9234808,25,9,DCU Center,"Worcester, MA",4.2025,1995-1996 New Years Run,1995-1996-new-years-run
+1732,1995-12-17T00:00:00Z,9108533,24,4,Olympic Center,"Lake Placid, NY",4.5246,1995 Fall Tour,1995-fall-tour
+603,1995-12-16T00:00:00Z,8700684,24,0,Olympic Center,"Lake Placid, NY",3.5455,1995 Fall Tour,1995-fall-tour
+602,1995-12-15T00:00:00Z,8774975,24,7,The Spectrum,"Philadelphia, PA",3.9492,1995 Fall Tour,1995-fall-tour
+1733,1995-12-14T00:00:00Z,8545909,24,15,Broome County Arena,"Binghamton, NY",4.6829,1995 Fall Tour,1995-fall-tour
+600,1995-12-12T00:00:00Z,9477382,24,3,Providence Civic Center,"Providence, RI",4.2679,1995 Fall Tour,1995-fall-tour
+592,1995-12-11T00:00:00Z,10166391,24,2,Cross Insurance Arena,"Portland, ME",4.4839,1995 Fall Tour,1995-fall-tour
+599,1995-12-09T00:00:00Z,8882283,24,15,Times Union Center,"Albany, NY",4.5913,1995 Fall Tour,1995-fall-tour
+598,1995-12-08T00:00:00Z,8536738,24,2,CSU Convocation Center,"Cleveland, OH",4.26,1995 Fall Tour,1995-fall-tour
+597,1995-12-07T00:00:00Z,10017253,24,4,Niagara Falls Convention Center,"Niagara Falls, NY",4.6781,1995 Fall Tour,1995-fall-tour
+1692,1995-12-05T00:00:00Z,9418555,24,4,"Mullins Center, University of Massachusetts","Amherst, MA",4.3585,1995 Fall Tour,1995-fall-tour
+595,1995-12-04T00:00:00Z,9434201,24,2,"Mullins Center, University of Massachusetts","Amherst, MA",3.7083,1995 Fall Tour,1995-fall-tour
+594,1995-12-02T00:00:00Z,8753529,24,7,New Haven Veterans Memorial Coliseum,"New Haven, CT",4.3284,1995 Fall Tour,1995-fall-tour
+593,1995-12-01T00:00:00Z,8736313,24,13,Hersheypark Stadium,"Hershey, PA",4.6429,1995 Fall Tour,1995-fall-tour
+666,1995-11-30T00:00:00Z,8681090,24,2,"Ervin J. Nutter Center, Wright State University","Dayton, OH",4.3667,1995 Fall Tour,1995-fall-tour
+1626,1995-11-29T00:00:00Z,10858057,24,4,Municipal Auditorium,"Nashville, TN",4.25,1995 Fall Tour,1995-fall-tour
+665,1995-11-28T00:00:00Z,8837850,24,2,Knoxville Civic Coliseum,"Knoxville, TN",3.5,1995 Fall Tour,1995-fall-tour
+664,1995-11-25T00:00:00Z,8991427,24,3,Hampton Coliseum,"Hampton, VA",4.0196,1995 Fall Tour,1995-fall-tour
+663,1995-11-24T00:00:00Z,9437988,24,4,Civic Arena,"Pittsburgh, PA",3.5714,1995 Fall Tour,1995-fall-tour
+662,1995-11-22T00:00:00Z,8913815,24,4,USAir Arena,"Landover, MD",3.6538,1995 Fall Tour,1995-fall-tour
+661,1995-11-21T00:00:00Z,8972590,24,6,Lawrence Joel Veterans Memorial Coliseum,"Winston-Salem, NC",4.1143,1995 Fall Tour,1995-fall-tour
+660,1995-11-19T00:00:00Z,10032482,24,4,Charlotte Coliseum,"Charlotte, NC",3.7059,1995 Fall Tour,1995-fall-tour
+659,1995-11-18T00:00:00Z,8156058,24,5,North Charleston Coliseum,"North Charleston, SC",4.1944,1995 Fall Tour,1995-fall-tour
+658,1995-11-16T00:00:00Z,8093623,24,2,West Palm Beach Auditorium,"West Palm Beach, FL",3.5667,1995 Fall Tour,1995-fall-tour
+657,1995-11-15T00:00:00Z,8532194,24,1,"Sun Dome, University of South Florida","Tampa, FL",3.5333,1995 Fall Tour,1995-fall-tour
+656,1995-11-14T00:00:00Z,9836983,24,14,University of Central Florida Arena,"Orlando, FL",4.6757,1995 Fall Tour,1995-fall-tour
+655,1995-11-12T00:00:00Z,8655099,24,3,"O'Connell Center, University of Florida","Gainesville, FL",3.8571,1995 Fall Tour,1995-fall-tour
+654,1995-11-11T00:00:00Z,10183863,24,5,Fox Theatre,"Atlanta, GA",4.3043,1995 Fall Tour,1995-fall-tour
+653,1995-11-10T00:00:00Z,9060832,24,5,Fox Theatre,"Atlanta, GA",4.2444,1995 Fall Tour,1995-fall-tour
+652,1995-11-09T00:00:00Z,8840019,24,8,Fox Theatre,"Atlanta, GA",4.2381,1995 Fall Tour,1995-fall-tour
+650,1995-10-31T00:00:00Z,14089011,24,24,Rosemont Horizon,"Rosemont, IL",4.5963,1995 Fall Tour,1995-fall-tour
+649,1995-10-29T00:00:00Z,8178574,24,1,Louisville Gardens,"Louisville, KY",3.8,1995 Fall Tour,1995-fall-tour
+648,1995-10-28T00:00:00Z,8781948,24,3,The Palace of Auburn Hills,"Auburn Hills, MI",4.2432,1995 Fall Tour,1995-fall-tour
+651,1995-10-27T00:00:00Z,8642507,24,0,Wing's Stadium,"Kalamazoo, MI",4.0323,1995 Fall Tour,1995-fall-tour
+647,1995-10-25T00:00:00Z,8844357,24,4,Civic Center Arena,"St. Paul, MN",4.186,1995 Fall Tour,1995-fall-tour
+646,1995-10-24T00:00:00Z,9869348,24,4,Dane County Coliseum,"Madison, WI",4.3906,1995 Fall Tour,1995-fall-tour
+645,1995-10-22T00:00:00Z,10072137,24,2,"Assembly Hall, University of Illinois","Champaign, IL",4.3846,1995 Fall Tour,1995-fall-tour
+644,1995-10-21T00:00:00Z,9676723,24,10,Pershing Auditorium,"Lincoln, NE",4.5354,1995 Fall Tour,1995-fall-tour
+643,1995-10-20T00:00:00Z,8485669,24,1,Five Seasons Arena,"Cedar Rapids, IA",3.1714,1995 Fall Tour,1995-fall-tour
+642,1995-10-19T00:00:00Z,9189201,24,1,Municipal Auditorium,"Kansas City, MO",3.9032,1995 Fall Tour,1995-fall-tour
+641,1995-10-17T00:00:00Z,8310518,24,0,State Palace Theatre,"New Orleans, LA",3.7667,1995 Fall Tour,1995-fall-tour
+640,1995-10-15T00:00:00Z,8274784,24,2,Austin Music Hall,"Austin, TX",3.4667,1995 Fall Tour,1995-fall-tour
+639,1995-10-14T00:00:00Z,9349408,24,3,Austin Music Hall,"Austin, TX",4.0556,1995 Fall Tour,1995-fall-tour
+638,1995-10-13T00:00:00Z,8724297,24,1,Will Rogers Auditorium,"Fort Worth, TX",3.3226,1995 Fall Tour,1995-fall-tour
+591,1995-10-11T00:00:00Z,9512778,24,0,Compton Terrace Amphitheater,"Chandler, AZ",4.3043,1995 Fall Tour,1995-fall-tour
+637,1995-10-08T00:00:00Z,8032551,24,0,"Adams Fieldhouse, University of Montana","Missoula, MT",3.2121,1995 Fall Tour,1995-fall-tour
+636,1995-10-07T00:00:00Z,8583290,24,4,Spokane Opera House,"Spokane, WA",4.0732,1995 Fall Tour,1995-fall-tour
+635,1995-10-06T00:00:00Z,8838922,24,0,The Orpheum,"Vancouver, British Columbia Canada",3.3939,1995 Fall Tour,1995-fall-tour
+634,1995-10-05T00:00:00Z,8847412,24,2,Memorial Coliseum,"Portland, OR",3.6552,1995 Fall Tour,1995-fall-tour
+633,1995-10-03T00:00:00Z,8711132,24,2,Seattle Center Arena,"Seattle, WA",2.6552,1995 Fall Tour,1995-fall-tour
+632,1995-10-02T00:00:00Z,8739083,24,2,Seattle Center Arena,"Seattle, WA",3.3214,1995 Fall Tour,1995-fall-tour
+631,1995-09-30T00:00:00Z,7918681,24,7,Shoreline Amphitheatre,"Mountain View, CA",3.6047,1995 Fall Tour,1995-fall-tour
+630,1995-09-29T00:00:00Z,7794729,24,4,Greek Theatre,"Los Angeles, CA",2.7353,1995 Fall Tour,1995-fall-tour
+629,1995-09-28T00:00:00Z,7435285,24,2,"Summer Pops, Embarcadero Center","San Diego, CA",2.3056,1995 Fall Tour,1995-fall-tour
+628,1995-09-27T00:00:00Z,8008541,24,1,Cal Expo Amphitheater,"Sacramento, CA",2.8108,1995 Fall Tour,1995-fall-tour
+627,1995-07-13T00:00:00Z,239125,71,0,Ed Sullivan Theater,"New York, NY",3.4545,Not Part of a Tour,not-part-of-a-tour
+590,1995-07-03T00:00:00Z,10353816,26,6,Summer Stage at Sugarbush,"North Fayston, VT",4.2449,1995 Summer Tour,1995-summer-tour
+589,1995-07-02T00:00:00Z,9543132,26,8,Summer Stage at Sugarbush,"North Fayston, VT",3.9091,1995 Summer Tour,1995-summer-tour
+626,1995-07-01T00:00:00Z,9427018,26,14,Xfinity Center,"Mansfield, MA",4.1364,1995 Summer Tour,1995-summer-tour
+1734,1995-06-30T00:00:00Z,9592008,26,8,Xfinity Center,"Mansfield, MA",3.7805,1995 Summer Tour,1995-summer-tour
+624,1995-06-29T00:00:00Z,9378351,26,2,Nikon at Jones Beach Theater,"Wantagh, NY",3.7805,1995 Summer Tour,1995-summer-tour
+623,1995-06-28T00:00:00Z,9571528,26,2,Nikon at Jones Beach Theater,"Wantagh, NY",3.7045,1995 Summer Tour,1995-summer-tour
+622,1995-06-26T00:00:00Z,9298336,26,7,Saratoga Performing Arts Center,"Saratoga Springs, NY",4.5,1995 Summer Tour,1995-summer-tour
+621,1995-06-25T00:00:00Z,9219813,26,14,The Mann Center for the Performing Arts,"Philadelphia, PA",4.26,1995 Summer Tour,1995-summer-tour
+620,1995-06-24T00:00:00Z,9409305,26,2,The Mann Center for the Performing Arts,"Philadelphia, PA",3.6154,1995 Summer Tour,1995-summer-tour
+619,1995-06-23T00:00:00Z,8597264,26,5,Waterloo Village,"Stanhope, NJ",3.9815,1995 Summer Tour,1995-summer-tour
+618,1995-06-22T00:00:00Z,8500951,26,7,CMAC,"Canandaigua, NY",4.3855,1995 Summer Tour,1995-summer-tour
+617,1995-06-20T00:00:00Z,8743786,26,7,Blossom Music Center,"Cuyahoga Falls, OH",4.3134,1995 Summer Tour,1995-summer-tour
+616,1995-06-19T00:00:00Z,10480143,26,6,Klipsch Music Center,"Noblesville, IN",4.2154,1995 Summer Tour,1995-summer-tour
+615,1995-06-17T00:00:00Z,9743280,26,4,Nissan Pavilion at Stone Ridge,"Bristow, VA",4.1509,1995 Summer Tour,1995-summer-tour
+614,1995-06-16T00:00:00Z,9132722,26,4,Walnut Creek Amphitheater,"Raleigh, NC",4.36,1995 Summer Tour,1995-summer-tour
+613,1995-06-15T00:00:00Z,9892311,26,12,Lakewood Amphitheatre,"Atlanta, GA",4.381,1995 Summer Tour,1995-summer-tour
+612,1995-06-14T00:00:00Z,8700135,26,9,Mud Island Amphitheater,"Memphis, TN",4.3067,1995 Summer Tour,1995-summer-tour
+611,1995-06-13T00:00:00Z,9319603,26,2,Riverport Amphitheater,"Maryland Heights, MO",3.0556,1995 Summer Tour,1995-summer-tour
+610,1995-06-10T00:00:00Z,8385489,26,5,Red Rocks Amphitheatre,"Morrison, CO",4.2069,1995 Summer Tour,1995-summer-tour
+609,1995-06-09T00:00:00Z,8506695,26,4,Red Rocks Amphitheatre,"Morrison, CO",3.7407,1995 Summer Tour,1995-summer-tour
+608,1995-06-08T00:00:00Z,7933677,26,2,The Delta Center,"Salt Lake City, UT",3.8182,1995 Summer Tour,1995-summer-tour
+607,1995-06-07T00:00:00Z,8984215,26,0,Boise State University Pavilion,"Boise, ID",3.5152,1995 Summer Tour,1995-summer-tour
+588,1995-05-16T00:00:00Z,6182974,71,9,Lowell Memorial Auditorium,"Lowell, MA",4.1746,Not Part of a Tour,not-part-of-a-tour
+215,1994-12-31T00:00:00Z,10130051,21,8,Boston Garden,"Boston, MA",4.1071,1994-1995 New Years Run,1994-1995-new-years-run
+216,1994-12-30T00:00:00Z,8466075,21,4,Madison Square Garden,"New York, NY",3.6667,1994-1995 New Years Run,1994-1995-new-years-run
+214,1994-12-29T00:00:00Z,9063288,21,12,Providence Civic Center,"Providence, RI",4.67,1994-1995 New Years Run,1994-1995-new-years-run
+213,1994-12-28T00:00:00Z,9077447,21,6,Civic Center,"Philadelphia, PA",4.06,1994-1995 New Years Run,1994-1995-new-years-run
+252,1994-12-10T00:00:00Z,8572785,20,2,Civic Auditorium,"Santa Monica, CA",4.1304,1994 Fall Tour,1994-fall-tour
+259,1994-12-09T00:00:00Z,9812375,20,2,Mesa Amphitheatre,"Mesa, AZ",4.3902,1994 Fall Tour,1994-fall-tour
+258,1994-12-08T00:00:00Z,8847567,20,2,Spreckels Theatre,"San Diego, CA",4.2162,1994 Fall Tour,1994-fall-tour
+257,1994-12-07T00:00:00Z,8016563,20,0,Spreckels Theatre,"San Diego, CA",3.75,1994 Fall Tour,1994-fall-tour
+260,1994-12-06T00:00:00Z,8836701,20,1,"UCSB Events Center, University of California, Santa Barbara","Goleta, CA",4.0769,1994 Fall Tour,1994-fall-tour
+256,1994-12-04T00:00:00Z,8975385,20,2,"Acker Gym, Chico State University","Chico, CA",3.8889,1994 Fall Tour,1994-fall-tour
+255,1994-12-03T00:00:00Z,7032214,20,5,Event Center,"San Jose, CA",3.9714,1994 Fall Tour,1994-fall-tour
+254,1994-12-02T00:00:00Z,7689376,20,6,"Recreation Hall, University of California, Davis","Davis, CA",4.069,1994 Fall Tour,1994-fall-tour
+253,1994-12-01T00:00:00Z,8511088,20,3,Salem Armory,"Salem, OR",4.4494,1994 Fall Tour,1994-fall-tour
+249,1994-11-30T00:00:00Z,8459049,20,2,"Campus Recreation Center, Evergreen College","Olympia, WA",4.5806,1994 Fall Tour,1994-fall-tour
+248,1994-11-28T00:00:00Z,7122156,20,0,"Field House, Montana State University","Bozeman, MT",4.3387,1994 Fall Tour,1994-fall-tour
+247,1994-11-26T00:00:00Z,8012096,20,1,The Orpheum Theatre,"Minneapolis, MN",4.541,1994 Fall Tour,1994-fall-tour
+246,1994-11-25T00:00:00Z,8748119,20,6,"UIC Pavilion, University of Illinois","Chicago, IL",4.3371,1994 Fall Tour,1994-fall-tour
+245,1994-11-23T00:00:00Z,8897150,20,2,Fox Theatre,"St. Louis, MO",4.449,1994 Fall Tour,1994-fall-tour
+244,1994-11-22T00:00:00Z,8677849,20,5,"Jesse Auditorium, University of Missouri","Columbia, MO",4.6706,1994 Fall Tour,1994-fall-tour
+242,1994-11-20T00:00:00Z,9293089,20,2,Dane County Exposition Center,"Madison, WI",4.3404,1994 Fall Tour,1994-fall-tour
+241,1994-11-19T00:00:00Z,8259734,20,0,"IU Auditorium, Indiana University","Bloomington, IN",4.2,1994 Fall Tour,1994-fall-tour
+240,1994-11-18T00:00:00Z,8599144,20,1,"MSU Auditorium, Michigan State University","East Lansing, MI",4.2564,1994 Fall Tour,1994-fall-tour
+239,1994-11-17T00:00:00Z,10453579,20,0,Hara Arena,"Dayton, OH",4.2128,1994 Fall Tour,1994-fall-tour
+1624,1994-11-16T00:00:00Z,10144679,20,1,"Hill Auditorium, University of Michigan","Ann Arbor, MI",4.4667,1994 Fall Tour,1994-fall-tour
+238,1994-11-14T00:00:00Z,9306515,20,0,DeVos Hall,"Grand Rapids, MI",4.2432,1994 Fall Tour,1994-fall-tour
+237,1994-11-13T00:00:00Z,8614791,20,0,Warner Theatre,"Erie, PA",3.5938,1994 Fall Tour,1994-fall-tour
+236,1994-11-12T00:00:00Z,10899723,20,3,"MAC Center, Kent State University","Kent, OH",4.6429,1994 Fall Tour,1994-fall-tour
+251,1994-11-04T00:00:00Z,8314490,20,2,War Memorial at Oncenter,"Syracuse, NY",4.2826,1994 Fall Tour,1994-fall-tour
+1735,1994-11-03T00:00:00Z,8503458,20,3,"Mullins Center, University of Massachusetts","Amherst, MA",3.7333,1994 Fall Tour,1994-fall-tour
+243,1994-11-02T00:00:00Z,9892911,20,3,Bangor Auditorium,"Bangor, ME",4.413,1994 Fall Tour,1994-fall-tour
+235,1994-10-31T00:00:00Z,14614074,20,23,Glens Falls Civic Center,"Glens Falls, NY",4.6827,1994 Fall Tour,1994-fall-tour
+234,1994-10-29T00:00:00Z,9150669,20,13,Spartanburg Memorial Auditorium,"Spartanburg, SC",4.5806,1994 Fall Tour,1994-fall-tour
+233,1994-10-28T00:00:00Z,7984482,20,1,Galliard Auditorium,"Charleston, SC",3.9688,1994 Fall Tour,1994-fall-tour
+232,1994-10-27T00:00:00Z,8020375,20,1,"University Hall, University of Virginia","Charlottesville, VA",3.8889,1994 Fall Tour,1994-fall-tour
+231,1994-10-26T00:00:00Z,9702478,20,3,"Varsity Gym, Appalachian State University","Boone, NC",4.0,1994 Fall Tour,1994-fall-tour
+230,1994-10-25T00:00:00Z,8856765,20,2,Atlanta Civic Center,"Atlanta, GA",4.1724,1994 Fall Tour,1994-fall-tour
+229,1994-10-23T00:00:00Z,9260064,20,3,"Band Shell, University of Florida","Gainesville, FL",4.34,1994 Fall Tour,1994-fall-tour
+228,1994-10-22T00:00:00Z,8575399,20,1,The Edge Night Club,"Orlando, FL",4.0,1994 Fall Tour,1994-fall-tour
+227,1994-10-21T00:00:00Z,8940278,20,1,Sunrise Musical Theatre,"Sunrise, FL",3.8182,1994 Fall Tour,1994-fall-tour
+226,1994-10-20T00:00:00Z,8437603,20,2,Mahaffey Theatre,"St. Petersburg, FL",3.8667,1994 Fall Tour,1994-fall-tour
+1837,1994-10-18T00:00:00Z,9400191,20,2,Vanderbilt University Memorial Gym,"Nashville, TN",4.5313,1994 Fall Tour,1994-fall-tour
+225,1994-10-16T00:00:00Z,7907763,20,0,Soldiers and Sailors Memorial Auditorium,"Chattanooga, TN",3.6765,1994 Fall Tour,1994-fall-tour
+224,1994-10-15T00:00:00Z,8329198,20,2,Oak Mountain Amphitheatre,"Pelham, AL",4.0833,1994 Fall Tour,1994-fall-tour
+223,1994-10-14T00:00:00Z,10253296,20,1,"McAlister Auditorium, Tulane University","New Orleans, LA",3.9744,1994 Fall Tour,1994-fall-tour
+222,1994-10-13T00:00:00Z,7669081,20,1,University of Mississippi,"Oxford, MS",3.7308,1994 Fall Tour,1994-fall-tour
+221,1994-10-12T00:00:00Z,9755378,20,0,Orpheum Theatre,"Memphis, TN",4.0385,1994 Fall Tour,1994-fall-tour
+220,1994-10-10T00:00:00Z,9619643,20,0,Palace Theatre,"Louisville, KY",3.8261,1994 Fall Tour,1994-fall-tour
+219,1994-10-09T00:00:00Z,8257072,20,0,A. J. Palumbo Center,"Pittsburgh, PA",3.7241,1994 Fall Tour,1994-fall-tour
+218,1994-10-08T00:00:00Z,9718281,20,2,"Patriot Center, George Mason University","Fairfax, VA",4.3469,1994 Fall Tour,1994-fall-tour
+217,1994-10-07T00:00:00Z,9342198,20,1,"Stabler Arena, Lehigh University","Bethlehem, PA",3.6765,1994 Fall Tour,1994-fall-tour
+212,1994-07-16T00:00:00Z,9228775,23,8,Summer Stage at Sugarbush,"North Fayston, VT",4.6918,1994 Summer Tour,1994-summer-tour
+211,1994-07-15T00:00:00Z,8633807,23,1,Nikon at Jones Beach Theater,"Wantagh, NY",4.3333,1994 Summer Tour,1994-summer-tour
+210,1994-07-14T00:00:00Z,9876274,23,2,CMAC,"Canandaigua, NY",4.1667,1994 Summer Tour,1994-summer-tour
+209,1994-07-13T00:00:00Z,8977007,23,10,Big Birch Concert Pavilion,"Patterson, NY",4.6593,1994 Summer Tour,1994-summer-tour
+208,1994-07-10T00:00:00Z,8859119,23,2,Saratoga Performing Arts Center,"Saratoga Springs, NY",4.2558,1994 Summer Tour,1994-summer-tour
+207,1994-07-09T00:00:00Z,9978541,23,5,Xfinity Center,"Mansfield, MA",3.8293,1994 Summer Tour,1994-summer-tour
+206,1994-07-08T00:00:00Z,10610678,23,39,Xfinity Center,"Mansfield, MA",4.6935,1994 Summer Tour,1994-summer-tour
+205,1994-07-06T00:00:00Z,9199413,23,2,Theatre St. Denis,"Montréal, Québec, Canada",4.5893,1994 Summer Tour,1994-summer-tour
+204,1994-07-05T00:00:00Z,9169816,23,0,Congress Center,"Ottawa, Ontario, Canada",4.2,1994 Summer Tour,1994-summer-tour
+203,1994-07-03T00:00:00Z,9579835,23,3,The Ballpark,"Old Orchard Beach, ME",4.4091,1994 Summer Tour,1994-summer-tour
+202,1994-07-02T00:00:00Z,8587756,23,5,PNC Bank Arts Center,"Holmdel, NJ",4.2075,1994 Summer Tour,1994-summer-tour
+201,1994-07-01T00:00:00Z,10181668,23,5,The Mann Center for the Performing Arts,"Philadelphia, PA",4.0256,1994 Summer Tour,1994-summer-tour
+200,1994-06-30T00:00:00Z,9835991,23,1,Classic Amphitheater,"Richmond, VA",4.4167,1994 Summer Tour,1994-summer-tour
+199,1994-06-29T00:00:00Z,8573311,23,0,Walnut Creek Amphitheater,"Raleigh, NC",3.9286,1994 Summer Tour,1994-summer-tour
+198,1994-06-26T00:00:00Z,10045752,23,20,Municipal Auditorium,"Charleston, WV",4.6667,1994 Summer Tour,1994-summer-tour
+197,1994-06-25T00:00:00Z,9306931,23,1,Nautica Stage,"Cleveland, OH",3.8077,1994 Summer Tour,1994-summer-tour
+196,1994-06-24T00:00:00Z,9001612,23,1,Murat Theatre,"Indianapolis, IN",4.1111,1994 Summer Tour,1994-summer-tour
+195,1994-06-23T00:00:00Z,8304511,23,0,Phoenix Plaza Theatre,"Pontiac, MI",2.9167,1994 Summer Tour,1994-summer-tour
+194,1994-06-22T00:00:00Z,8390139,23,13,Veterans Memorial Auditorium,"Columbus, OH",4.6852,1994 Summer Tour,1994-summer-tour
+193,1994-06-21T00:00:00Z,7832294,23,2,Cincinnati Music Hall,"Cincinnati, OH",4.303,1994 Summer Tour,1994-summer-tour
+1622,1994-06-19T00:00:00Z,7852565,23,2,State Theater,"Kalamazoo, MI",4.1212,1994 Summer Tour,1994-summer-tour
+1621,1994-06-18T00:00:00Z,10063622,23,11,"UIC Pavilion, University of Illinois","Chicago, IL",4.6975,1994 Summer Tour,1994-summer-tour
+192,1994-06-17T00:00:00Z,8855432,23,16,Eagles Ballroom,"Milwaukee, WI",4.6891,1994 Summer Tour,1994-summer-tour
+191,1994-06-16T00:00:00Z,8653140,23,2,State Theatre,"Minneapolis, MN",4.1765,1994 Summer Tour,1994-summer-tour
+190,1994-06-14T00:00:00Z,8604682,23,2,Civic Center,"Des Moines, IA",4.2778,1994 Summer Tour,1994-summer-tour
+189,1994-06-13T00:00:00Z,8602643,23,2,Memorial Hall,"Kansas City, KS",4.275,1994 Summer Tour,1994-summer-tour
+1697,1994-06-11T00:00:00Z,8942158,23,28,Red Rocks Amphitheatre,"Morrison, CO",4.6824,1994 Summer Tour,1994-summer-tour
+187,1994-06-10T00:00:00Z,8385385,23,2,Red Rocks Amphitheatre,"Morrison, CO",3.9706,1994 Summer Tour,1994-summer-tour
+186,1994-06-09T00:00:00Z,7472823,23,0,Triad Amphitheater,"Salt Lake City, UT",3.5,1994 Summer Tour,1994-summer-tour
+185,1994-05-29T00:00:00Z,10019710,22,3,Laguna Seca Raceway,"Monterey, CA",4.303,1994 Spring Tour,1994-spring-tour
+184,1994-05-28T00:00:00Z,8941269,22,3,Laguna Seca Raceway,"Monterey, CA",4.3922,1994 Spring Tour,1994-spring-tour
+183,1994-05-27T00:00:00Z,9282975,22,4,Warfield Theatre,"San Francisco, CA",4.4286,1994 Spring Tour,1994-spring-tour
+182,1994-05-26T00:00:00Z,8387839,22,1,Warfield Theatre,"San Francisco, CA",3.7778,1994 Spring Tour,1994-spring-tour
+181,1994-05-25T00:00:00Z,9422263,22,1,Warfield Theatre,"San Francisco, CA",3.7083,1994 Spring Tour,1994-spring-tour
+180,1994-05-23T00:00:00Z,9347006,22,0,Civic Auditorium,"Portland, OR",3.8846,1994 Spring Tour,1994-spring-tour
+179,1994-05-22T00:00:00Z,8687518,22,1,Vogue Theatre,"Vancouver, British Columbia, Canada",4.2857,1994 Spring Tour,1994-spring-tour
+178,1994-05-21T00:00:00Z,8469002,22,2,The Moore Theatre,"Seattle, WA",4.0,1994 Spring Tour,1994-spring-tour
+177,1994-05-20T00:00:00Z,8084192,22,1,"Campus Recreation Center, Evergreen College","Olympia, WA",3.8182,1994 Spring Tour,1994-spring-tour
+176,1994-05-19T00:00:00Z,8461034,22,1,"Silva Concert Hall, Hult Center for the Performing Arts","Eugene, OR",3.9643,1994 Spring Tour,1994-spring-tour
+175,1994-05-17T00:00:00Z,7659439,22,0,The Arlington Theatre,"Santa Barbara, CA",3.6923,1994 Spring Tour,1994-spring-tour
+174,1994-05-16T00:00:00Z,8288914,22,5,The Wiltern Theatre,"Los Angeles, CA",4.3125,1994 Spring Tour,1994-spring-tour
+173,1994-05-14T00:00:00Z,7775532,22,1,"Montezuma Hall, San Diego State University","San Diego, CA",3.913,1994 Spring Tour,1994-spring-tour
+172,1994-05-13T00:00:00Z,8958304,22,1,Hayden Square,"Tempe, AZ",4.3158,1994 Spring Tour,1994-spring-tour
+171,1994-05-12T00:00:00Z,9119504,22,1,Buena Vista Theater,"Tucson, AZ",3.9615,1994 Spring Tour,1994-spring-tour
+170,1994-05-10T00:00:00Z,8616022,22,0,Paolo Soleri Amphitheatre,"Santa Fe, NM",4.2564,1994 Spring Tour,1994-spring-tour
+169,1994-05-08T00:00:00Z,8577985,22,0,The Backyard,"Bee Cave, TX",3.5667,1994 Spring Tour,1994-spring-tour
+1806,1994-05-07T00:00:00Z,8700395,22,11,The Bomb Factory,"Dallas, TX",4.7033,1994 Spring Tour,1994-spring-tour
+1814,1994-05-06T00:00:00Z,8067239,22,0,Tower Theater,"Houston, TX",3.4286,1994 Spring Tour,1994-spring-tour
+1620,1994-05-04T00:00:00Z,8488698,22,2,State Palace Theatre,"New Orleans, LA",4.2143,1994 Spring Tour,1994-spring-tour
+166,1994-05-03T00:00:00Z,8719987,22,2,Starwood Ampitheater,"Antioch, TN",4.2258,1994 Spring Tour,1994-spring-tour
+165,1994-05-02T00:00:00Z,8683651,22,3,Five Points South Music Hall,"Birmingham, AL",4.1071,1994 Spring Tour,1994-spring-tour
+156,1994-04-30T00:00:00Z,8411271,22,1,The Edge Night Club,"Orlando, FL",4.25,1994 Spring Tour,1994-spring-tour
+155,1994-04-29T00:00:00Z,10033398,22,2,Boatyard Village Pavilion,"Clearwater, FL",4.1786,1994 Spring Tour,1994-spring-tour
+154,1994-04-28T00:00:00Z,5202768,22,0,SunFest,"West Palm Beach, FL",3.1579,1994 Spring Tour,1994-spring-tour
+153,1994-04-26T00:00:00Z,3109825,22,0,Purple Dragon Recording Studios,"Atlanta, GA",3.1875,1994 Spring Tour,1994-spring-tour
+152,1994-04-25T00:00:00Z,7971368,22,0,Knoxville Civic Coliseum,"Knoxville, TN",3.64,1994 Spring Tour,1994-spring-tour
+1737,1994-04-24T00:00:00Z,8048691,22,3,Grady Cole Center,"Charlotte, NC",4.2333,1994 Spring Tour,1994-spring-tour
+150,1994-04-23T00:00:00Z,8817162,22,0,Variety Playhouse,"Atlanta, GA",4.2121,1994 Spring Tour,1994-spring-tour
+149,1994-04-22T00:00:00Z,8975750,22,2,Township Auditorium,"Columbia, SC",4.3667,1994 Spring Tour,1994-spring-tour
+148,1994-04-21T00:00:00Z,9336294,22,3,Lawrence Joel Veterans Memorial Coliseum,"Winston-Salem, NC",4.1613,1994 Spring Tour,1994-spring-tour
+147,1994-04-20T00:00:00Z,7718584,22,1,Virginia Horse Center,"Lexington, VA",3.7143,1994 Spring Tour,1994-spring-tour
+146,1994-04-18T00:00:00Z,7681777,22,0,"Bob Carpenter Center, University of Delaware","Newark, DE",3.5185,1994 Spring Tour,1994-spring-tour
+145,1994-04-17T00:00:00Z,8312920,22,2,"Patriot Center, George Mason University","Fairfax, VA",3.8378,1994 Spring Tour,1994-spring-tour
+144,1994-04-16T00:00:00Z,9172480,22,2,"Mullins Center, University of Massachusetts","Amherst, MA",3.7742,1994 Spring Tour,1994-spring-tour
+143,1994-04-15T00:00:00Z,7802386,22,3,Beacon Theatre,"New York, NY",4.0294,1994 Spring Tour,1994-spring-tour
+142,1994-04-14T00:00:00Z,8432796,22,3,Beacon Theatre,"New York, NY",3.3,1994 Spring Tour,1994-spring-tour
+1745,1994-04-13T00:00:00Z,9973183,22,1,Beacon Theatre,"New York, NY",3.1667,1994 Spring Tour,1994-spring-tour
+141,1994-04-11T00:00:00Z,8943098,22,2,"Snivley Arena, University of New Hampshire","Durham, NH",3.8148,1994 Spring Tour,1994-spring-tour
+140,1994-04-10T00:00:00Z,8772390,22,1,"Alumni Arena, SUNY Buffalo","Buffalo, NY",4.2439,1994 Spring Tour,1994-spring-tour
+139,1994-04-09T00:00:00Z,8336197,22,2,Broome County Arena,"Binghamton, NY",4.193,1994 Spring Tour,1994-spring-tour
+158,1994-04-08T00:00:00Z,9572126,22,0,"Recreation Hall, Penn State University","State College, PA",4.0208,1994 Spring Tour,1994-spring-tour
+137,1994-04-06T00:00:00Z,8379898,22,1,Concert Hall,"Toronto, Ontario, Canada",3.8,1994 Spring Tour,1994-spring-tour
+136,1994-04-05T00:00:00Z,8550766,22,2,The Metropolis,"Montréal, Québec, Canada",3.5758,1994 Spring Tour,1994-spring-tour
+135,1994-04-04T00:00:00Z,9601071,22,6,The Flynn Theatre,"Burlington, VT",4.1273,1994 Spring Tour,1994-spring-tour
+157,1993-12-31T00:00:00Z,11491476,17,68,DCU Center,"Worcester, MA",4.7172,1993-1994 New Years Run,1993-1994-new-years-run
+367,1993-12-30T00:00:00Z,8708625,17,15,Cross Insurance Arena,"Portland, ME",4.6522,1993-1994 New Years Run,1993-1994-new-years-run
+366,1993-12-29T00:00:00Z,9052134,17,1,New Haven Veterans Memorial Coliseum,"New Haven, CT",3.8974,1993-1994 New Years Run,1993-1994-new-years-run
+365,1993-12-28T00:00:00Z,8737331,17,2,"Bender Arena, American University","Washington, DC",3.875,1993-1994 New Years Run,1993-1994-new-years-run
+358,1993-08-28T00:00:00Z,10853069,18,10,William Randolph Hearst Greek Theatre,"Berkeley, CA",4.4667,1993 Summer Tour,1993-summer-tour
+1738,1993-08-26T00:00:00Z,9446113,18,7,Arlene Schnitzer Concert Hall,"Portland, OR",4.6812,1993 Summer Tour,1993-summer-tour
+364,1993-08-25T00:00:00Z,8885683,18,5,Paramount Theatre,"Seattle, WA",4.1935,1993 Summer Tour,1993-summer-tour
+356,1993-08-24T00:00:00Z,9061199,18,2,Commodore Ballroom,"Vancouver, British Columbia, Canada",4.3824,1993 Summer Tour,1993-summer-tour
+1618,1993-08-21T00:00:00Z,8459915,18,2,Saltair Pavilion,"Salt Lake City, UT",4.4118,1993 Summer Tour,1993-summer-tour
+354,1993-08-20T00:00:00Z,10577086,18,33,Red Rocks Amphitheatre,"Morrison, CO",4.5976,1993 Summer Tour,1993-summer-tour
+353,1993-08-17T00:00:00Z,9896778,18,6,Memorial Hall,"Kansas City, KS",4.4231,1993 Summer Tour,1993-summer-tour
+352,1993-08-16T00:00:00Z,9287080,18,7,American Theater,"St. Louis, MO",4.6197,1993 Summer Tour,1993-summer-tour
+351,1993-08-15T00:00:00Z,9655196,18,6,The Macauley Theater,"Louisville, KY",4.5536,1993 Summer Tour,1993-summer-tour
+350,1993-08-14T00:00:00Z,9973917,18,8,World Music Theatre,"Tinley Park, IL",4.6903,1993 Summer Tour,1993-summer-tour
+349,1993-08-13T00:00:00Z,8746841,18,13,Murat Theatre,"Indianapolis, IN",4.6587,1993 Summer Tour,1993-summer-tour
+348,1993-08-12T00:00:00Z,8881474,18,3,Meadow Brook Music Festival,"Rochester Hills, MI",4.3902,1993 Summer Tour,1993-summer-tour
+347,1993-08-11T00:00:00Z,8863739,18,4,Eastbrook Theatre,"Grand Rapids, MI",4.1282,1993 Summer Tour,1993-summer-tour
+363,1993-08-09T00:00:00Z,8325354,18,3,Concert Hall,"Toronto, Ontario, Canada",3.8889,1993 Summer Tour,1993-summer-tour
+362,1993-08-08T00:00:00Z,9750046,18,1,Nautica Stage,"Cleveland, OH",4.1143,1993 Summer Tour,1993-summer-tour
+1797,1993-08-07T00:00:00Z,8763195,18,2,Darien Lake Performing Arts Center,"Darien Center, NY",4.4405,1993 Summer Tour,1993-summer-tour
+360,1993-08-06T00:00:00Z,8503301,18,8,Cincinnati Zoo Peacock Pavilion,"Cincinnati, OH",4.1042,1993 Summer Tour,1993-summer-tour
+359,1993-08-03T00:00:00Z,8428985,18,0,Bayfront Park Amphitheater,"Miami, FL",3.0,1993 Summer Tour,1993-summer-tour
+355,1993-08-02T00:00:00Z,7422276,18,2,Ritz Theatre,"Tampa, FL",4.3878,1993 Summer Tour,1993-summer-tour
+346,1993-07-31T00:00:00Z,8394109,18,1,Masquerade Music Park,"Atlanta, GA",4.125,1993 Summer Tour,1993-summer-tour
+345,1993-07-30T00:00:00Z,8889993,18,0,Starwood Ampitheater,"Antioch, TN",4.1538,1993 Summer Tour,1993-summer-tour
+344,1993-07-29T00:00:00Z,8694569,18,0,Tennessee Theatre,"Knoxville, TN",3.4737,1993 Summer Tour,1993-summer-tour
+343,1993-07-28T00:00:00Z,8166191,18,0,Grady Cole Center,"Charlotte, NC",3.4286,1993 Summer Tour,1993-summer-tour
+342,1993-07-27T00:00:00Z,3619214,18,0,Classic Amphitheater,"Richmond, VA",3.3158,1993 Summer Tour,1993-summer-tour
+341,1993-07-25T00:00:00Z,8459938,18,1,Waterloo Village,"Stanhope, NJ",4.0313,1993 Summer Tour,1993-summer-tour
+340,1993-07-24T00:00:00Z,9513586,18,5,Xfinity Center,"Mansfield, MA",4.1591,1993 Summer Tour,1993-summer-tour
+339,1993-07-23T00:00:00Z,7980566,18,2,Nikon at Jones Beach Theater,"Wantagh, NY",4.0357,1993 Summer Tour,1993-summer-tour
+338,1993-07-22T00:00:00Z,7929884,18,3,Stowe Performing Arts Center,"Stowe, VT",3.2857,1993 Summer Tour,1993-summer-tour
+337,1993-07-21T00:00:00Z,4728947,18,1,Orange County Fairgrounds,"Middletown, NY",2.5,1993 Summer Tour,1993-summer-tour
+336,1993-07-18T00:00:00Z,9045682,18,0,IC Light Amphitheater,"Pittsburgh, PA",3.6667,1993 Summer Tour,1993-summer-tour
+335,1993-07-17T00:00:00Z,8900805,18,1,The Filene Center at Wolf Trap,"Vienna, VA",3.7241,1993 Summer Tour,1993-summer-tour
+334,1993-07-16T00:00:00Z,8444972,18,2,The Mann Center for the Performing Arts,"Philadelphia, PA",3.8788,1993 Summer Tour,1993-summer-tour
+333,1993-07-15T00:00:00Z,8744150,18,0,Cayuga County Fairgrounds,"Weedsport, NY",4.0714,1993 Summer Tour,1993-summer-tour
+331,1993-05-30T00:00:00Z,5092231,71,3,Laguna Seca Raceway,"Monterey, CA",3.7333,Not Part of a Tour,not-part-of-a-tour
+330,1993-05-29T00:00:00Z,4787306,71,2,Laguna Seca Raceway,"Monterey, CA",3.5625,Not Part of a Tour,not-part-of-a-tour
+329,1993-05-08T00:00:00Z,9904638,19,12,"Field House, University of New Hampshire","Durham, NH",4.6929,1993 Winter/Spring Tour,1993-winter-spring-tour
+328,1993-05-07T00:00:00Z,9623171,19,2,Bangor Auditorium,"Bangor, ME",3.7826,1993 Winter/Spring Tour,1993-winter-spring-tour
+327,1993-05-06T00:00:00Z,10167876,19,0,Palace Theatre,"Albany, NY",4.2895,1993 Winter/Spring Tour,1993-winter-spring-tour
+326,1993-05-05T00:00:00Z,8741496,19,1,Palace Theatre,"Albany, NY",4.4565,1993 Winter/Spring Tour,1993-winter-spring-tour
+332,1993-05-03T00:00:00Z,9620977,19,1,State Theatre,"New Brunswick, NJ",4.2619,1993 Winter/Spring Tour,1993-winter-spring-tour
+1739,1993-05-02T00:00:00Z,9160779,19,0,Tower Theatre,"Upper Darby, PA",3.75,1993 Winter/Spring Tour,1993-winter-spring-tour
+324,1993-05-01T00:00:00Z,9560741,19,0,Tower Theatre,"Upper Darby, PA",3.625,1993 Winter/Spring Tour,1993-winter-spring-tour
+320,1993-04-30T00:00:00Z,9567715,19,4,"Sports Center, University of Hartford","West Hartford, CT",3.4667,1993 Winter/Spring Tour,1993-winter-spring-tour
+264,1993-04-29T00:00:00Z,8663145,19,0,Le Spectrum,"Montréal, Québec, Canada",4.1739,1993 Winter/Spring Tour,1993-winter-spring-tour
+263,1993-04-27T00:00:00Z,5285774,19,0,Concert Hall,"Toronto, Ontario, Canada",3.8667,1993 Winter/Spring Tour,1993-winter-spring-tour
+319,1993-04-25T00:00:00Z,9363359,19,2,"Kuhl Gym, SUNY Geneseo","Geneseo, NY",4.1429,1993 Winter/Spring Tour,1993-winter-spring-tour
+1842,1993-04-24T00:00:00Z,9409361,19,0,"Cheel Arena, Clarkson University","Potsdam, NY",3.3529,1993 Winter/Spring Tour,1993-winter-spring-tour
+317,1993-04-23T00:00:00Z,9766793,19,1,"Cotterell Court, Reid Athletic Center, Colgate University","Hamilton, NY",3.7917,1993 Winter/Spring Tour,1993-winter-spring-tour
+316,1993-04-22T00:00:00Z,10002260,19,0,The Agora Theatre,"Cleveland, OH",3.75,1993 Winter/Spring Tour,1993-winter-spring-tour
+314,1993-04-21T00:00:00Z,9740723,19,1,Newport Music Hall,"Columbus, OH",4.0,1993 Winter/Spring Tour,1993-winter-spring-tour
+313,1993-04-20T00:00:00Z,9137660,19,1,Newport Music Hall,"Columbus, OH",3.9565,1993 Winter/Spring Tour,1993-winter-spring-tour
+312,1993-04-18T00:00:00Z,8908826,19,1,Michigan Theater,"Ann Arbor, MI",4.1071,1993 Winter/Spring Tour,1993-winter-spring-tour
+311,1993-04-17T00:00:00Z,10169758,19,1,Michigan Theater,"Ann Arbor, MI",4.1379,1993 Winter/Spring Tour,1993-winter-spring-tour
+310,1993-04-16T00:00:00Z,9433860,19,2,The Macauley Theater,"Louisville, KY",3.9091,1993 Winter/Spring Tour,1993-winter-spring-tour
+309,1993-04-14T00:00:00Z,9722670,19,3,American Theater,"St. Louis, MO",4.2667,1993 Winter/Spring Tour,1993-winter-spring-tour
+308,1993-04-13T00:00:00Z,8386403,19,0,Memorial Hall,"Kansas City, KS",3.7778,1993 Winter/Spring Tour,1993-winter-spring-tour
+307,1993-04-12T00:00:00Z,8698384,19,1,"IMU Ballroom, University of Iowa","Iowa City, IA",3.8333,1993 Winter/Spring Tour,1993-winter-spring-tour
+305,1993-04-10T00:00:00Z,8377624,19,2,Aragon Entertainment Center,"Chicago, IL",3.8276,1993 Winter/Spring Tour,1993-winter-spring-tour
+323,1993-04-09T00:00:00Z,9167439,19,1,State Theatre,"Minneapolis, MN",3.7,1993 Winter/Spring Tour,1993-winter-spring-tour
+322,1993-04-05T00:00:00Z,9895419,19,2,HUB Ballroom,"Seattle, WA",3.4667,1993 Winter/Spring Tour,1993-winter-spring-tour
+321,1993-04-03T00:00:00Z,6291853,19,0,86th Street Music Hall,"Vancouver, British Columbia, Canada",4.3158,1993 Winter/Spring Tour,1993-winter-spring-tour
+315,1993-04-02T00:00:00Z,9123083,19,1,Mt. Baker Theatre,"Bellingham, WA",3.5455,1993 Winter/Spring Tour,1993-winter-spring-tour
+306,1993-04-01T00:00:00Z,9224906,19,0,Starry Night,"Portland, OR",4.0,1993 Winter/Spring Tour,1993-winter-spring-tour
+300,1993-03-31T00:00:00Z,10358024,19,1,Starry Night,"Portland, OR",3.7727,1993 Winter/Spring Tour,1993-winter-spring-tour
+299,1993-03-30T00:00:00Z,9629205,19,5,Hilton Ballroom,"Eugene, OR",4.3243,1993 Winter/Spring Tour,1993-winter-spring-tour
+298,1993-03-28T00:00:00Z,10085540,19,2,"East Gym, Humboldt State University","Arcata, CA",4.0714,1993 Winter/Spring Tour,1993-winter-spring-tour
+297,1993-03-27T00:00:00Z,9786174,19,1,Warfield Theatre,"San Francisco, CA",4.1667,1993 Winter/Spring Tour,1993-winter-spring-tour
+296,1993-03-26T00:00:00Z,10117330,19,2,Warfield Theatre,"San Francisco, CA",3.8182,1993 Winter/Spring Tour,1993-winter-spring-tour
+295,1993-03-25T00:00:00Z,9643807,19,1,Santa Cruz Civic Auditorium,"Santa Cruz, CA",4.08,1993 Winter/Spring Tour,1993-winter-spring-tour
+294,1993-03-24T00:00:00Z,9809479,19,0,Luther Burbank Center for the Arts,"Santa Rosa, CA",3.7059,1993 Winter/Spring Tour,1993-winter-spring-tour
+293,1993-03-22T00:00:00Z,10428186,19,27,Crest Theatre,"Sacramento, CA",4.6639,1993 Winter/Spring Tour,1993-winter-spring-tour
+261,1993-03-21T00:00:00Z,11219513,19,1,Ventura Theatre,"Ventura, CA",3.4615,1993 Winter/Spring Tour,1993-winter-spring-tour
+291,1993-03-19T00:00:00Z,9898843,19,0,The Greek Theatre,"Redlands, CA",3.9545,1993 Winter/Spring Tour,1993-winter-spring-tour
+290,1993-03-18T00:00:00Z,10078852,19,1,The Palace,"Hollywood, CA",3.7273,1993 Winter/Spring Tour,1993-winter-spring-tour
+289,1993-03-17T00:00:00Z,9063549,19,0,The Palace,"Hollywood, CA",3.4583,1993 Winter/Spring Tour,1993-winter-spring-tour
+288,1993-03-16T00:00:00Z,9231386,19,2,Celebrity Theatre,"Phoenix, AZ",3.5,1993 Winter/Spring Tour,1993-winter-spring-tour
+287,1993-03-14T00:00:00Z,8995341,19,8,"Paul Wright Gym, Western State College","Gunnison, CO",4.3261,1993 Winter/Spring Tour,1993-winter-spring-tour
+262,1993-03-13T00:00:00Z,9547600,19,3,"Balch Fieldhouse, University of Colorado","Boulder, CO",4.0938,1993 Winter/Spring Tour,1993-winter-spring-tour
+286,1993-03-12T00:00:00Z,9627926,19,1,Dobson Arena,"Vail, CO",3.8846,1993 Winter/Spring Tour,1993-winter-spring-tour
+304,1993-03-09T00:00:00Z,10226310,19,2,Pike's Peak Center,"Colorado Springs, CO",4.12,1993 Winter/Spring Tour,1993-winter-spring-tour
+303,1993-03-06T00:00:00Z,8651105,19,1,Liberty Lunch,"Austin, TX",3.2941,1993 Winter/Spring Tour,1993-winter-spring-tour
+302,1993-03-05T00:00:00Z,8848458,19,1,Deep Ellum Live,"Dallas, TX",4.0,1993 Winter/Spring Tour,1993-winter-spring-tour
+301,1993-03-03T00:00:00Z,8547997,19,1,Tipitina's,"New Orleans, LA",3.8947,1993 Winter/Spring Tour,1993-winter-spring-tour
+292,1993-03-02T00:00:00Z,11654687,19,1,Tipitina's,"New Orleans, LA",3.9545,1993 Winter/Spring Tour,1993-winter-spring-tour
+279,1993-02-27T00:00:00Z,8745587,19,1,Florida Theatre,"Gainesville, FL",3.4783,1993 Winter/Spring Tour,1993-winter-spring-tour
+278,1993-02-26T00:00:00Z,9656503,19,2,Ritz Theatre,"Tampa, FL",3.5882,1993 Winter/Spring Tour,1993-winter-spring-tour
+277,1993-02-25T00:00:00Z,9151765,19,0,The Cameo Theatre,"Miami Beach, FL",4.0435,1993 Winter/Spring Tour,1993-winter-spring-tour
+276,1993-02-23T00:00:00Z,9378142,19,1,The Edge Night Club,"Orlando, FL",3.6667,1993 Winter/Spring Tour,1993-winter-spring-tour
+275,1993-02-22T00:00:00Z,9096385,19,1,The Moon,"Tallahassee, FL",3.25,1993 Winter/Spring Tour,1993-winter-spring-tour
+274,1993-02-21T00:00:00Z,8384418,19,2,Roxy Theatre,"Atlanta, GA",4.1724,1993 Winter/Spring Tour,1993-winter-spring-tour
+273,1993-02-20T00:00:00Z,10708167,19,13,Roxy Theatre,"Atlanta, GA",4.6988,1993 Winter/Spring Tour,1993-winter-spring-tour
+272,1993-02-19T00:00:00Z,10474190,19,4,Roxy Theatre,"Atlanta, GA",4.3088,1993 Winter/Spring Tour,1993-winter-spring-tour
+271,1993-02-18T00:00:00Z,7825243,19,2,Electric Ballroom,"Knoxville, TN",4.0476,1993 Winter/Spring Tour,1993-winter-spring-tour
+270,1993-02-17T00:00:00Z,9448334,19,1,Benton Convention Center,"Winston-Salem, NC",3.4667,1993 Winter/Spring Tour,1993-winter-spring-tour
+269,1993-02-15T00:00:00Z,9914958,19,2,"Memorial Hall, University of North Carolina","Chapel Hill, NC",3.4545,1993 Winter/Spring Tour,1993-winter-spring-tour
+268,1993-02-13T00:00:00Z,9509668,19,1,"Bob Carpenter Center, University of Delaware","Newark, DE",3.6522,1993 Winter/Spring Tour,1993-winter-spring-tour
+267,1993-02-12T00:00:00Z,10708348,19,2,Mid-Hudson Civic Center,"Poughkeepsie, NY",4.35,1993 Winter/Spring Tour,1993-winter-spring-tour
+266,1993-02-11T00:00:00Z,8809248,19,0,Haas Center for the Arts,"Bloomsburg, PA",3.4211,1993 Winter/Spring Tour,1993-winter-spring-tour
+265,1993-02-10T00:00:00Z,10265597,19,1,Smith Opera House,"Geneva, NY",3.4,1993 Winter/Spring Tour,1993-winter-spring-tour
+285,1993-02-09T00:00:00Z,9246013,19,0,Auditorium Theatre,"Rochester, NY",3.3529,1993 Winter/Spring Tour,1993-winter-spring-tour
+284,1993-02-07T00:00:00Z,10543910,19,1,"Lisner Auditorium, George Washington University","Washington, DC",3.8333,1993 Winter/Spring Tour,1993-winter-spring-tour
+283,1993-02-06T00:00:00Z,9789937,19,1,Roseland Ballroom,"New York, NY",3.8621,1993 Winter/Spring Tour,1993-winter-spring-tour
+282,1993-02-05T00:00:00Z,9647540,19,1,Roseland Ballroom,"New York, NY",3.9524,1993 Winter/Spring Tour,1993-winter-spring-tour
+281,1993-02-04T00:00:00Z,9583962,19,3,Providence Performing Arts Center,"Providence, RI",3.7813,1993 Winter/Spring Tour,1993-winter-spring-tour
+280,1993-02-03T00:00:00Z,10469618,19,4,Portland Expo,"Portland, ME",4.303,1993 Winter/Spring Tour,1993-winter-spring-tour
+134,1992-12-31T00:00:00Z,12424022,13,5,"Matthews Arena, Northeastern University","Boston, MA",4.3617,1992-1993 New Years Run,1992-1993-new-years-run
+133,1992-12-30T00:00:00Z,10218475,13,5,Symphony Hall,"Springfield, MA",4.3333,1992-1993 New Years Run,1992-1993-new-years-run
+132,1992-12-29T00:00:00Z,10625280,13,3,Palace Theatre,"New Haven, CT",4.1364,1992-1993 New Years Run,1992-1993-new-years-run
+130,1992-12-28T00:00:00Z,9504236,13,2,Palace Theatre,"New Haven, CT",3.8125,1992-1993 New Years Run,1992-1993-new-years-run
+129,1992-12-13T00:00:00Z,9879511,12,1,Le Spectrum,"Montréal, Québec, Canada",3.75,1992 Fall Tour,1992-fall-tour
+131,1992-12-12T00:00:00Z,9335407,12,7,The Spectrum,"Toronto, Ontario, Canada",4.5,1992 Fall Tour,1992-fall-tour
+126,1992-12-11T00:00:00Z,10102336,12,1,Michigan Theater,"Ann Arbor, MI",4.0625,1992 Fall Tour,1992-fall-tour
+125,1992-12-10T00:00:00Z,9085727,12,1,State Theater,"Kalamazoo, MI",3.5714,1992 Fall Tour,1992-fall-tour
+124,1992-12-08T00:00:00Z,10216908,12,2,Barrymore Theatre,"Madison, WI",3.2308,1992 Fall Tour,1992-fall-tour
+128,1992-12-07T00:00:00Z,9472941,12,2,First Avenue,"Minneapolis, MN",3.6667,1992 Fall Tour,1992-fall-tour
+123,1992-12-06T00:00:00Z,9868460,12,2,The Vic Theatre,"Chicago, IL",4.1,1992 Fall Tour,1992-fall-tour
+127,1992-12-05T00:00:00Z,9234781,12,2,The Vic Theatre,"Chicago, IL",4.25,1992 Fall Tour,1992-fall-tour
+122,1992-12-04T00:00:00Z,11313397,12,1,Mississippi Nights,"St. Louis, MO",3.8,1992 Fall Tour,1992-fall-tour
+121,1992-12-03T00:00:00Z,9577874,12,2,Bogart's,"Cincinnati, OH",4.0,1992 Fall Tour,1992-fall-tour
+120,1992-12-02T00:00:00Z,10174669,12,1,Newport Music Hall,"Columbus, OH",3.4,1992 Fall Tour,1992-fall-tour
+119,1992-11-30T00:00:00Z,9130501,12,0,Metropol,"Pittsburgh, PA",3.6154,1992 Fall Tour,1992-fall-tour
+118,1992-11-28T00:00:00Z,9908664,12,1,The Capitol Theatre,"Port Chester, NY",4.2424,1992 Fall Tour,1992-fall-tour
+117,1992-11-27T00:00:00Z,10738781,12,5,The Capitol Theatre,"Port Chester, NY",4.2593,1992 Fall Tour,1992-fall-tour
+116,1992-11-25T00:00:00Z,9229376,12,2,Keswick Theatre,"Glenside, PA",3.6111,1992 Fall Tour,1992-fall-tour
+115,1992-11-23T00:00:00Z,9975354,12,1,Broome County Forum,"Binghamton, NY",4.0952,1992 Fall Tour,1992-fall-tour
+114,1992-11-22T00:00:00Z,9189017,12,2,"Bailey Hall, Cornell University","Ithaca, NY",4.4242,1992 Fall Tour,1992-fall-tour
+113,1992-11-21T00:00:00Z,9372160,12,2,"Pritchard Gym, SB Sports Complex, SUNY Stony Brook","Stony Brook, NY",4.2069,1992 Fall Tour,1992-fall-tour
+112,1992-11-20T00:00:00Z,9527720,12,2,Palace Theatre,"Albany, NY",4.3889,1992 Fall Tour,1992-fall-tour
+111,1992-11-19T00:00:00Z,10547147,12,7,"Ross Arena, St. Michael's College","Colchester, VT",4.4789,1992 Fall Tour,1992-fall-tour
+110,1992-10-30T00:00:00Z,4476135,16,6,Boston Garden,"Boston, MA",3.7778,1992 Summer U.S. Tour,1992-summer-u-s-tour
+109,1992-08-30T00:00:00Z,2366146,16,0,Cal Expo Amphitheater,"Sacramento, CA",3.5714,1992 Summer U.S. Tour,1992-summer-u-s-tour
+108,1992-08-29T00:00:00Z,2498822,16,2,Shoreline Amphitheatre,"Mountain View, CA",3.5333,1992 Summer U.S. Tour,1992-summer-u-s-tour
+107,1992-08-28T00:00:00Z,1138912,16,1,Concord Pavilion,"Concord, CA",3.3333,1992 Summer U.S. Tour,1992-summer-u-s-tour
+106,1992-08-25T00:00:00Z,2536673,16,1,The Downs,"Santa Fe, NM",2.8,1992 Summer U.S. Tour,1992-summer-u-s-tour
+105,1992-08-19T00:00:00Z,2938828,16,2,Pima County Fairgrounds,"Tucson, AZ",2.5,1992 Summer U.S. Tour,1992-summer-u-s-tour
+104,1992-08-17T00:00:00Z,9869898,16,5,The Coach House,"San Juan Capistrano, CA",4.0,1992 Summer U.S. Tour,1992-summer-u-s-tour
+102,1992-08-15T00:00:00Z,1613793,16,1,Greek Theatre,"Los Angeles, CA",3.3077,1992 Summer U.S. Tour,1992-summer-u-s-tour
+101,1992-08-14T00:00:00Z,1603500,16,1,Greek Theatre,"Los Angeles, CA",3.0909,1992 Summer U.S. Tour,1992-summer-u-s-tour
+100,1992-08-13T00:00:00Z,1796781,16,2,Greek Theatre,"Los Angeles, CA",3.3333,1992 Summer U.S. Tour,1992-summer-u-s-tour
+103,1992-08-02T00:00:00Z,2222837,16,1,Riverport Amphitheater,"Maryland Heights, MO",3.0,1992 Summer U.S. Tour,1992-summer-u-s-tour
+99,1992-08-01T00:00:00Z,2580270,16,2,Poplar Creek Music Center,"Hoffman Estates, IL",3.5556,1992 Summer U.S. Tour,1992-summer-u-s-tour
+96,1992-07-30T00:00:00Z,2773759,16,1,Meadow Brook Music Festival,"Rochester Hills, MI",2.5,1992 Summer U.S. Tour,1992-summer-u-s-tour
+95,1992-07-27T00:00:00Z,2286393,16,1,Saratoga Performing Arts Center,"Saratoga Springs, NY",3.0,1992 Summer U.S. Tour,1992-summer-u-s-tour
+98,1992-07-25T00:00:00Z,3753666,16,7,Stowe Performing Arts Center,"Stowe, VT",4.413,1992 Summer U.S. Tour,1992-summer-u-s-tour
+94,1992-07-24T00:00:00Z,2852928,16,1,Nikon at Jones Beach Theater,"Wantagh, NY",4.1,1992 Summer U.S. Tour,1992-summer-u-s-tour
+93,1992-07-21T00:00:00Z,2854295,16,1,Xfinity Center,"Mansfield, MA",3.7857,1992 Summer U.S. Tour,1992-summer-u-s-tour
+92,1992-07-16T00:00:00Z,9129459,16,1,Flood Zone,"Richmond, VA",3.8421,1992 Summer U.S. Tour,1992-summer-u-s-tour
+91,1992-07-15T00:00:00Z,9501099,16,2,Trax,"Charlottesville, VA",4.2778,1992 Summer U.S. Tour,1992-summer-u-s-tour
+90,1992-07-14T00:00:00Z,9404918,16,1,The Boathouse,"Norfolk, VA",2.2143,1992 Summer U.S. Tour,1992-summer-u-s-tour
+89,1992-07-12T00:00:00Z,4226794,16,1,Nikon at Jones Beach Theater,"Wantagh, NY",3.1,1992 Summer U.S. Tour,1992-summer-u-s-tour
+160,1992-07-11T00:00:00Z,4317440,16,3,PNC Bank Arts Center,"Holmdel, NJ",2.875,1992 Summer U.S. Tour,1992-summer-u-s-tour
+88,1992-07-10T00:00:00Z,4280503,16,2,Empire Court,"Syracuse, NY",2.1667,1992 Summer U.S. Tour,1992-summer-u-s-tour
+97,1992-07-09T00:00:00Z,4194168,16,2,Cross Insurance Arena,"Portland, ME",3.5455,1992 Summer U.S. Tour,1992-summer-u-s-tour
+87,1992-06-28T00:00:00Z,4571351,15,2,Roskilde Festival,"Roskilde, Denmark",3.4444,1992 Summer European Tour,1992-summer-european-tour
+86,1992-06-24T00:00:00Z,2379572,15,0,Resi,"Nüremberg, Germany",2.7143,1992 Summer European Tour,1992-summer-european-tour
+85,1992-06-23T00:00:00Z,2707096,15,0,Philipshalle,"Düsseldorf, Germany",2.8333,1992 Summer European Tour,1992-summer-european-tour
+84,1992-06-20T00:00:00Z,2497619,15,0,Waldbuhne,"Northeim, Germany",2.5,1992 Summer European Tour,1992-summer-european-tour
+83,1992-06-19T00:00:00Z,2785593,15,1,Stadtpark,"Hamburg, Germany",3.125,1992 Summer European Tour,1992-summer-european-tour
+82,1992-05-18T00:00:00Z,8832080,14,2,The Flynn Theatre,"Burlington, VT",3.4444,1992 Spring Tour,1992-spring-tour
+81,1992-05-17T00:00:00Z,9570744,14,7,"Achilles Rink, Union College","Schenectady, NY",4.4545,1992 Spring Tour,1992-spring-tour
+80,1992-05-16T00:00:00Z,9945468,14,1,Orpheum Theatre,"Boston, MA",3.3333,1992 Spring Tour,1992-spring-tour
+79,1992-05-14T00:00:00Z,10334616,14,1,The Capitol Theatre,"Port Chester, NY",4.4,1992 Spring Tour,1992-spring-tour
+78,1992-05-12T00:00:00Z,8726283,14,1,St. Lawrence University,"Canton, NY",3.2857,1992 Spring Tour,1992-spring-tour
+77,1992-05-10T00:00:00Z,4318119,14,1,"Campus Pond, UMass Spring Concert, University of Massachusetts","Amherst, MA",3.3571,1992 Spring Tour,1992-spring-tour
+76,1992-05-09T00:00:00Z,9507555,14,2,The Syracuse Armory,"Syracuse, NY",3.9474,1992 Spring Tour,1992-spring-tour
+75,1992-05-08T00:00:00Z,10184882,14,1,The Riviera Theatre,"North Tonawanda, NY",3.92,1992 Spring Tour,1992-spring-tour
+74,1992-05-07T00:00:00Z,10552108,14,1,The Agora Theatre,"Cleveland, OH",3.1667,1992 Spring Tour,1992-spring-tour
+73,1992-05-06T00:00:00Z,9042184,14,1,St. Andrew's Hall,"Detroit, MI",4.2,1992 Spring Tour,1992-spring-tour
+72,1992-05-05T00:00:00Z,5040483,14,2,Bogart's,"Cincinnati, OH",3.4167,1992 Spring Tour,1992-spring-tour
+71,1992-05-03T00:00:00Z,9519020,14,1,Michigan State University Union Ballroom,"East Lansing, MI",3.2857,1992 Spring Tour,1992-spring-tour
+70,1992-05-02T00:00:00Z,9522389,14,2,Cabaret Metro,"Chicago, IL",3.5263,1992 Spring Tour,1992-spring-tour
+69,1992-05-01T00:00:00Z,9525027,14,2,The Rave,"Milwaukee, WI",3.3571,1992 Spring Tour,1992-spring-tour
+68,1992-04-30T00:00:00Z,9660971,14,2,Barrymore Theatre,"Madison, WI",4.1667,1992 Spring Tour,1992-spring-tour
+67,1992-04-29T00:00:00Z,8703687,14,1,First Avenue,"Minneapolis, MN",3.5,1992 Spring Tour,1992-spring-tour
+66,1992-04-25T00:00:00Z,9487019,14,1,"Campus Recreation Center, Evergreen College","Olympia, WA",3.875,1992 Spring Tour,1992-spring-tour
+65,1992-04-24T00:00:00Z,10388766,14,0,Starry Night,"Portland, OR",3.95,1992 Spring Tour,1992-spring-tour
+64,1992-04-23T00:00:00Z,9334047,14,1,Oz Nightclub,"Seattle, WA",3.0,1992 Spring Tour,1992-spring-tour
+63,1992-04-22T00:00:00Z,8540447,14,2,Hilton Ballroom,"Eugene, OR",3.7778,1992 Spring Tour,1992-spring-tour
+62,1992-04-21T00:00:00Z,10248488,14,4,Redwood Acres Fairgrounds,"Eureka, CA",4.434,1992 Spring Tour,1992-spring-tour
+61,1992-04-19T00:00:00Z,8864992,14,3,The Catalyst,"Santa Cruz, CA",4.0345,1992 Spring Tour,1992-spring-tour
+1596,1992-04-18T00:00:00Z,10642835,14,4,"Wilbur Field, Stanford University","Palo Alto, CA",4.5,1992 Spring Tour,1992-spring-tour
+60,1992-04-17T00:00:00Z,9532318,14,5,Warfield Theatre,"San Francisco, CA",4.4595,1992 Spring Tour,1992-spring-tour
+1741,1992-04-16T00:00:00Z,9793280,14,11,Anaconda Theatre,"Isla Vista, CA",4.5934,1992 Spring Tour,1992-spring-tour
+58,1992-04-15T00:00:00Z,7154733,14,2,Variety Arts Center,"Los Angeles, CA",3.4783,1992 Spring Tour,1992-spring-tour
+57,1992-04-13T00:00:00Z,9502460,14,4,After the Gold Rush,"Tempe, AZ",3.6842,1992 Spring Tour,1992-spring-tour
+56,1992-04-12T00:00:00Z,5128829,14,1,University of Arizona Student Union,"Tucson, AZ",3.0833,1992 Spring Tour,1992-spring-tour
+55,1992-04-07T00:00:00Z,9608176,14,3,"Fine Arts Auditorium, Fort Lewis College","Durango, CO",3.7333,1992 Spring Tour,1992-spring-tour
+54,1992-04-06T00:00:00Z,8946627,14,1,"Paul Wright Gym, Western State College","Gunnison, CO",4.1481,1992 Spring Tour,1992-spring-tour
+53,1992-04-05T00:00:00Z,10047792,14,3,The Fox Theatre,"Boulder, CO",3.5455,1992 Spring Tour,1992-spring-tour
+52,1992-04-04T00:00:00Z,4601862,14,2,"Balch Fieldhouse, University of Colorado","Boulder, CO",3.4167,1992 Spring Tour,1992-spring-tour
+51,1992-04-03T00:00:00Z,4338649,14,2,"Sawatch Hall, Park Hyatt Beaver Creek","Avon, CO",3.7692,1992 Spring Tour,1992-spring-tour
+50,1992-04-01T00:00:00Z,9554834,14,1,Liberty Hall,"Lawrence, KS",3.0,1992 Spring Tour,1992-spring-tour
+49,1992-03-31T00:00:00Z,9989985,14,2,The Blue Note,"Columbia, MO",3.5625,1992 Spring Tour,1992-spring-tour
+47,1992-03-30T00:00:00Z,9137606,14,2,Mississippi Nights,"St. Louis, MO",3.875,1992 Spring Tour,1992-spring-tour
+46,1992-03-27T00:00:00Z,8904880,14,2,13x13 Club,"Charlotte, NC",3.3333,1992 Spring Tour,1992-spring-tour
+45,1992-03-26T00:00:00Z,9652037,14,2,Ziggy's,"Winston-Salem, NC",3.9545,1992 Spring Tour,1992-spring-tour
+44,1992-03-25T00:00:00Z,9492898,14,1,Trax,"Charlottesville, VA",3.5,1992 Spring Tour,1992-spring-tour
+43,1992-03-24T00:00:00Z,9048371,14,1,Flood Zone,"Richmond, VA",4.1111,1992 Spring Tour,1992-spring-tour
+42,1992-03-22T00:00:00Z,1105215,14,1,Cultural Center Auditorium,"Charleston, WV",2.375,1992 Spring Tour,1992-spring-tour
+1848,1992-03-21T00:00:00Z,8816797,14,0,Chestnut Cabaret,"Philadelphia, PA",3.6364,1992 Spring Tour,1992-spring-tour
+1699,1992-03-20T00:00:00Z,10805969,14,13,Broome County Forum,"Binghamton, NY",4.6778,1992 Spring Tour,1992-spring-tour
+39,1992-03-19T00:00:00Z,9305205,14,3,Palace Theatre,"New Haven, CT",3.7059,1992 Spring Tour,1992-spring-tour
+38,1992-03-17T00:00:00Z,8243225,14,1,"Lisner Auditorium, George Washington University","Washington, DC",3.625,1992 Spring Tour,1992-spring-tour
+37,1992-03-14T00:00:00Z,9680325,14,3,Roseland Ballroom,"New York, NY",3.7419,1992 Spring Tour,1992-spring-tour
+36,1992-03-13T00:00:00Z,5263046,14,10,Campus Club,"Providence, RI",4.6418,1992 Spring Tour,1992-spring-tour
+35,1992-03-12T00:00:00Z,9643286,14,3,The Flynn Theatre,"Burlington, VT",3.125,1992 Spring Tour,1992-spring-tour
+34,1992-03-11T00:00:00Z,9549010,14,1,The Colonial Theatre,"Keene, NH",2.85,1992 Spring Tour,1992-spring-tour
+33,1992-03-07T00:00:00Z,8452886,14,1,The Music Hall,"Portsmouth, NH",4.2174,1992 Spring Tour,1992-spring-tour
+32,1992-03-06T00:00:00Z,9044087,14,4,The Music Hall,"Portsmouth, NH",4.2683,1992 Spring Tour,1992-spring-tour
+31,1992-01-14T00:00:00Z,2862288,71,1,The Band House,"Winooski, VT",2.0,Not Part of a Tour,not-part-of-a-tour
+524,1991-12-31T00:00:00Z,11639539,71,2,Worcester Memorial Auditorium,"Worcestor, MA",4.4681,Not Part of a Tour,not-part-of-a-tour
+523,1991-12-07T00:00:00Z,8454713,9,0,The Music Hall,"Portsmouth, NH",3.9091,1991 Fall Tour,1991-fall-tour
+522,1991-12-06T00:00:00Z,6979448,9,0,"McCullough Student Center, Middlebury College","Middlebury, VT",3.2308,1991 Fall Tour,1991-fall-tour
+521,1991-12-05T00:00:00Z,8654236,9,2,Greenfield Armory Castle,"Greenfield, MA",3.0,1991 Fall Tour,1991-fall-tour
+520,1991-12-04T00:00:00Z,8273295,9,0,"E. Glenn Giltz Auditorium, SUNY-Plattsburgh","Plattsburgh, NY",3.0,1991 Fall Tour,1991-fall-tour
+1742,1991-11-30T00:00:00Z,9546136,9,2,The Capitol Theatre,"Port Chester, NY",4.1667,1991 Fall Tour,1991-fall-tour
+518,1991-11-24T00:00:00Z,8536528,9,0,"Webster Hall, Dartmouth College","Hanover, NH",4.4,1991 Fall Tour,1991-fall-tour
+517,1991-11-23T00:00:00Z,8669311,9,0,Alumni Hall,"Barre, VT",3.7273,1991 Fall Tour,1991-fall-tour
+516,1991-11-22T00:00:00Z,8926694,9,1,"Sullivan Gymnasium, University of Southern Maine","Portland, ME",3.4,1991 Fall Tour,1991-fall-tour
+515,1991-11-21T00:00:00Z,9500554,9,1,Somerville Theatre,"Somerville, MA",4.0909,1991 Fall Tour,1991-fall-tour
+514,1991-11-20T00:00:00Z,8480888,9,0,Campus Club,"Providence, RI",3.3571,1991 Fall Tour,1991-fall-tour
+513,1991-11-19T00:00:00Z,9104508,9,1,The Sting,"New Britain, CT",3.625,1991 Fall Tour,1991-fall-tour
+512,1991-11-16T00:00:00Z,8764917,9,0,The Bayou,"Washington, DC",3.8125,1991 Fall Tour,1991-fall-tour
+511,1991-11-15T00:00:00Z,9429370,9,0,Trax,"Charlottesville, VA",4.2308,1991 Fall Tour,1991-fall-tour
+510,1991-11-14T00:00:00Z,9968043,9,0,Cat's Cradle,"Chapel Hill, NC",4.0,1991 Fall Tour,1991-fall-tour
+509,1991-11-13T00:00:00Z,9756398,9,0,"Love Auditorium, Davidson College","Davidson, NC",4.0,1991 Fall Tour,1991-fall-tour
+508,1991-11-12T00:00:00Z,9324878,9,0,The Georgia Theatre,"Athens, GA",3.4545,1991 Fall Tour,1991-fall-tour
+507,1991-11-09T00:00:00Z,9148737,9,0,Variety Playhouse,"Atlanta, GA",3.7143,1991 Fall Tour,1991-fall-tour
+506,1991-11-08T00:00:00Z,8748121,9,2,Ivory Tusk,"Tuscaloosa, AL",4.3684,1991 Fall Tour,1991-fall-tour
+505,1991-11-07T00:00:00Z,8920032,9,2,Tipitina's,"New Orleans, LA",4.2105,1991 Fall Tour,1991-fall-tour
+504,1991-11-02T00:00:00Z,3980409,9,1,"Lory Student Center Theatre, Colorado State University","Fort Collins, CO",3.8,1991 Fall Tour,1991-fall-tour
+503,1991-11-01T00:00:00Z,9190347,9,4,Gothic Theatre,"Englewood, CO",3.6667,1991 Fall Tour,1991-fall-tour
+499,1991-10-31T00:00:00Z,9447601,9,1,"Armstrong Hall, Colorado College","Colorado Springs, CO",4.1176,1991 Fall Tour,1991-fall-tour
+498,1991-10-30T00:00:00Z,2673947,9,1,Boulder Theater,"Boulder, CO",2.5,1991 Fall Tour,1991-fall-tour
+497,1991-10-28T00:00:00Z,9485035,9,0,Elk Ballroom,"Telluride, CO",4.0,1991 Fall Tour,1991-fall-tour
+496,1991-10-27T00:00:00Z,9020291,9,0,Elk Ballroom,"Telluride, CO",3.8125,1991 Fall Tour,1991-fall-tour
+495,1991-10-24T00:00:00Z,8368768,9,0,Prescott College,"Prescott, AZ",4.1765,1991 Fall Tour,1991-fall-tour
+493,1991-10-19T00:00:00Z,8229431,9,3,The Catalyst,"Santa Cruz, CA",3.4167,1991 Fall Tour,1991-fall-tour
+492,1991-10-18T00:00:00Z,8409103,9,3,Great American Music Hall,"San Francisco, CA",3.8,1991 Fall Tour,1991-fall-tour
+491,1991-10-17T00:00:00Z,7069415,9,3,Great American Music Hall,"San Francisco, CA",3.2727,1991 Fall Tour,1991-fall-tour
+490,1991-10-15T00:00:00Z,8585117,9,1,International Beer Garden,"Arcata, CA",3.5,1991 Fall Tour,1991-fall-tour
+489,1991-10-13T00:00:00Z,9465837,9,6,North Shore Surf Club,"Olympia, WA",4.15,1991 Fall Tour,1991-fall-tour
+488,1991-10-12T00:00:00Z,9376783,9,0,Starry Night,"Portland, OR",3.4286,1991 Fall Tour,1991-fall-tour
+487,1991-10-11T00:00:00Z,5274200,9,1,Backstage,"Seattle, WA",3.4444,1991 Fall Tour,1991-fall-tour
+486,1991-10-10T00:00:00Z,8557661,9,3,"EMU Ballroom, University of Oregon","Eugene, OR",3.9474,1991 Fall Tour,1991-fall-tour
+502,1991-10-06T00:00:00Z,7671770,9,1,"Cochran Lounge, Student Union, Macalester College","St. Paul, MN",3.6,1991 Fall Tour,1991-fall-tour
+501,1991-10-04T00:00:00Z,8955009,9,2,Barrymore Theatre,"Madison, WI",3.4286,1991 Fall Tour,1991-fall-tour
+500,1991-10-03T00:00:00Z,7837075,9,0,Mabel's,"Champaign, IL",2.5,1991 Fall Tour,1991-fall-tour
+494,1991-10-02T00:00:00Z,7863614,9,1,The Cubby Bear,"Chicago, IL",2.7778,1991 Fall Tour,1991-fall-tour
+485,1991-09-30T00:00:00Z,7218836,9,1,"The Dugout Lounge, Ohio University","Athens, OH",3.4,1991 Fall Tour,1991-fall-tour
+484,1991-09-29T00:00:00Z,8089390,9,0,The Agora Theatre,"Cleveland, OH",3.3333,1991 Fall Tour,1991-fall-tour
+483,1991-09-28T00:00:00Z,7627205,9,0,The Rink,"Buffalo, NY",3.9286,1991 Fall Tour,1991-fall-tour
+482,1991-09-27T00:00:00Z,8451709,9,0,Water Street Music Hall,"Rochester, NY",3.8462,1991 Fall Tour,1991-fall-tour
+481,1991-09-26T00:00:00Z,8053499,9,1,The State Theatre,"Ithaca, NY",3.6,1991 Fall Tour,1991-fall-tour
+480,1991-09-25T00:00:00Z,8357906,9,0,The Colonial Theatre,"Keene, NH",3.9091,1991 Fall Tour,1991-fall-tour
+1587,1991-08-03T00:00:00Z,13871308,71,9,"Larrabee Farm, a.k.a. Amy’s Farm","Auburn, ME",4.3721,Not Part of a Tour,not-part-of-a-tour
+479,1991-07-27T00:00:00Z,5462754,10,0,Variety Playhouse,"Atlanta, GA",3.6429,1991 Giant Country Horns Summer Tour,1991-giant-country-horns-summer-tour
+478,1991-07-26T00:00:00Z,8829205,10,0,The Georgia Theatre,"Athens, GA",4.25,1991 Giant Country Horns Summer Tour,1991-giant-country-horns-summer-tour
+477,1991-07-25T00:00:00Z,8406856,10,0,Cat's Cradle,"Chapel Hill, NC",3.8571,1991 Giant Country Horns Summer Tour,1991-giant-country-horns-summer-tour
+476,1991-07-24T00:00:00Z,8419526,10,0,Trax,"Charlottesville, VA",4.2632,1991 Giant Country Horns Summer Tour,1991-giant-country-horns-summer-tour
+475,1991-07-23T00:00:00Z,8205167,10,0,The Bayou,"Washington, DC",4.0,1991 Giant Country Horns Summer Tour,1991-giant-country-horns-summer-tour
+414,1991-07-21T00:00:00Z,8485825,10,6,Arrowhead Ranch,"Parksville, NY",4.4444,1991 Giant Country Horns Summer Tour,1991-giant-country-horns-summer-tour
+413,1991-07-20T00:00:00Z,8089263,10,3,Arrowhead Ranch,"Parksville, NY",4.0303,1991 Giant Country Horns Summer Tour,1991-giant-country-horns-summer-tour
+474,1991-07-19T00:00:00Z,8047151,10,0,Somerville Theatre,"Somerville, MA",4.1786,1991 Giant Country Horns Summer Tour,1991-giant-country-horns-summer-tour
+473,1991-07-18T00:00:00Z,7351301,10,1,Hampton Casino Ballroom,"Hampton Beach, NH",3.25,1991 Giant Country Horns Summer Tour,1991-giant-country-horns-summer-tour
+472,1991-07-15T00:00:00Z,5450372,10,0,The Academy,"New York, NY",3.3158,1991 Giant Country Horns Summer Tour,1991-giant-country-horns-summer-tour
+471,1991-07-14T00:00:00Z,12800363,10,3,Townshend Family Park,"Townshend, VT",4.4,1991 Giant Country Horns Summer Tour,1991-giant-country-horns-summer-tour
+470,1991-07-13T00:00:00Z,8347976,10,1,Berkshire Performing Arts Center,"Lenox, MA",3.6842,1991 Giant Country Horns Summer Tour,1991-giant-country-horns-summer-tour
+469,1991-07-12T00:00:00Z,8724325,10,2,The Colonial Theatre,"Keene, NH",4.52,1991 Giant Country Horns Summer Tour,1991-giant-country-horns-summer-tour
+468,1991-07-11T00:00:00Z,6071641,10,4,Battery Park,"Burlington, VT",4.2,1991 Giant Country Horns Summer Tour,1991-giant-country-horns-summer-tour
+463,1991-05-19T00:00:00Z,6884258,11,0,Salisbury School,"Salisbury, CT",3.6364,1991 Winter/Spring Tour,1991-winter-spring-tour
+462,1991-05-18T00:00:00Z,8397743,11,0,The Marquee,"New York, NY",3.0,1991 Winter/Spring Tour,1991-winter-spring-tour
+461,1991-05-17T00:00:00Z,9039572,11,1,Campus Club,"Providence, RI",4.0625,1991 Winter/Spring Tour,1991-winter-spring-tour
+460,1991-05-16T00:00:00Z,5480490,11,0,The Sting,"New Britain, CT",3.3636,1991 Winter/Spring Tour,1991-winter-spring-tour
+459,1991-05-12T00:00:00Z,8994820,11,1,The Front,"Burlington, VT",3.9167,1991 Winter/Spring Tour,1991-winter-spring-tour
+458,1991-05-11T00:00:00Z,7529220,11,0,The Front,"Burlington, VT",3.2857,1991 Winter/Spring Tour,1991-winter-spring-tour
+457,1991-05-10T00:00:00Z,8431985,11,2,"Page Commons Room, Student Center, Colby College","Waterville, ME",3.4,1991 Winter/Spring Tour,1991-winter-spring-tour
+467,1991-05-09T00:00:00Z,8245160,11,0,Portland Performing Arts Center,"Portland, ME",3.4444,1991 Winter/Spring Tour,1991-winter-spring-tour
+466,1991-05-04T00:00:00Z,7977848,11,0,Somerville Theatre,"Somerville, MA",3.3333,1991 Winter/Spring Tour,1991-winter-spring-tour
+465,1991-05-03T00:00:00Z,8752561,11,3,Somerville Theatre,"Somerville, MA",3.7059,1991 Winter/Spring Tour,1991-winter-spring-tour
+464,1991-05-02T00:00:00Z,7775321,11,0,The Chance,"Poughkeepsie, NY",3.9375,1991 Winter/Spring Tour,1991-winter-spring-tour
+453,1991-04-27T00:00:00Z,9013523,11,1,The Capitol Theatre,"Port Chester, NY",3.8,1991 Winter/Spring Tour,1991-winter-spring-tour
+452,1991-04-26T00:00:00Z,8246232,11,1,"Hartman Union Activities Center, Plymouth State University","Plymouth, NH",3.7273,1991 Winter/Spring Tour,1991-winter-spring-tour
+451,1991-04-25T00:00:00Z,7868474,11,0,"Field House, University of New Hampshire","Durham, NH",3.0,1991 Winter/Spring Tour,1991-winter-spring-tour
+450,1991-04-22T00:00:00Z,7695909,11,0,"Billings Lounge, University of Vermont","Burlington, VT",3.0,1991 Winter/Spring Tour,1991-winter-spring-tour
+448,1991-04-21T00:00:00Z,8315035,11,0,SUNY Potsdam,"Potsdam, NY",3.1429,1991 Winter/Spring Tour,1991-winter-spring-tour
+447,1991-04-20T00:00:00Z,9055139,11,0,"Douglass Dining Center, University of Rochester","Rochester, NY",3.0,1991 Winter/Spring Tour,1991-winter-spring-tour
+446,1991-04-19T00:00:00Z,8241525,11,0,Nietzsches,"Buffalo, NY",2.2222,1991 Winter/Spring Tour,1991-winter-spring-tour
+445,1991-04-18T00:00:00Z,8087198,11,1,"Dionysus Club, The 'Sco, Oberlin College","Oberlin, OH",3.1429,1991 Winter/Spring Tour,1991-winter-spring-tour
+444,1991-04-16T00:00:00Z,7072732,11,2,Rick's Café,"Ann Arbor, MI",3.25,1991 Winter/Spring Tour,1991-winter-spring-tour
+443,1991-04-15T00:00:00Z,7493879,11,2,"The Gathering Place, Northwestern University","Evanston, IL",3.3,1991 Winter/Spring Tour,1991-winter-spring-tour
+442,1991-04-13T00:00:00Z,5484410,11,1,Biddy Mulligans,"Chicago, IL",2.1,1991 Winter/Spring Tour,1991-winter-spring-tour
+441,1991-04-12T00:00:00Z,8307695,11,2,Barrymore Theatre,"Madison, WI",3.8125,1991 Winter/Spring Tour,1991-winter-spring-tour
+440,1991-04-11T00:00:00Z,9482160,11,3,"The Cave, Carleton College","Northfield, MN",3.4375,1991 Winter/Spring Tour,1991-winter-spring-tour
+456,1991-04-06T00:00:00Z,9108401,11,1,"Campus Recreation Center, Evergreen College","Olympia, WA",3.9167,1991 Winter/Spring Tour,1991-winter-spring-tour
+455,1991-04-05T00:00:00Z,8295313,11,0,Starry Night,"Portland, OR",3.4,1991 Winter/Spring Tour,1991-winter-spring-tour
+454,1991-04-04T00:00:00Z,8591517,11,0,WOW Hall,"Eugene, OR",3.5385,1991 Winter/Spring Tour,1991-winter-spring-tour
+1585,1991-04-03T00:00:00Z,8403511,11,0,"Britt Ballroom, Southern Oregon State College","Ashland, OR",3.4545,1991 Winter/Spring Tour,1991-winter-spring-tour
+449,1991-04-02T00:00:00Z,8113448,11,0,International Beer Garden,"Arcata, CA",3.25,1991 Winter/Spring Tour,1991-winter-spring-tour
+438,1991-03-31T00:00:00Z,8488176,11,1,Berkeley Square Theatre,"Berkeley, CA",4.0526,1991 Winter/Spring Tour,1991-winter-spring-tour
+437,1991-03-29T00:00:00Z,4433711,11,1,DNA Lounge,"San Francisco, CA",3.2727,1991 Winter/Spring Tour,1991-winter-spring-tour
+436,1991-03-28T00:00:00Z,5369469,11,0,The Catalyst,"Santa Cruz, CA",3.1538,1991 Winter/Spring Tour,1991-winter-spring-tour
+435,1991-03-23T00:00:00Z,8746007,11,0,The Inferno,"Steamboat Springs, CO",3.625,1991 Winter/Spring Tour,1991-winter-spring-tour
+434,1991-03-22T00:00:00Z,9255786,11,0,The Inferno,"Steamboat Springs, CO",3.3636,1991 Winter/Spring Tour,1991-winter-spring-tour
+433,1991-03-17T00:00:00Z,8103105,11,1,Wheeler Opera House,"Aspen, CO",3.8421,1991 Winter/Spring Tour,1991-winter-spring-tour
+432,1991-03-16T00:00:00Z,8741724,11,1,Ten Mile Room,"Breckenridge, CO",3.9545,1991 Winter/Spring Tour,1991-winter-spring-tour
+1698,1991-03-15T00:00:00Z,7539802,11,2,Gothic Theatre,"Englewood, CO",3.3889,1991 Winter/Spring Tour,1991-winter-spring-tour
+430,1991-03-13T00:00:00Z,9449641,11,1,Boulder Theater,"Boulder, CO",3.7647,1991 Winter/Spring Tour,1991-winter-spring-tour
+1581,1991-03-09T00:00:00Z,8172094,11,0,Tipitina's,"New Orleans, LA",3.5,1991 Winter/Spring Tour,1991-winter-spring-tour
+439,1991-03-08T00:00:00Z,5167439,11,0,College Station Theater,"Tuscaloosa, AL",4.0,1991 Winter/Spring Tour,1991-winter-spring-tour
+429,1991-03-01T00:00:00Z,4276951,11,0,The Georgia Theatre,"Athens, GA",3.0,1991 Winter/Spring Tour,1991-winter-spring-tour
+423,1991-02-28T00:00:00Z,8572081,11,1,"Sarratt Student Center, Vanderbilt University","Nashville, TN",3.3333,1991 Winter/Spring Tour,1991-winter-spring-tour
+422,1991-02-22T00:00:00Z,3875344,11,0,Cat's Cradle,"Chapel Hill, NC",2.625,1991 Winter/Spring Tour,1991-winter-spring-tour
+420,1991-02-21T00:00:00Z,7975550,11,1,Trax,"Charlottesville, VA",3.0,1991 Winter/Spring Tour,1991-winter-spring-tour
+419,1991-02-20T00:00:00Z,5565807,11,0,Kahootz,"Richmond, VA",3.1429,1991 Winter/Spring Tour,1991-winter-spring-tour
+418,1991-02-19T00:00:00Z,8372925,11,0,The Bayou,"Washington, DC",3.0,1991 Winter/Spring Tour,1991-winter-spring-tour
+417,1991-02-16T00:00:00Z,8018914,11,0,The Marquee,"New York, NY",3.4545,1991 Winter/Spring Tour,1991-winter-spring-tour
+416,1991-02-15T00:00:00Z,9344524,11,2,The Colonial Theatre,"Keene, NH",3.3077,1991 Winter/Spring Tour,1991-winter-spring-tour
+1574,1991-02-14T00:00:00Z,5474952,11,0,The State Theatre,"Ithaca, NY",3.9167,1991 Winter/Spring Tour,1991-winter-spring-tour
+1805,1991-02-09T00:00:00Z,8849633,11,0,"John M. Greene Hall, Smith College","Northampton, MA",3.2308,1991 Winter/Spring Tour,1991-winter-spring-tour
+427,1991-02-08T00:00:00Z,8568215,11,0,The Music Hall,"Portsmouth, NH",4.2258,1991 Winter/Spring Tour,1991-winter-spring-tour
+426,1991-02-07T00:00:00Z,8645694,11,0,Pickle Barrel Pub,"Killington, VT",3.1429,1991 Winter/Spring Tour,1991-winter-spring-tour
+425,1991-02-04T00:00:00Z,3512477,11,0,The Front,"Burlington, VT",2.75,1991 Winter/Spring Tour,1991-winter-spring-tour
+424,1991-02-03T00:00:00Z,8577178,11,0,The Front,"Burlington, VT",3.7778,1991 Winter/Spring Tour,1991-winter-spring-tour
+421,1991-02-02T00:00:00Z,7620912,11,1,"Alumni Gymnasium, Bates College","Lewiston, ME",3.4167,1991 Winter/Spring Tour,1991-winter-spring-tour
+415,1991-02-01T00:00:00Z,5900357,11,0,"Alumni Hall, Brown University","Providence, RI",3.3529,1991 Winter/Spring Tour,1991-winter-spring-tour
+756,1990-12-31T00:00:00Z,7269538,8,1,Boston World Trade Center Exhibition Hall,"Boston, MA",3.0,1990 Tour,1990-tour
+755,1990-12-29T00:00:00Z,8666800,8,1,Campus Club,"Providence, RI",4.0,1990 Tour,1990-tour
+754,1990-12-28T00:00:00Z,9168928,8,2,The Marquee,"New York, NY",4.1111,1990 Tour,1990-tour
+753,1990-12-08T00:00:00Z,4481541,8,0,The Chance,"Poughkeepsie, NY",2.8571,1990 Tour,1990-tour
+752,1990-12-07T00:00:00Z,8014213,8,1,"Robert Crown Center, Hampshire College","Amherst, MA",3.4167,1990 Tour,1990-tour
+751,1990-11-30T00:00:00Z,8645067,8,1,The Colonial Theatre,"Keene, NH",3.1429,1990 Tour,1990-tour
+750,1990-11-26T00:00:00Z,8333583,8,0,The Haunt,"Ithaca, NY",3.7273,1990 Tour,1990-tour
+749,1990-11-24T00:00:00Z,8411011,8,1,The Capitol Theatre,"Port Chester, NY",3.7273,1990 Tour,1990-tour
+748,1990-11-17T00:00:00Z,8876250,8,0,Somerville Theatre,"Somerville, MA",3.5455,1990 Tour,1990-tour
+747,1990-11-16T00:00:00Z,8212765,8,0,Campus Club,"Providence, RI",3.5556,1990 Tour,1990-tour
+746,1990-11-15T00:00:00Z,4173427,8,0,"Lengyel Gym, University of Maine","Orono, ME",3.1111,1990 Tour,1990-tour
+745,1990-11-10T00:00:00Z,7553333,8,0,Earlham College,"Richmond, IN",3.6,1990 Tour,1990-tour
+744,1990-11-08T00:00:00Z,9177364,8,1,"The Great Hall, University of Wisconsin","Madison, WI",3.6429,1990 Tour,1990-tour
+743,1990-11-04T00:00:00Z,8631039,8,1,Fort Ram,"Fort Collins, CO",4.1905,1990 Tour,1990-tour
+742,1990-11-03T00:00:00Z,9553057,8,1,Boulder Theater,"Boulder, CO",4.0,1990 Tour,1990-tour
+741,1990-11-02T00:00:00Z,9447209,8,2,"Glenn Miller Ballroom, University of Colorado","Boulder, CO",4.3462,1990 Tour,1990-tour
+739,1990-10-31T00:00:00Z,9553607,8,2,"Armstrong Hall, Colorado College","Colorado Springs, CO",4.1944,1990 Tour,1990-tour
+738,1990-10-30T00:00:00Z,10234044,8,0,El Dorado Café,"Crested Butte, CO",3.7778,1990 Tour,1990-tour
+740,1990-10-12T00:00:00Z,8328253,8,0,Cat's Cradle,"Chapel Hill, NC",3.2222,1990 Tour,1990-tour
+737,1990-10-08T00:00:00Z,6763285,8,0,The Bayou,"Washington, DC",2.8571,1990 Tour,1990-tour
+736,1990-10-07T00:00:00Z,8357982,8,0,Club Bene,"Sayreville, NJ",3.5,1990 Tour,1990-tour
+735,1990-10-06T00:00:00Z,5859996,8,0,The Capitol Theatre,"Port Chester, NY",3.2857,1990 Tour,1990-tour
+734,1990-10-05T00:00:00Z,7446437,8,0,"Skidmore Gymnasium, Skidmore College","Saratoga Springs, NY",3.25,1990 Tour,1990-tour
+733,1990-10-04T00:00:00Z,9326887,8,1,"Field House, University of New Hampshire","Durham, NH",3.2308,1990 Tour,1990-tour
+732,1990-10-01T00:00:00Z,8160911,8,1,The Haunt,"Ithaca, NY",3.0,1990 Tour,1990-tour
+731,1990-09-29T00:00:00Z,7368568,8,0,23 East Caberet,"Ardmore, PA",2.8182,1990 Tour,1990-tour
+730,1990-09-28T00:00:00Z,7054290,8,0,The Chance,"Poughkeepsie, NY",3.2727,1990 Tour,1990-tour
+729,1990-09-22T00:00:00Z,8797364,8,1,"Student Union Ballroom, University of Massachusetts","Amherst, MA",4.15,1990 Tour,1990-tour
+728,1990-09-21T00:00:00Z,8211619,8,0,Somerville Theatre,"Somerville, MA",3.2222,1990 Tour,1990-tour
+727,1990-09-20T00:00:00Z,8574983,8,0,Somerville Theatre,"Somerville, MA",3.9167,1990 Tour,1990-tour
+726,1990-09-16T00:00:00Z,5413694,8,1,Wesleyan University,"Middletown, CT",3.0,1990 Tour,1990-tour
+725,1990-09-15T00:00:00Z,10683481,8,0,The Colonial Theatre,"Keene, NH",4.1429,1990 Tour,1990-tour
+724,1990-09-14T00:00:00Z,7870588,8,0,The Living Room,"Providence, RI",3.7857,1990 Tour,1990-tour
+723,1990-09-13T00:00:00Z,10576429,8,0,The Wetlands Preserve,"New York, NY",4.0,1990 Tour,1990-tour
+722,1990-06-17T00:00:00Z,7392732,8,4,Wendell Studios,"Boston, MA",3.75,1990 Tour,1990-tour
+721,1990-06-16T00:00:00Z,12586136,8,0,Townshend Family Park,"Townshend, VT",4.1429,1990 Tour,1990-tour
+720,1990-06-09T00:00:00Z,9832749,8,0,The Wetlands Preserve,"New York, NY",3.4545,1990 Tour,1990-tour
+719,1990-06-08T00:00:00Z,6535863,8,2,23 East Caberet,"Ardmore, PA",3.0,1990 Tour,1990-tour
+718,1990-06-07T00:00:00Z,7887047,8,0,The Bayou,"Washington, DC",3.125,1990 Tour,1990-tour
+717,1990-06-05T00:00:00Z,8720142,8,1,Cat's Cradle,"Chapel Hill, NC",3.125,1990 Tour,1990-tour
+716,1990-06-02T00:00:00Z,6355853,8,0,Greenstreets,"Columbia, SC",2.1667,1990 Tour,1990-tour
+715,1990-06-01T00:00:00Z,4315245,8,1,The Cotton Club,"Atlanta, GA",3.5,1990 Tour,1990-tour
+714,1990-05-31T00:00:00Z,5595610,8,0,The Georgia Theatre,"Athens, GA",2.875,1990 Tour,1990-tour
+713,1990-05-24T00:00:00Z,8045612,8,0,The Brewery,"Raleigh, NC",3.5,1990 Tour,1990-tour
+712,1990-05-23T00:00:00Z,9516436,8,0,The Library,"Richmond, VA",3.1111,1990 Tour,1990-tour
+711,1990-05-19T00:00:00Z,7461094,8,0,"The Upper, St. Paul's School","Concord, NH",2.75,1990 Tour,1990-tour
+710,1990-05-15T00:00:00Z,9158454,8,0,Hamilton College,"Clinton, NY",2.875,1990 Tour,1990-tour
+709,1990-05-13T00:00:00Z,8637413,8,0,The Front,"Burlington, VT",3.6667,1990 Tour,1990-tour
+708,1990-05-11T00:00:00Z,6928066,8,0,The Living Room,"Providence, RI",3.7,1990 Tour,1990-tour
+707,1990-05-10T00:00:00Z,7297934,8,0,Pearl Street Ballroom,"Northampton, MA",3.5556,1990 Tour,1990-tour
+706,1990-05-07T00:00:00Z,3966249,8,0,The Haunt,"Ithaca, NY",2.8,1990 Tour,1990-tour
+1541,1990-05-06T00:00:00Z,7204127,8,0,Toad's Place,"New Haven, CT",4.1667,1990 Tour,1990-tour
+705,1990-05-04T00:00:00Z,9967778,8,0,The Colonial Theatre,"Keene, NH",3.7273,1990 Tour,1990-tour
+1538,1990-04-29T00:00:00Z,4764161,8,2,Woodbury Ski & Racquet Club,"Woodbury, CT",4.1714,1990 Tour,1990-tour
+1847,1990-04-28T00:00:00Z,8815677,8,0,The Strand Theater,"Dorchester, MA",3.2,1990 Tour,1990-tour
+703,1990-04-26T00:00:00Z,7133229,8,0,"Dionysus Club, The 'Sco, Oberlin College","Oberlin, OH",3.125,1990 Tour,1990-tour
+702,1990-04-25T00:00:00Z,5466356,8,1,"The Clarke Memorial Fountain, Notre Dame University","Notre Dame, IN",2.6667,1990 Tour,1990-tour
+669,1990-04-22T00:00:00Z,8585978,8,3,"Cutler Quad, Colorado College","Colorado Springs, CO",3.9444,1990 Tour,1990-tour
+701,1990-04-21T00:00:00Z,8485093,8,0,"Canyon West Room, Lincoln Center","Fort Collins, CO",3.1818,1990 Tour,1990-tour
+700,1990-04-20T00:00:00Z,8326767,8,0,"Ramskeller, Colorado State University","Fort Collins, CO",2.5714,1990 Tour,1990-tour
+1536,1990-04-18T00:00:00Z,8106134,8,1,Herman's Hideaway,"Denver, CO",3.3,1990 Tour,1990-tour
+699,1990-04-09T00:00:00Z,4934245,8,0,Fly Me to the Moon Saloon,"Telluride, CO",3.0,1990 Tour,1990-tour
+698,1990-04-07T00:00:00Z,9570953,8,0,El Dorado Café,"Crested Butte, CO",2.8333,1990 Tour,1990-tour
+697,1990-04-06T00:00:00Z,8857441,8,0,El Dorado Café,"Crested Butte, CO",2.5556,1990 Tour,1990-tour
+696,1990-04-05T00:00:00Z,8831401,8,0,J.J. McCabe's,"Boulder, CO",3.8,1990 Tour,1990-tour
+695,1990-04-04T00:00:00Z,7543979,8,1,"Quigley's, University of Colorado","Boulder, CO",3.5,1990 Tour,1990-tour
+694,1990-03-28T00:00:00Z,10914116,8,2,"Beta Intramural Hockey Team Party, Denison University","Granville, OH",3.5714,1990 Tour,1990-tour
+693,1990-03-17T00:00:00Z,3897313,8,0,23 East Caberet,"Ardmore, PA",3.25,1990 Tour,1990-tour
+692,1990-03-11T00:00:00Z,8949838,8,1,The Front,"Burlington, VT",3.1,1990 Tour,1990-tour
+691,1990-03-10T00:00:00Z,4171338,8,0,The Front,"Burlington, VT",2.0,1990 Tour,1990-tour
+690,1990-03-09T00:00:00Z,9101585,8,0,The Front,"Burlington, VT",3.3636,1990 Tour,1990-tour
+689,1990-03-08T00:00:00Z,9756420,8,1,Aiko's,"Saratoga Springs, NY",1.8571,1990 Tour,1990-tour
+688,1990-03-07T00:00:00Z,5339871,8,0,"Field House, University of New Hampshire","Durham, NH",2.75,1990 Tour,1990-tour
+687,1990-03-03T00:00:00Z,9042000,8,2,The Wetlands Preserve,"New York, NY",3.9091,1990 Tour,1990-tour
+686,1990-03-01T00:00:00Z,6244101,8,3,Toad's Place,"New Haven, CT",3.2,1990 Tour,1990-tour
+685,1990-02-25T00:00:00Z,8487705,8,0,8x10 Club,"Baltimore, MD",3.6,1990 Tour,1990-tour
+684,1990-02-24T00:00:00Z,7927144,8,0,The Bayou,"Washington, DC",3.0,1990 Tour,1990-tour
+683,1990-02-23T00:00:00Z,9046883,8,0,"Dining Center, Haverford College","Haverford, PA",3.25,1990 Tour,1990-tour
+682,1990-02-22T00:00:00Z,4105353,8,0,"Mabel Brown Room, Keene State College","Keene, NH",3.2857,1990 Tour,1990-tour
+681,1990-02-17T00:00:00Z,6713441,8,0,"Student Union Ballroom, University of Massachusetts","Amherst, MA",3.9565,1990 Tour,1990-tour
+680,1990-02-16T00:00:00Z,6576325,8,0,The Paradise,"Boston, MA",2.7,1990 Tour,1990-tour
+679,1990-02-15T00:00:00Z,6111819,8,0,The Living Room,"Providence, RI",2.3077,1990 Tour,1990-tour
+678,1990-02-10T00:00:00Z,7486357,8,0,23 East Caberet,"Ardmore, PA",2.8182,1990 Tour,1990-tour
+677,1990-02-09T00:00:00Z,8009193,8,0,Chameleon Club,"Lancaster, PA",3.3,1990 Tour,1990-tour
+676,1990-02-05T00:00:00Z,4289724,8,0,Myskyn's,"Charleston, SC",2.7778,1990 Tour,1990-tour
+675,1990-02-01T00:00:00Z,2773681,8,0,The Georgia Theatre,"Athens, GA",2.6667,1990 Tour,1990-tour
+674,1990-01-29T00:00:00Z,3400700,8,1,The Haunt,"Ithaca, NY",2.8889,1990 Tour,1990-tour
+673,1990-01-28T00:00:00Z,8027170,8,0,The Front,"Burlington, VT",4.0,1990 Tour,1990-tour
+672,1990-01-27T00:00:00Z,8237401,8,0,The Front,"Burlington, VT",3.4,1990 Tour,1990-tour
+671,1990-01-26T00:00:00Z,5426234,8,2,Tree Café,"Portland, ME",3.3,1990 Tour,1990-tour
+1812,1990-01-20T00:00:00Z,8006520,8,1,"Webster Hall, Dartmouth College","Hanover, NH",3.5333,1990 Tour,1990-tour
+583,1989-12-31T00:00:00Z,7352998,7,0,Boston World Trade Center Exhibition Hall,"Boston, MA",3.0,1989 Tour,1989-tour
+582,1989-12-30T00:00:00Z,3830204,7,0,The Wetlands Preserve,"New York, NY",3.0,1989 Tour,1989-tour
+581,1989-12-29T00:00:00Z,3403208,7,0,23 East Caberet,"Ardmore, PA",2.5714,1989 Tour,1989-tour
+580,1989-12-16T00:00:00Z,3801078,7,1,"Contois Auditorium, City Hall","Burlington, VT",2.6667,1989 Tour,1989-tour
+579,1989-12-15T00:00:00Z,8295994,7,0,Ukrainian National Home,"New York, NY",3.3636,1989 Tour,1989-tour
+587,1989-12-09T00:00:00Z,8128445,7,0,"Huden Dining Hall, Castleton State College","Castleton, VT",2.8889,1989 Tour,1989-tour
+586,1989-12-08T00:00:00Z,8074870,7,0,"Withey Hall Dining Room, Green Mountain College","Poultney, VT",2.9091,1989 Tour,1989-tour
+585,1989-12-07T00:00:00Z,7803769,7,1,8x10 Club,"Baltimore, MD",3.5,1989 Tour,1989-tour
+584,1989-12-03T00:00:00Z,9193953,7,1,The Front,"Burlington, VT",2.2727,1989 Tour,1989-tour
+578,1989-12-01T00:00:00Z,7627074,7,0,The Paradise,"Boston, MA",3.3333,1989 Tour,1989-tour
+577,1989-11-30T00:00:00Z,10016914,7,1,The Paradise,"Boston, MA",3.125,1989 Tour,1989-tour
+576,1989-11-16T00:00:00Z,5984498,7,0,Pearl Street Ballroom,"Northampton, MA",2.0,1989 Tour,1989-tour
+575,1989-11-11T00:00:00Z,2596231,7,0,University of Vermont,"Burlington, VT",1.875,1989 Tour,1989-tour
+574,1989-11-10T00:00:00Z,9321091,7,1,"Sigma Phi House, Hamilton College","Clinton, NY",3.2,1989 Tour,1989-tour
+573,1989-11-09T00:00:00Z,6830318,7,0,"Mission Park Dining Hall, Williams College","Williamstown, MA",2.25,1989 Tour,1989-tour
+572,1989-11-03T00:00:00Z,6318941,7,0,Tree Café,"Portland, ME",3.2222,1989 Tour,1989-tour
+571,1989-11-02T00:00:00Z,9022930,7,2,"Memorial Union Building, University of New Hampshire","Durham, NH",3.6667,1989 Tour,1989-tour
+570,1989-10-31T00:00:00Z,9193693,7,2,Goddard College,"Plainfield, VT",3.8235,1989 Tour,1989-tour
+569,1989-10-26T00:00:00Z,9726068,7,4,The Wetlands Preserve,"New York, NY",4.1176,1989 Tour,1989-tour
+568,1989-10-22T00:00:00Z,9555517,7,1,The Front,"Burlington, VT",3.0,1989 Tour,1989-tour
+567,1989-10-21T00:00:00Z,7835247,7,1,The Front,"Burlington, VT",2.8571,1989 Tour,1989-tour
+566,1989-10-20T00:00:00Z,8578455,7,1,The Front,"Burlington, VT",3.7143,1989 Tour,1989-tour
+565,1989-10-14T00:00:00Z,5485192,7,0,"The Barn, Hobart College","Geneva, NY",3.2857,1989 Tour,1989-tour
+564,1989-10-07T00:00:00Z,3613859,7,0,"Chase Hall, Bates College","Lewiston, ME",2.8,1989 Tour,1989-tour
+563,1989-10-01T00:00:00Z,9291702,7,1,The Front,"Burlington, VT",4.0833,1989 Tour,1989-tour
+562,1989-09-21T00:00:00Z,4897255,7,0,Pearl Street Ballroom,"Northampton, MA",3.125,1989 Tour,1989-tour
+561,1989-09-14T00:00:00Z,4076617,7,0,"MacPhie Pub, Tufts University","Medford, MA",1.2,1989 Tour,1989-tour
+560,1989-09-09T00:00:00Z,8430970,7,1,"Dining Commons, Bennington College","Bennington, VT",3.2857,1989 Tour,1989-tour
+559,1989-08-26T00:00:00Z,5293872,7,1,Townshend Family Park,"Townshend, VT",4.5636,1989 Tour,1989-tour
+558,1989-08-19T00:00:00Z,5024576,7,0,"Collis Center, Dartmouth College","Hanover, NH",3.125,1989 Tour,1989-tour
+557,1989-08-17T00:00:00Z,9709559,7,2,The Front,"Burlington, VT",3.0,1989 Tour,1989-tour
+556,1989-08-12T00:00:00Z,4775133,7,0,Burlington Boat House,"Burlington, VT",3.2222,1989 Tour,1989-tour
+555,1989-06-30T00:00:00Z,6607884,7,1,Pearl Street Ballroom,"Northampton, MA",4.0909,1989 Tour,1989-tour
+554,1989-06-29T00:00:00Z,1271955,7,0,The Front,"Burlington, VT",1.25,1989 Tour,1989-tour
+553,1989-06-23T00:00:00Z,5123658,7,1,The Paradise,"Boston, MA",3.8571,1989 Tour,1989-tour
+552,1989-06-10T00:00:00Z,3790315,7,1,The Living Room,"Providence, RI",2.6667,1989 Tour,1989-tour
+548,1989-05-28T00:00:00Z,14750092,7,7,Ian McLean's Farm,"Hebron, NY",4.3125,1989 Tour,1989-tour
+547,1989-05-27T00:00:00Z,4740936,7,1,"Alpha Delta Phi Fraternity, Trinity College","Hartford, CT",3.0,1989 Tour,1989-tour
+546,1989-05-26T00:00:00Z,8798669,7,5,Valley Club Café,"Rutland, VT",4.2,1989 Tour,1989-tour
+545,1989-05-21T00:00:00Z,6030081,7,1,320 Spear Street,"Burlington, VT",2.8333,1989 Tour,1989-tour
+544,1989-05-20T00:00:00Z,8010710,7,0,Northfield/Mt. Hermon School Gymnasium,"Northfield, MA",2.75,1989 Tour,1989-tour
+543,1989-05-13T00:00:00Z,9246877,7,0,The Orange Grove,"Syracuse, NY",3.5714,1989 Tour,1989-tour
+551,1989-05-09T00:00:00Z,9770136,7,3,The Front,"Burlington, VT",3.7143,1989 Tour,1989-tour
+550,1989-05-06T00:00:00Z,9170415,7,0,"Collis Center, Dartmouth College","Hanover, NH",2.4,1989 Tour,1989-tour
+549,1989-05-05T00:00:00Z,5220494,7,1,"Sigma Phi House, Hamilton College","Clinton, NY",3.375,1989 Tour,1989-tour
+542,1989-05-01T00:00:00Z,4591360,7,0,Pearl Street Ballroom,"Northampton, MA",2.5714,1989 Tour,1989-tour
+541,1989-04-30T00:00:00Z,4496274,7,0,Night Stage,"Cambridge, MA",3.3333,1989 Tour,1989-tour
+540,1989-04-27T00:00:00Z,4797884,7,3,"Memorial Union Building, University of New Hampshire","Durham, NH",3.9091,1989 Tour,1989-tour
+539,1989-04-20T00:00:00Z,10203610,7,2,"Humphries House (The Zoo), Amherst College","Amherst, MA",4.1667,1989 Tour,1989-tour
+538,1989-04-15T00:00:00Z,4637518,7,0,"Billings Lounge, University of Vermont","Burlington, VT",3.1429,1989 Tour,1989-tour
+537,1989-04-14T00:00:00Z,8620097,7,3,"The Base Lodge, Johnson State College","Stearns, VT",4.0,1989 Tour,1989-tour
+534,1989-03-30T00:00:00Z,9090742,7,1,The Front,"Burlington, VT",3.0,1989 Tour,1989-tour
+533,1989-03-24T00:00:00Z,3981558,7,0,The Paradise,"Boston, MA",1.1667,1989 Tour,1989-tour
+532,1989-03-14T00:00:00Z,5598772,7,1,Nectar's,"Burlington, VT",2.75,1989 Tour,1989-tour
+531,1989-03-12T00:00:00Z,2744400,7,0,Nectar's,"Burlington, VT",1.9,1989 Tour,1989-tour
+536,1989-03-04T00:00:00Z,5108872,7,0,The Wetlands Preserve,"New York, NY",3.4286,1989 Tour,1989-tour
+535,1989-03-03T00:00:00Z,5251501,7,0,"Living and Learning Center, University of Vermont","Burlington, VT",2.8,1989 Tour,1989-tour
+529,1989-02-24T00:00:00Z,4878784,7,0,The Front,"Burlington, VT",2.6667,1989 Tour,1989-tour
+528,1989-02-18T00:00:00Z,5561104,7,0,Old Stone Church,"Newmarket, NH",2.2857,1989 Tour,1989-tour
+1455,1989-02-07T00:00:00Z,9991862,7,3,The Front,"Burlington, VT",3.9444,1989 Tour,1989-tour
+530,1989-02-06T00:00:00Z,8832314,7,5,The Front,"Burlington, VT",4.0,1989 Tour,1989-tour
+527,1989-01-26T00:00:00Z,4581954,7,2,The Paradise,"Boston, MA",4.1,1989 Tour,1989-tour
+406,1988-12-17T00:00:00Z,4691932,6,1,Old Stone Church,"Newmarket, NH",3.3333,1988 Tour,1988-tour
+405,1988-12-10T00:00:00Z,8758883,6,1,"The Red Barn, Hampshire College","Amherst, MA",3.1429,1988 Tour,1988-tour
+402,1988-11-11T00:00:00Z,4157023,6,0,Old Stone Church,"Newmarket, NH",3.6,1988 Tour,1988-tour
+404,1988-11-05T00:00:00Z,10030889,6,0,Hamilton College,"Clinton, NY",3.0,1988 Tour,1988-tour
+403,1988-11-03T00:00:00Z,9018985,6,1,Molly's Cafe,"Boston, MA",3.4286,1988 Tour,1988-tour
+401,1988-10-29T00:00:00Z,12522240,6,4,"Sculpture Room, Goddard College","Plainfield, VT",4.0588,1988 Tour,1988-tour
+407,1988-09-24T00:00:00Z,8377129,6,2,"Humphries House (The Zoo), Amherst College","Amherst, MA",4.3611,1988 Tour,1988-tour
+399,1988-09-13T00:00:00Z,5150640,6,0,Sam's Tavern,"Burlington, VT",3.5,1988 Tour,1988-tour
+398,1988-09-12T00:00:00Z,4638615,6,0,Sam's Tavern,"Burlington, VT",3.0909,1988 Tour,1988-tour
+400,1988-09-08T00:00:00Z,6402613,6,1,The Front,"Burlington, VT",4.125,1988 Tour,1988-tour
+395,1988-08-27T00:00:00Z,5021780,6,2,"Food Court, Mont Alto Campus, Penn State University","Mont Alto, PA",3.0,1988 Tour,1988-tour
+394,1988-08-13T00:00:00Z,4828213,6,1,The Front,"Burlington, VT",3.2,1988 Tour,1988-tour
+397,1988-08-05T00:00:00Z,5480698,6,0,The Roma,"Telluride, CO",3.6667,1988 Tour,1988-tour
+396,1988-08-03T00:00:00Z,5503086,6,1,Fly Me to the Moon Saloon,"Telluride, CO",4.0,1988 Tour,1988-tour
+393,1988-07-30T00:00:00Z,3202402,6,0,The Roma,"Telluride, CO",3.7,1988 Tour,1988-tour
+392,1988-07-29T00:00:00Z,4880013,6,0,The Roma,"Telluride, CO",4.0,1988 Tour,1988-tour
+391,1988-07-25T00:00:00Z,2656000,6,2,Nectar's,"Burlington, VT",3.7692,1988 Tour,1988-tour
+390,1988-07-24T00:00:00Z,10748397,6,1,Nectar's,"Burlington, VT",3.8571,1988 Tour,1988-tour
+389,1988-07-23T00:00:00Z,14793820,6,7,Pete's Phabulous Phish Phest,"Underhill, VT",4.3571,1988 Tour,1988-tour
+388,1988-07-12T00:00:00Z,8553822,6,0,Sam's Tavern,"Burlington, VT",2.875,1988 Tour,1988-tour
+387,1988-07-11T00:00:00Z,5290372,6,0,Sam's Tavern,"Burlington, VT",1.8571,1988 Tour,1988-tour
+385,1988-06-24T00:00:00Z,2398694,6,0,Halverson's,"Burlington, VT",1.8333,1988 Tour,1988-tour
+384,1988-06-21T00:00:00Z,9585841,6,1,Nectar's,"Burlington, VT",3.0,1988 Tour,1988-tour
+383,1988-06-20T00:00:00Z,10142198,6,0,Nectar's,"Burlington, VT",3.5556,1988 Tour,1988-tour
+382,1988-06-19T00:00:00Z,8069457,6,0,Nectar's,"Burlington, VT",2.5,1988 Tour,1988-tour
+381,1988-06-15T00:00:00Z,9343060,6,0,The Front,"Burlington, VT",2.6,1988 Tour,1988-tour
+409,1988-05-24T00:00:00Z,11398112,6,5,Nectar's,"Burlington, VT",4.3947,1988 Tour,1988-tour
+380,1988-05-23T00:00:00Z,3817534,6,0,Nectar's,"Burlington, VT",2.625,1988 Tour,1988-tour
+386,1988-05-21T00:00:00Z,9977680,6,0,Nectar's,"Burlington, VT",3.8,1988 Tour,1988-tour
+379,1988-05-15T00:00:00Z,10112679,6,0,Beecher Hill Farm,"Hinesburg, VT",3.3636,1988 Tour,1988-tour
+378,1988-05-14T00:00:00Z,5620008,6,0,Goddard College,"Plainfield, VT",2.625,1988 Tour,1988-tour
+377,1988-04-22T00:00:00Z,9825569,6,1,University of Vermont,"Burlington, VT",3.1429,1988 Tour,1988-tour
+376,1988-03-22T00:00:00Z,5377567,6,1,Nectar's,"Burlington, VT",3.2857,1988 Tour,1988-tour
+1398,1988-03-21T00:00:00Z,5215503,6,0,Nectar's,"Burlington, VT",2.0,1988 Tour,1988-tour
+375,1988-03-12T00:00:00Z,4954489,6,5,Nectar's,"Burlington, VT",3.913,1988 Tour,1988-tour
+374,1988-03-11T00:00:00Z,8916873,6,1,"The Base Lodge, Johnson State College","Stearns, VT",4.1,1988 Tour,1988-tour
+408,1988-02-26T00:00:00Z,5483051,6,0,"Living and Learning Center, University of Vermont","Burlington, VT",2.0,1988 Tour,1988-tour
+373,1988-02-24T00:00:00Z,6713442,6,0,Gallaghers,"Waitsfield, VT",2.2857,1988 Tour,1988-tour
+1813,1988-02-20T00:00:00Z,8250277,6,0,St. Lawrence University,"Canton, NY",3.4,1988 Tour,1988-tour
+371,1988-02-08T00:00:00Z,9259678,6,1,Nectar's,"Burlington, VT",3.0,1988 Tour,1988-tour
+370,1988-02-07T00:00:00Z,10702604,6,0,Nectar's,"Burlington, VT",3.4444,1988 Tour,1988-tour
+369,1988-02-03T00:00:00Z,2820807,6,0,Gallaghers,"Waitsfield, VT",2.0,1988 Tour,1988-tour
+368,1988-01-27T00:00:00Z,10431765,6,1,Gallaghers,"Waitsfield, VT",2.9167,1988 Tour,1988-tour
+30,1987-11-19T00:00:00Z,10691789,5,0,Hunt's,"Burlington, VT",4.1,1987 Tour,1987-tour
+29,1987-11-18T00:00:00Z,5205548,5,0,Hunt's,"Burlington, VT",2.875,1987 Tour,1987-tour
+28,1987-10-31T00:00:00Z,9629909,5,1,"Sculpture Room, Goddard College","Plainfield, VT",4.1667,1987 Tour,1987-tour
+27,1987-10-14T00:00:00Z,4788977,5,0,Hunt's,"Burlington, VT",2.25,1987 Tour,1987-tour
+26,1987-09-21T00:00:00Z,10277301,5,0,Nectar's,"Burlington, VT",3.1429,1987 Tour,1987-tour
+25,1987-09-02T00:00:00Z,4353332,5,0,Hunt's,"Burlington, VT",2.375,1987 Tour,1987-tour
+24,1987-08-29T00:00:00Z,13230054,5,6,The Ranch,"South Burlington, VT",4.1875,1987 Tour,1987-tour
+23,1987-08-21T00:00:00Z,13399460,5,8,Ian McLean's Farm,"Hebron, NY",4.5366,1987 Tour,1987-tour
+22,1987-08-10T00:00:00Z,9394052,5,1,Nectar's,"Burlington, VT",3.1667,1987 Tour,1987-tour
+21,1987-08-09T00:00:00Z,4311197,5,0,Nectar's,"Burlington, VT",3.1667,1987 Tour,1987-tour
+20,1987-05-20T00:00:00Z,4854231,5,1,The Ranch,"South Burlington, VT",4.0833,1987 Tour,1987-tour
+19,1987-05-11T00:00:00Z,4242651,5,0,Nectar's,"Burlington, VT",3.0,1987 Tour,1987-tour
+18,1987-04-29T00:00:00Z,10084676,5,5,Nectar's,"Burlington, VT",4.2,1987 Tour,1987-tour
+17,1987-04-24T00:00:00Z,4741197,5,0,"Billings Lounge, University of Vermont","Burlington, VT",3.0667,1987 Tour,1987-tour
+16,1987-03-23T00:00:00Z,4823851,5,0,Nectar's,"Burlington, VT",3.5,1987 Tour,1987-tour
+15,1987-03-06T00:00:00Z,4522841,5,0,Goddard College,"Plainfield, VT",3.6429,1987 Tour,1987-tour
+14,1987-02-21T00:00:00Z,5390812,5,0,"Slade Hall, University of Vermont","Burlington, VT",3.2222,1987 Tour,1987-tour
+13,1987-02-13T00:00:00Z,5441070,5,0,Johnson State College,"Johnson, VT",2.6667,1987 Tour,1987-tour
+12,1986-12-06T00:00:00Z,11685251,4,0,The Ranch,"South Burlington, VT",4.3333,1986 Tour,1986-tour
+11,1986-10-31T00:00:00Z,7679895,4,1,"Sculpture Room, Goddard College","Plainfield, VT",3.9375,1986 Tour,1986-tour
+10,1986-10-15T00:00:00Z,9749028,4,2,Hunt's,"Burlington, VT",4.3636,1986 Tour,1986-tour
+1366,1986-10-12T00:00:00Z,2769083,4,2,"Haybarn Theater, Goddard College","Plainfield, VT",3.3636,1986 Tour,1986-tour
+1357,1986-04-01T00:00:00Z,5443162,4,1,Hunt's,"Burlington, VT",3.5789,1986 Tour,1986-tour
+1355,1986-02-03T00:00:00Z,2976472,4,0,Hunt's,"Burlington, VT",2.1667,1986 Tour,1986-tour
+8,1985-11-23T00:00:00Z,2692649,3,3,Goddard College,"Plainfield, VT",3.7917,1985 Tour,1985-tour
+7,1985-11-14T00:00:00Z,1310459,3,1,Memorial Auditorium Basement,"Burlington, VT",3.4615,1985 Tour,1985-tour
+6,1985-10-30T00:00:00Z,4867868,3,0,Hunt's,"Burlington, VT",3.3571,1985 Tour,1985-tour
+5,1985-10-17T00:00:00Z,2834103,3,1,Finbar's,"Burlington, VT",3.05,1985 Tour,1985-tour
+4,1985-05-03T00:00:00Z,5190687,3,2,University of Vermont,"Burlington, VT",3.5833,1985 Tour,1985-tour
+3,1985-03-04T00:00:00Z,2414471,3,3,Hunt's,"Burlington, VT",2.5833,1985 Tour,1985-tour
+2,1984-12-01T00:00:00Z,5726850,2,4,Nectar's,"Burlington, VT",3.7778,1984 Tour,1984-tour
+1334,1984-11-03T00:00:00Z,4214569,2,3,"Slade Hall, University of Vermont","Burlington, VT",3.3333,1984 Tour,1984-tour
+1324,1983-12-02T00:00:00Z,1031524,1,7,"Harris-Millis Cafeteria, University of Vermont","Burlington, VT",4.2128,1983 Tour,1983-tour
