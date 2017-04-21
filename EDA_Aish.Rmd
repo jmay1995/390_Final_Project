@@ -1,0 +1,113 @@
+---
+title: "EDA_aish"
+author: "Aishwarya Hariharan"
+date: "4/19/2017"
+output: html_document
+---
+
+```{r}
+library(dplyr)
+library(ggplot2)
+
+phanalytix <- read.csv('phanalytix.csv')
+```
+
+
+```{r}
+
+ggplot(phanalytix) + 
+    aes(id_show, like_count_show) +
+    geom_jitter()
+
+```
+
+```{r}
+
+ggplot(phanalytix) + 
+    aes(id_show, ratings) + 
+    geom_jitter()
+
+```
+
+```{r}
+
+ggplot(phanalytix) + 
+    aes(location) + 
+    geom_bar()
+
+```
+
+```{r}
+#Can do Shiny App!
+
+venue_ratings <- phanalytix %>% 
+        select(location, venue_name, tour, ratings, like_count_show, date) %>% 
+            group_by(venue_name, date) %>% 
+              summarise(Average_ratings = mean(ratings))
+
+top_30_ratings <- venue_ratings[venue_ratings$Average_ratings>4.689,]
+
+venue_like_count_show <- phanalytix %>% 
+        select(location, venue_name, tour, ratings, like_count_show, date) %>% 
+            group_by(venue_name, date) %>% 
+              summarise(Average_like_count_show = mean(like_count_show))
+
+top_30_like_count_show <- venue_like_count_show[venue_like_count_show$Average_like_count_show>35,]
+
+
+ratings_plot <- ggplot(top_30_ratings) +
+     aes(date, venue_name) +
+     geom_jitter() +
+    ggtitle("Majority Average Ratings for Top 30 Venues Are Prior to Year 2000")
+
+like_count_show_plot <- ggplot(top_30_like_count_show) +
+     aes(date, venue_name) +
+     geom_jitter() +
+    ggtitle("Majority Average 'like_count_show' for Top 30 Venues Are Spread between before Year 2000 and After Mid-2012")
+
+```
+
+```{r}
+text_df <- tibble(x=3, y=1675, text='NA = No Artist Recorded')
+
+
+ggplot(phanalytix) +
+    aes(artist == "Phish") +
+    geom_bar() + 
+    ggtitle ("76% of the Songs Performed are Originally Written by Phish") + 
+    geom_text(stat = 'count',aes(label=..count..), vjust=1.25, color="white") +
+    labs(x="The Artist is Phish", y = "Number of Songs") +
+    geom_text(data = text_df, aes( x = x, y = y,label=text), color="Maroon") 
+
+```
+
+```{r}
+
+artist_phish <- phanalytix %>% 
+    select(location,artist, song, debut) %>% 
+    na.omit(artist_phish$artist)
+
+phish_songs <- artist_phish[artist_phish$artist =="Phish",] 
+
+phish_songs$debut <- strftime(phish_songs$debut, format("%Y"))
+
+ggplot(phish_songs) +
+    aes(debut) +
+    geom_bar() +
+    ggtitle ("Number of Originally Written Phish Songs Performed Decrease Over the Years") + 
+    geom_text(stat = 'count',aes(label=..count..), vjust=-1, color="red", size = 3) +
+    labs(x="Year of Debut", y = "Number of Songs") +
+    theme(axis.text.x = element_text(size = 10, angle = 65))
+
+```
+
+```{r}
+
+Phish_1990 <- phish_songs[phish_songs$debut == "1990", ]
+
+
+#total_loc <- group_by(Phish_1990, location) %>% summarise(total_refs = sum(location))
+
+
+```
+
