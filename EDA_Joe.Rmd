@@ -1,0 +1,69 @@
+---
+title: "EDA_Joe"
+author: "Joseph May"
+date: "April 24, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r EDA1}
+phanalytix %>% 
+    group_by(date, ratings) %>% 
+    summarise(debuts = sum(debut_dummy)) %>% 
+    arrange(desc(debuts)) %>% 
+    ggplot() +
+    geom_smooth(aes(x = debuts, y = ratings)) +
+    geom_jitter(aes(x = debuts, y = ratings))
+```
+
+```{r EDA2}
+phanalytix %>% 
+    group_by(date, ratings) %>% 
+    summarise(notes = sum(notes_dummy)) %>% 
+    arrange(desc(notes)) %>% 
+    ggplot() +
+    geom_jitter(aes(notes, ratings)) +
+    geom_smooth(aes(notes, ratings))
+```
+
+```{r EDA3}
+phanalytix %>% 
+    group_by(date, ratings) %>% 
+    summarise(avgGap = mean(gap)) %>% 
+    arrange(desc(avgGap)) %>% 
+    ggplot() +
+    geom_jitter(aes(avgGap, ratings)) +
+    geom_smooth(aes(avgGap, ratings))
+
+```
+
+```{r EDA4}
+phanalytix %>% 
+    group_by(date, ratings) %>% 
+    summarise(covers = sum(cover_dummy)) %>% 
+    arrange(desc(covers)) %>% 
+    ggplot() +
+    geom_jitter(aes(covers, ratings)) +
+    geom_smooth(aes(covers, ratings))
+```
+
+```{r EDA5}
+```
+
+```{r EDA6}
+```
+
+```{r EDA7}
+```
+
+```{r EDA8}
+```
+
+```{r EDA9}
+```
+
+```{r EDA10}
+```

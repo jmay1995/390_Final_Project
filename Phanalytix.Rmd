@@ -13,7 +13,7 @@ output: html_document
 *take songs from phish.net to avoid segue problem?
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, warning=FALSE, message=FALSE)
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r packages}
@@ -431,39 +431,37 @@ songGapsNotes <- songGap_data %>%
            notes_dummy = as.numeric(grepl('[qwertyuiopasdfghjklzxcvbnm]', notes))) %>% 
     select(-slug, -venue) #delete the now unecessary slug and venue columns
 
+
+#Save the finalized file
+write_csv(songGapsNotes, 'songGaps.csv')
+songGapsNotes <- read_csv('songGaps.csv')
+
+
 #Join the song gap and notes data with the Phanalytix data frame by song and date, ensuring that only specific performances are joined.
 phanalytix <- left_join(phanalytix, songGapsNotes, by = c("date", "song"))
 
+#Create a dummy variable for whether or not a song is a cover. 1 = Cover
+phanalytix <- phanalytix %>% 
+    mutate(cover_dummy = as.numeric(!grepl('Phish', artist)))
 
-write_csv(songGapsNotes, 'songGaps.csv')
-songGapsNotes <- read_csv('songGaps.csv')
 
 write_csv(phanalytix, 'phanalytix.csv')
 ```
 
-```{r EDA Ideas Joe}
-phanalytix %>% 
-    group_by(date, ratings) %>% 
-    summarise(debuts = sum(debut_dummy)) %>% 
-    arrange(desc(debuts)) %>% 
-    ggplot() +
-    geom_smooth(aes(x = debuts, y = ratings)) +
-    geom_jitter(aes(x = debuts, y = ratings))
 
-phanalytix %>% 
-    group_by(date, ratings) %>% 
-    summarise(notes = sum(notes_dummy)) %>% 
-    arrange(desc(notes)) %>% 
-    ggplot() +
-    geom_jitter(aes(notes, ratings)) +
-    geom_smooth(aes(notes, ratings))
+```{r show duration, eval = FALSE}
+time2 <- shows$duration[1513]
+time2
+#10690062
+#2h 58m aka 2.9666667
+time2 / 3600000
+hour <- trunc(time2 / 3600000)
+hour
+minutes <- ((time2 / 3600000) - trunc(time2 / 3600000))*.6
+minutes
+adj_time2 <-  trunc(time2 / 3600000) + (((time2 / 3600000) - trunc(time2 / 3600000))*.6)
+adj_time2
+#0.1719207 17:11
 
-phanalytix %>% 
-    group_by(date, ratings) %>% 
-    summarise(avgGap = mean(gap)) %>% 
-    arrange(desc(avgGap)) %>% 
-    ggplot() +
-    geom_jitter(aes(avgGap, ratings)) +
-    geom_smooth(aes(avgGap, ratings))
-    
+11000/19207
 ```
