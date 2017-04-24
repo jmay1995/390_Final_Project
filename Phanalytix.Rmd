@@ -330,7 +330,7 @@ phanalytix <- mutate(phanalytix, duration_song = song_duration_list$X..i..)
 
 ```
 
-```{r gaps warning=FALSE, message=FALSE}
+```{r Gaps Notes Debuts warning=FALSE, message=FALSE}
 #Compile a list of all the songs phish has ever written or composed
 songs <- songData %>% 
     filter(!is.na(debut)) %>% #filter out any songs that have never been performed live
@@ -443,6 +443,11 @@ phanalytix <- left_join(phanalytix, songGapsNotes, by = c("date", "song"))
 #Create a dummy variable for whether or not a song is a cover. 1 = Cover
 phanalytix <- phanalytix %>% 
     mutate(cover_dummy = as.numeric(!grepl('Phish', artist)))
+
+#Song gap is inflated when a song is a debut, counting the shows passed before it was written, whereas it should be an NA value, this code does that
+phanalytix <- phanalytix %>% 
+    mutate(adjGap = ifelse(debut_dummy == 1,NA, 
+                           ifelse(as.numeric(grepl('Jam', song)) == 1, NA, gap)))
 
 
 write_csv(phanalytix, 'phanalytix.csv')
