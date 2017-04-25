@@ -7,8 +7,6 @@ output: html_document
 #stor390Project
 
 #Whats left
--parsing show time
--song gap
 -rotation
 *take songs from phish.net to avoid segue problem?
 
@@ -300,7 +298,7 @@ phanalytix <- read_csv('phanalytix.csv')
 
 ```
 
-```{r parse duration}
+```{r parse song duration}
 #to parse "duration" as a time
 
 #write a function which converts the song time durations into minutes and seconds
@@ -327,7 +325,36 @@ song_duration_list <- lapply(phanalytix$duration_song, song_parser) %>%
 
 #replace the original duration column with the new minute-second values
 phanalytix <- mutate(phanalytix, duration_song = song_duration_list$X..i..)
+```
 
+
+```{r parse show duration warning=FALSE, message=FALSE}
+song_parser_shows <- function(x) {
+    #formula to change original duration value into hours and minutes
+    adj_time2 <-  round(trunc(x / 3600000) + (((x / 3600000) - trunc(x / 3600000))*.6), digits=2) 
+    #parse the time as a character
+    char_time <- parse_character(adj_time2)
+    #remove the slashes "\\." and replace with a dash "-"
+    formatted_time <- str_replace(char_time, '\\.', '-')
+    #parse as a time
+    parsed_time <- strptime(formatted_time, format = "%H-%M")
+    #change to only include the minutes and seconds
+    duration_time <- strftime(parsed_time, format="%H:%M")
+    
+    #return the parsed duration value
+    return(duration_time)
+}
+
+#apply the function to every song duration in the songs_shows tibble
+show_duration_list <- lapply(phanalytix$duration_show, song_parser_shows) %>%
+    lapply(data.frame) %>% 
+    bind_rows
+
+#replace the original duration column with the new minute-second values
+phanalytix <- mutate(phanalytix, duration_show = show_duration_list$X..i..)
+
+#save dataset
+write_csv(phanalytix, 'phanalytix.csv')
 ```
 
 ```{r Gaps Notes Debuts warning=FALSE, message=FALSE}
@@ -446,27 +473,23 @@ phanalytix <- phanalytix %>%
 
 #Song gap is inflated when a song is a debut, counting the shows passed before it was written, whereas it should be an NA value, this code does that
 phanalytix <- phanalytix %>% 
-    mutate(adjGap = ifelse(debut_dummy == 1,NA, 
+    mutate(adjGap = ifelse(debut_dummy == 1,NA, #if it is a debut then it has no gap
+                           #Jams arent composed and repeated songs, so they should also have no Gap
                            ifelse(as.numeric(grepl('Jam', song)) == 1, NA, gap)))
+
+##Song Rotation: The percentage of times the show is played
+#Count the number of shows played
+numOfShows <- dim(
+                summarise(
+                    group_by(
+                        phanalytix, date)))[1]
+#Add the ratio to the phanalytix dataset
+phanalytix <- phanalytix %>% 
+    mutate(rotation = total_times_played/numOfShows)
+
 
 
 write_csv(phanalytix, 'phanalytix.csv')
 ```
 
 
-```{r show duration, eval = FALSE}
-time2 <- shows$duration[1513]
-time2
-#10690062
-#2h 58m aka 2.9666667
-time2 / 3600000
-hour <- trunc(time2 / 3600000)
-hour
-minutes <- ((time2 / 3600000) - trunc(time2 / 3600000))*.6
-minutes
-adj_time2 <-  trunc(time2 / 3600000) + (((time2 / 3600000) - trunc(time2 / 3600000))*.6)
-adj_time2
-#0.1719207 17:11
-
-11000/19207
-```
