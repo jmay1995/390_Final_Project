@@ -301,4 +301,4 @@ map_debut <- base_map +
 map_debut
 ```
 
-Figure 11 is a basic map of the world which shows the locations of the debuts of each song.  The red points indicate these observations.  We can see that most of the debuts occurred in the Northeast and Western parts of the US. 
+Figure 11 is a basic map of the world which shows the locations of the debuts of each song pre-2000.  The red points indicate these observations.  We can see that most of the debuts occurred in the Northeast and Western parts of the US. The black points indicate the locations of debuts post-2000, which are all within the United States, and mostly concentrated in the North East.  
