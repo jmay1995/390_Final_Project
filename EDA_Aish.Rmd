@@ -65,7 +65,7 @@ ggplot(phanalytix) +
     geom_jitter() + 
     theme(axis.text.x = element_text(size = 10, angle = 65)) +
     ggtitle("Duration of Song Highly Scattered Over Time") + 
-    labs(x="Song ID", y = "Duration of Son") +
+    labs(x="Song ID", y = "Duration of Song") +
     theme(panel.background = element_blank())
 
 ```
@@ -128,8 +128,12 @@ orig_phish <- phanalytix %>%
     na.omit(orig_phish$artist) %>% 
     summarize(n())
 
+orig_phish <- orig_phish  %>% 
+    mutate (#Create a new column that indicates if artist is "Phish" or not.
+           Phish_dummy = as.numeric(grepl('Phish',artist)))
+
 ggplot(orig_phish) +
-    aes(artist == "Phish") +
+    aes(Phish_dummy == 1) +
     geom_bar() + 
     ggtitle ("36% of Total Songs Performed are Originally Written by Phish") + 
     geom_text(stat = 'count',aes(label=..count..), vjust=1.25, color="white") +
@@ -223,6 +227,10 @@ coordinates <- read.csv("phanalytix_cities.csv")
 coordinates <- add_column(coordinates, random_num = 373)
 coordinates$random_num = floor(runif(coordinates$random_num, min=1, max=length(coordinates$location)))
 
+
+#Setting debut to as.date
+phanalytix <- mutate(phanalytix, debut = as.Date(debut))
+
 #Creating new tibble, with only song name, debut date, location, debut dummy, and n()
 map_plot <- phanalytix %>% 
     select(location,artist, song, debut, debut_dummy) %>% 
@@ -235,6 +243,14 @@ map_plot <- phanalytix %>%
 #Joining coordinates tibble with map_plot
 map_debuts <- left_join(map_plot, coordinates, by = "location")
 
+
+#Tibble with debuts before 2000
+map_debuts_pre_2000 <- map_debuts[map_debuts$debut<"2000-01-01",]
+
+#Tibble with debuts after 2000
+map_debuts_post_2000 <- map_debuts[map_debuts$debut>="2000-01-01",]
+
+
 library(maps)
 library(ggplot2)
 
@@ -246,7 +262,7 @@ base_map <- ggplot() +
             coord_fixed() +
             xlab("") + 
             ylab("") +
-            labs(title = "Debut Songs' Performance Concentrated in North East and Western US")
+            labs(title = "Performance of Debut Songs' Pre- and Post- 2000")
 
 #Adding map to base plot
 base_map_basic <- base_map + 
@@ -267,14 +283,20 @@ base_map <- base_map_basic + base_map_details
 
 #Mapping locations from map_plot tibble to base map
 map_debut <- base_map +
-             geom_point(data=map_debuts, 
+        geom_point(data=map_debuts_pre_2000, 
              aes(x=longitude, y=latitude), 
              color="Red", 
              fill="White",
              pch=21, 
-             size=0.5, 
+             size=1, 
+             alpha=I(0.7)) +
+        geom_point(data=map_debuts_post_2000, 
+             aes(x=longitude, y=latitude), 
+             color="Black", 
+             fill="White",
+             pch=21, 
+             size=1, 
              alpha=I(0.7))
-
 
 map_debut
 ```
