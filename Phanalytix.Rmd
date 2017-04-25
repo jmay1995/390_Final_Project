@@ -6,10 +6,6 @@ output: html_document
 ---
 #stor390Project
 
-#Whats left
--rotation
-*take songs from phish.net to avoid segue problem?
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -20,6 +16,9 @@ library(rvest)
 library(jsonlite)
 library(tidyverse)
 library(stringr)
+library(readr)
+library(ggmap)
+#phanalytix <- read.csv('phanalytix.csv', stringsAsFactors = FALSE)
 ```
 
 ```{r Phish.in years API}
@@ -159,11 +158,6 @@ shows <- shows %>%
 
 ```
 
-
-
-
-
-
 ```{r Phish.in tracks API}
 #create a tibble "tracks" which contains each song in each show by adding the show date from the shows tibble into the 'show-on-date' API, converting to text, adding in the corresponding date, and changing song ID from a list type for later joins
 
@@ -235,8 +229,6 @@ write_csv(songs_shows, 'songs_shows.csv')
 songs_shows <- read_csv('songs_shows.csv')
 ```
 
-
-
 ```{r Phish.net song API}
 #creating a tibble which contains information about all of the songs Phish has played
 
@@ -279,7 +271,7 @@ song_data <- rename(song_data,
 song_data <- song_data%>%
                 mutate(debut = as.Date(debut), 
                    last = as.Date(last),
-                   total_times_played = parse_numeric(total_times_played) )%>%
+                   total_times_played = parse_number(total_times_played) )%>%
                 select(-gap, -last)
 
 #save the data and read it in
@@ -292,15 +284,20 @@ song_data <- read_csv('song_data.csv')
 #join together the information about the songs with the information about which songs were played at which shows
 phanalytix <- left_join(songs_shows, song_data, by = "song")
 
+#adding column for year
+phanalytix <- mutate(phanalytix, date = as.Date(date))
+phanalytix <- mutate(phanalytix, year = as.numeric(format(date, format = "%Y")))
+
 #saving the dataset and reading it in
 write_csv(phanalytix, 'phanalytix.csv')
-phanalytix <- read_csv('phanalytix.csv')
+phanalytix <- read.csv('phanalytix.csv', stringsAsFactors = FALSE)
 
 ```
 
-```{r parse song duration}
+```{r parse duration}
 #to parse "duration" as a time
 
+##FIRST: duration_song##
 #write a function which converts the song time durations into minutes and seconds
 song_parser <- function(x) {
     #formula to change original duration value into minutes and seconds
@@ -318,18 +315,17 @@ song_parser <- function(x) {
     return(duration_time)
 }
 
-#apply the function to every song duration in the songs_shows tibble
+#apply the function to every song duration in the phanalytix tibble
 song_duration_list <- lapply(phanalytix$duration_song, song_parser) %>%
     lapply(data.frame) %>% 
     bind_rows
 
 #replace the original duration column with the new minute-second values
 phanalytix <- mutate(phanalytix, duration_song = song_duration_list$X..i..)
-```
 
-
-```{r parse show duration warning=FALSE, message=FALSE}
-song_parser_shows <- function(x) {
+##SECOND: duration_show##
+#write a function which converts the show time durations into hours and minutes
+show_parser <- function(x) {
     #formula to change original duration value into hours and minutes
     adj_time2 <-  round(trunc(x / 3600000) + (((x / 3600000) - trunc(x / 3600000))*.6), digits=2) 
     #parse the time as a character
@@ -338,7 +334,7 @@ song_parser_shows <- function(x) {
     formatted_time <- str_replace(char_time, '\\.', '-')
     #parse as a time
     parsed_time <- strptime(formatted_time, format = "%H-%M")
-    #change to only include the minutes and seconds
+    #change to only include the hours and minutes
     duration_time <- strftime(parsed_time, format="%H:%M")
     
     #return the parsed duration value
@@ -346,91 +342,104 @@ song_parser_shows <- function(x) {
 }
 
 #apply the function to every song duration in the songs_shows tibble
-show_duration_list <- lapply(phanalytix$duration_show, song_parser_shows) %>%
+show_duration_list <- lapply(phanalytix$duration_show, show_parser) %>%
     lapply(data.frame) %>% 
     bind_rows
 
-#replace the original duration column with the new minute-second values
+#replace the original duration column with the new hour-minute values
 phanalytix <- mutate(phanalytix, duration_show = show_duration_list$X..i..)
 
-#save dataset
+#save the dataset
 write_csv(phanalytix, 'phanalytix.csv')
+
 ```
 
-```{r Gaps Notes Debuts warning=FALSE, message=FALSE}
+```{r gaps, notes, and debuts, warning=FALSE, message=FALSE}
 #Compile a list of all the songs phish has ever written or composed
-songs <- songData %>% 
-    filter(!is.na(debut)) %>% #filter out any songs that have never been performed live
-    group_by(song) %>% #make a list of only those songs and none of the other info.
+
+songs <- song_data %>% 
+    #filter out any songs that have never been performed live
+    filter(!is.na(debut)) %>% 
+    #make a list of only those songs and none of the other info
+    group_by(song) %>% 
     summarise() %>% 
-    #Modify the name of the songs into slugs that fit the desired URL format for the website
+    #modify the names of the songs into slugs that fit the desired URL format for the website
     mutate(slug = tolower(str_replace_all(song, '\\s', '-')),
            slug = str_replace_all(slug, '[:/\'(),!?.]', ''),
-           #Correct any iregularities in how phish.net parses their URL's
+           #correct any irregularities in how phish.net parses their URLs
            slug = str_replace_all(slug, 'hang-on-to-yourself', 'hang-on-to-yours'), 
            slug = str_replace_all(slug,'ä', ''),
            slug = str_replace_all(slug, 'tide-turns', 'tide-turnss'),
            slug = str_replace(slug,'timber', 'timber-haunted'),
            slug = str_replace(slug,'timber-haunted-jerry', 'timber-jerry'))
-           #slug = str_replace_all(slug,)
 
-dotNetSong <- 'http://phish.net/song/'
-#Create a URL with the URL start template above and an entry from the list of songs
-songURL <- str_c(dotNetSong, songs$slug[1])
-#Read in the HTML from the created URL above
-html <- read_html(songURL)
+
+#Create a URL with the URL start template and an entry from the list of songs
+url_phishnet_song <- 'http://phish.net/song/'
+url_song <- str_c(url_phishnet_song, songs$slug[1])
+
+#read in the HTML from the created URL above
+html_song <- read_html(url_song)
+
 #Extract text from the 'td' table data HTML nodes
-songHTML <- html %>% 
+song_text <- html_song %>% 
     html_nodes('td') %>% 
     html_text()
 
 #Display the table created from the HTML as a data frame
-songsGaps <- as_data_frame(songHTML)
+song_text <- as_data_frame(song_text)
 
-columns <- 8 #Number of Categories
-songGap_indices <- seq(dim(songsGaps)[1]) #creates sequence from 1 to the length of dataframe 
+#number of categories
+columns <- 8 
+#creates sequence from 1 to the length of data frame
+song_gap_indices <- seq(dim(song_text)[1])  
 #split by dividing row number by number of categories to get one index per song
-song_gaps <- split(songsGaps, ceiling(songGap_indices/columns))  
+song_gaps <- split(song_text, ceiling(song_gap_indices/columns))  
 
 #transposing and organizing song_gaps into a tibble 
-songGap_data <- lapply(song_gaps, t) %>% 
+song_gap_data <- lapply(song_gaps, t) %>% 
     lapply(data.frame) %>% 
     bind_rows
 
-#Tidy up the ata
-songGap_data <- songGap_data %>%
-    select(-X4, -X5, -X6, -X8) %>% #select out unnecessary data
+#tidy up the data
+song_gap_data <- song_gap_data %>%
+    select(-X4, #select out unnecessary data
+           -X5, 
+           -X6, 
+           -X8) %>% 
     mutate(X1 = as.Date(X1), #parse dates
-           song = songs$song[1], #Add the name of the song into the DF
+           song = songs$song[1], #add the name of the song into the tibble
            slug = songs$slug[1]) %>% 
-    rename(date = X1, #rename variable aptly
+    rename(date = X1, #rename variables
            venue = X2, 
            gap = X3,
            notes = X7)
 
-#Repeat all the steps above inside of a loop then join the results into one complete DF
+#repeat all the steps above inside of a loop for all the other songs then join the results into one complete tibble
 for(i in 2:dim(songs)[1]) {
-    songURL <- str_c(dotNetSong, songs$slug[i])
+    url_song <- str_c(url_phishnet_song, songs$slug[i])
 
-    html <- read_html(songURL)
+    html_song <- read_html(url_song)
 
-    songHTML <- html %>% 
+    song_text <- html_song %>% 
         html_nodes('td') %>% 
         html_text()
     
-    songsGaps <- as_data_frame(songHTML)
+    song_text <- as_data_frame(song_text)
 
     columns <- 8
-    songGap_indices <- seq(dim(songsGaps)[1])
-    song_gaps <- split(songsGaps, ceiling(songGap_indices/columns))
+    song_gap_indices <- seq(dim(song_text)[1])
+    song_gaps <- split(song_text, ceiling(song_gap_indices/columns))
     
-    songGapLoop <- lapply(song_gaps, t) %>% 
+    song_gap_loop <- lapply(song_gaps, t) %>% 
         lapply(data.frame) %>% 
         bind_rows
 
-    
-    songGapLoop <- songGapLoop %>%
-        select(-X4, -X5, -X6, -X8) %>% 
+    song_gap_loop <- song_gap_loop %>%
+        select(-X4, 
+               -X5, 
+               -X6, 
+               -X8) %>% 
         mutate(X1 = as.Date(X1), 
                song = songs$song[i], 
                slug = songs$slug[i]) %>% 
@@ -439,57 +448,116 @@ for(i in 2:dim(songs)[1]) {
                gap = X3,
                notes = X7)
     
-    #join the findings from each song's website and
-    songGap_data <- full_join(songGap_data, songGapLoop, 
+    #join the findings from each song
+    song_gap_data <- full_join(song_gap_data, song_gap_loop, 
                               by = c("date", "venue", "gap", "notes", "song", "slug"))
-    
-    #print(i)
 }
 
 #Tidy up the data frame:
-songGapsNotes <- songGap_data %>% 
-    #If a song has been teased inside of another song it goes into a diffferent table on the website that     the HTML picks up, this regular expression removes that unecessary info
+song_notes <- song_gap_data %>% 
+    #If a song has been teased inside of another song it goes into a different table on the website        that the HTML picks up; this regular expression removes that unecessary info
     filter(!grepl('[qwertyuiopasdfghjklzxcvbnm]|ø', gap)) %>% 
-    mutate(gap = parse_numeric(gap),
+    mutate(gap = parse_number(gap),
            date = parse_datetime(date),
-           notes = tolower(notes), #change all notes to lower case for easier regular expressions
-           #Create a new column that indicates if a specific perfomance is a debut or not.
+           #change all notes to lower case for easier regular expressions
+           notes = tolower(notes), 
+           #create a new column that indicates if a specific perfomance is a debut
            debut_dummy = as.numeric(grepl('debut|first known', notes)),
+           #create a new column that indicates is a specific song teased or quoted other songs inside of it
+           tease_dummy = as.numeric(grepl('tease|quote', notes)),
+           #create a new column that indicates if a specific perfomance has notes
            notes_dummy = as.numeric(grepl('[qwertyuiopasdfghjklzxcvbnm]', notes))) %>% 
-    select(-slug, -venue) #delete the now unecessary slug and venue columns
-
+    #delete the now unecessary slug and venue columns
+    select(-slug, 
+           -venue) 
 
 #Save the finalized file
-write_csv(songGapsNotes, 'songGaps.csv')
-songGapsNotes <- read_csv('songGaps.csv')
-
+write_csv(song_notes, 'song_notes.csv')
+song_notes <- read_csv('song_notes.csv')
 
 #Join the song gap and notes data with the Phanalytix data frame by song and date, ensuring that only specific performances are joined.
-phanalytix <- left_join(phanalytix, songGapsNotes, by = c("date", "song"))
+phanalytix <- mutate(phanalytix, date = parse_datetime(date))
+phanalytix <- left_join(phanalytix, song_notes, by = c("date", "song"))
 
-#Create a dummy variable for whether or not a song is a cover. 1 = Cover
+#create a dummy variable indicating whether a song is a cover
 phanalytix <- phanalytix %>% 
     mutate(cover_dummy = as.numeric(!grepl('Phish', artist)))
 
-#Song gap is inflated when a song is a debut, counting the shows passed before it was written, whereas it should be an NA value, this code does that
+#song gap is quite large when a song is first debuted, counting the shows passed before it was written; instead, it should be an NA value
 phanalytix <- phanalytix %>% 
-    mutate(adjGap = ifelse(debut_dummy == 1,NA, #if it is a debut then it has no gap
-                           #Jams arent composed and repeated songs, so they should also have no Gap
+    mutate(adj_gap = ifelse(debut_dummy == 1,NA, 
                            ifelse(as.numeric(grepl('Jam', song)) == 1, NA, gap)))
 
-##Song Rotation: The percentage of times the show is played
-#Count the number of shows played
-numOfShows <- dim(
-                summarise(
-                    group_by(
-                        phanalytix, date)))[1]
-#Add the ratio to the phanalytix dataset
-phanalytix <- phanalytix %>% 
-    mutate(rotation = total_times_played/numOfShows)
-
-
-
+#save the data
 write_csv(phanalytix, 'phanalytix.csv')
+
+```
+
+```{r creating more useful variables}
+#splitting the location into city, state and country
+location_split <- do.call(rbind, strsplit(phanalytix$location, ','))
+location_split <- as.tibble(location_split)
+#because some locations had 3 places and some only had 2, there were a couple of inconsistencies in the tibble
+for(i in 1:length(location_split$V1)[1]){
+    index <- i
+    #arranging so that cities aren't accidentally repeated in the country category
+    if(location_split$V1[index]==location_split$V3[index]){
+        location_split$V3[index] <- NA
+    }
+    #moving the country name to the correct column in certain cases
+    if(is.na(location_split$V3[index]) & str_detect(location_split$V2[index], "[a-z]")){
+        location_split$V3[index] <- location_split$V2[index]
+        location_split$V2[index] <- NA
+    }
+    #adding United States as the country for appropriate entries
+    if(is.na(location_split$V3[index])){
+        location_split$V3[index] <- "United States"
+    }
+}
+#specifically fixing the case where Quinatana Roo is the state and Mexico is the country
+for(i in 30826:30883){
+    index <- i
+    location_split$V2[index] <- "Quintana Roo"
+    location_split$V3[index] <- "Mexico"
+}
+#specifically fixing the case where British Columbia is the state and Canada is the country
+for(i in 14980:14998){
+    index <- i
+    location_split$V2[index] <- "British Columbia"
+    location_split$V3[index] <- "Canada"
+}
+
+#renaming column names
+location_split <- rename(location_split, 
+                         city = V1,
+                         state = V2,
+                         country = V3)
+#merging with Phanalytix
+phanalytix <- mutate(phanalytix, 
+                     city=location_split$city, 
+                     state=location_split$state, 
+                     country=location_split$country)
+
+#saving
+write_csv(location_split, "locations.csv")
+write_csv(phanalytix, "phanalytix.csv")
+
+#creating dataset grouped by location (need this because Google's API restricts us to 2500 calls per day)
+phanalytix_cities <- phanalytix%>%
+    group_by(location)%>%
+    summarize(average_rating = mean(ratings))
+write_csv(phanalytix_cities, "phanalytix_cities.csv")
+
+#pulling latitude and longitude from the Google Maps API
+locations <- geocode(phanalytix_cities$location, output='latlon')
+phanalytix_cities <- mutate(phanalytix_cities, latitude = locations$lat, longitude = locations$lon)
+
+#adding latitude and longitude information to the whole dataset
+phanalytix <- left_join(phanalytix, phanalytix_cities, by = "location")
+phanalytix <- select(phanalytix, -average_rating)
+
+#saving
+write_csv(phanalytix, "phanalytix.csv")
 ```
 
 
