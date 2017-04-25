@@ -9,105 +9,274 @@ output: html_document
 library(dplyr)
 library(ggplot2)
 
-phanalytix <- read.csv('phanalytix.csv')
+phanalytix <- read.csv('phanalytix.csv', stringsAsFactors = FALSE)
+phanalytix <- mutate(phanalytix, date = as.Date(date))
 ```
 
-
+#Figure 1
 ```{r}
 
 ggplot(phanalytix) + 
     aes(id_show, like_count_show) +
-    geom_jitter()
+    geom_jitter() +
+    geom_smooth() +
+    ggtitle("Slight Increase of Like Count of Show After Show ID: 750") +
+    labs(x="Show ID", y = "Like Count of Show") +
+    theme(panel.background = element_blank())
 
 ```
 
+Figure 1 is a jitter plot of id_show vs. like_count_show, which shows how like_count changes over time.  id_show (Show ID) is the id of each show, which represents time in this case, with 1 as the first show, and 500 as the five-hundredth show.  We can see that there is an increase of the like count from around show ID of 750 onwards. 
+
+
+#Figure 2
 ```{r}
 
 ggplot(phanalytix) + 
     aes(id_show, ratings) + 
-    geom_jitter()
+    geom_jitter() +
+    geom_smooth() +
+    ggtitle("Phish.net Ratings of Shows Stagnant at >3; Outliers Around Show ID:500") +
+    labs(x="Show ID", y = "Ratings") +
+    theme(panel.background = element_blank())
 
 ```
 
+Figure 2 is a jitter plot of the Show ID vs. Ratings.  Using geom_smooth, we can see that there is an overall stagnant rating, whith is from about 3 - 4.  It is important to keep in mind that these ratings are coming from Phish.net subscribers, so they are biased.  There is a clear chunk of outliers around show ID of 500, with ratings just above 1. 
+
+#Figures 3 & 4
 ```{r}
+
+#subsample the data
+set.seed(7828)
+train <- phanalytix[sample(x=1:dim(phanalytix)[1], size=50), ]
+
+
+ggplot(train) + 
+    aes(id_song, duration_song) + 
+    geom_jitter() + 
+    theme(axis.text.y = element_text(size = 8)) +
+    ggtitle("No Specific Pattern for Duration of Song Over Time, for Subsample of 50 Songs") + 
+    labs(x="Song ID", y = "Duration of Song") +
+    theme(panel.background = element_blank())
 
 ggplot(phanalytix) + 
-    aes(location) + 
-    geom_bar()
+    aes(id_song, duration_song) + 
+    geom_jitter() + 
+    theme(axis.text.x = element_text(size = 10, angle = 65)) +
+    ggtitle("Duration of Song Highly Scattered Over Time") + 
+    labs(x="Song ID", y = "Duration of Son") +
+    theme(panel.background = element_blank())
 
 ```
 
+Figure 3 is a plot looking at the relationship of the Song ID vs. Duration of the Song.  Figure 3 uses a subsample of 50 observations from the whole dataset.  We can see that it is a complete scatterplot, showing no clear trend in the duration of the song. 
+
+Figure 4 is a copy of the plot in figure 3, but uses the whole dataset and all its observations.  This also shows a full scatterplot.
+
+
+#Figure 5 & 6
 ```{r}
-#Can do Shiny App!
+#Can try Shiny App!
 
 venue_ratings <- phanalytix %>% 
-        select(location, venue_name, tour, ratings, like_count_show, date) %>% 
-            group_by(venue_name, date) %>% 
-              summarise(Average_ratings = mean(ratings))
+        select(id_show, song, location, venue_name, tour, ratings, like_count_show, date) %>% 
+            group_by(venue_name, ratings) %>% 
+                summarize(n()) %>% 
+                    summarise(Average_ratings = mean(ratings))
 
-top_30_ratings <- venue_ratings[venue_ratings$Average_ratings>4.689,]
+top_25_ratings <- venue_ratings[venue_ratings$Average_ratings>4.5405,]
 
 venue_like_count_show <- phanalytix %>% 
         select(location, venue_name, tour, ratings, like_count_show, date) %>% 
-            group_by(venue_name, date) %>% 
-              summarise(Average_like_count_show = mean(like_count_show))
+            group_by(venue_name, like_count_show) %>% 
+                summarise(n()) %>% 
+                    summarise(Average_like_count_show = mean(like_count_show))
 
-top_30_like_count_show <- venue_like_count_show[venue_like_count_show$Average_like_count_show>35,]
+top_25_like_count_show <- venue_like_count_show[venue_like_count_show$Average_like_count_show>16.75,]
 
 
-ratings_plot <- ggplot(top_30_ratings) +
-     aes(date, venue_name) +
-     geom_jitter() +
-    ggtitle("Majority Average Ratings for Top 30 Venues Are Prior to Year 2000")
+#ratings_plot <- 
 
-like_count_show_plot <- ggplot(top_30_like_count_show) +
-     aes(date, venue_name) +
-     geom_jitter() +
-    ggtitle("Majority Average 'like_count_show' for Top 30 Venues Are Spread between before Year 2000 and After Mid-2012")
+ggplot(top_25_ratings) +
+    aes(Average_ratings, venue_name) +
+    geom_jitter() +
+    ggtitle("Top 30 Venues Average Ratings Fall between 4.50 - 4.60 and 4.65 - 4.70") +
+    theme(axis.text.x = element_text(size = 10))+
+    labs(x="Average Rating of Show", y = "Venue of Show") +
+    theme(panel.background = element_blank())
+
+#like_count_show_plot <- 
+
+ggplot(top_25_like_count_show) +
+    aes(Average_like_count_show, venue_name) +
+    geom_jitter() +
+    ggtitle("Majority of Top 25 Venues Average Like Count of Show Are Less than 50") + 
+    theme(axis.text.x = element_text(size = 10))+
+    labs(x="Average Like Count of Show", y = "Venue of Show") +
+    theme(panel.background = element_blank())
 
 ```
 
+Figure 5 shows that, out of all the top 25 venues, measured by average ratings of each, the average ratings are mostly in the 4.50 - 4.70 ratings.  Figure 6 is a similar graph, with the replacement of ratings with average like count of show.  This plot shows that the for these top 25 venues, decided by their average like_count_show, the majority of them have a like count of show below 50.  There is an outlier, with 85.33 as the value of the average like count of show, and it is at the venue, Big Cypress Seminole Indian Reservation.  Interestingly, the highest value for average rating, which is 4.704, is not at the same venue, but at Drum Logos. 
+
+
+#Figure 7
 ```{r}
-text_df <- tibble(x=3, y=1675, text='NA = No Artist Recorded')
+orig_phish <- phanalytix %>% 
+    group_by(song, artist)%>%
+    na.omit(orig_phish$artist) %>% 
+    summarize(n())
 
-
-ggplot(phanalytix) +
+ggplot(orig_phish) +
     aes(artist == "Phish") +
     geom_bar() + 
-    ggtitle ("76% of the Songs Performed are Originally Written by Phish") + 
+    ggtitle ("36% of Total Songs Performed are Originally Written by Phish") + 
     geom_text(stat = 'count',aes(label=..count..), vjust=1.25, color="white") +
     labs(x="The Artist is Phish", y = "Number of Songs") +
-    geom_text(data = text_df, aes( x = x, y = y,label=text), color="Maroon") 
+    #geom_text(data = text_df, aes( x = x, y = y,label=text), color="Maroon") + 
+    theme(panel.background = element_blank())
 
 ```
 
+Figure 7 shows that, out of all the songs performed by Phish, only 36% are originally written by the band.  
+
+#Figure 8
+```{r}
+
+covers_phish <- phanalytix %>% 
+    na.omit(phanalytix$artist) %>% 
+    group_by(song, cover_dummy) %>% 
+    summarize(n())
+
+ggplot(covers_phish) +
+    aes(cover_dummy == "1") +
+    geom_bar () +
+    ggtitle ("63% of Total Songs Performed are Covers") +
+    geom_text(stat = 'count',aes(label=..count..), vjust=1.25, color="white") +
+    labs(x="The Song is a Cover", y = "Number of Songs") +
+    theme(panel.background = element_blank())
+
+```
+
+Figure 8 shows, out of all the songs performed by Phish, 63% are covers.  This makes sense, because, from the earlier plot, we know that 36% are originally written by Phish, so most of the other songs have to be covers.  
+
+#Figure 9
+```{r}
+
+tours_phish <- phanalytix %>% 
+    na.omit(phanalytix$artist) %>% 
+    group_by(id_tour, cover_dummy) %>% 
+    summarize(total_covers = n()) %>% 
+    arrange(id_tour) 
+
+ggplot(tours_phish) +
+    aes(id_tour, total_covers) +
+    geom_jitter () + 
+    geom_smooth() +
+    ggtitle ("Larger Spike in Total Numbers of Covers per Tour within First 25 Tours") +
+    labs(x="Tour ID", y = "Total Covers") +
+    theme(panel.background = element_blank()) + 
+    theme(axis.text.x = element_text(size = 10))
+```
+
+Figure 9 is a jitter plot of the Tour ID (which is a variable representing time), versus total number of covers performed.  So, over time, the total number of covers performed per tour has been stagnant,after about the 40th tour.  For the first 25 tours, there were a higher number of covers performed.  Note: There is a patch without any observations, around tour ID 75.  This was during the years 2005-2010, when the band was not active. 
+
+#Figure 10
 ```{r}
 
 artist_phish <- phanalytix %>% 
-    select(location,artist, song, debut) %>% 
-    na.omit(artist_phish$artist)
+    select(location,artist, song, debut, debut_dummy) %>% 
+    filter(debut_dummy == "1") %>% 
+    filter(artist == "Phish")%>%
+    na.omit(artist_phish$artist)%>%
+    group_by(song, debut, debut_dummy)%>%
+    summarize(n())
 
-phish_songs <- artist_phish[artist_phish$artist =="Phish",] 
+phish_songs <- artist_phish
 
 phish_songs$debut <- strftime(phish_songs$debut, format("%Y"))
 
 ggplot(phish_songs) +
     aes(debut) +
     geom_bar() +
-    ggtitle ("Number of Originally Written Phish Songs Performed Decrease Over the Years") + 
+    ggtitle ("Number of Debut Phish Songs Performed Over the Years ") + 
     geom_text(stat = 'count',aes(label=..count..), vjust=-1, color="red", size = 3) +
     labs(x="Year of Debut", y = "Number of Songs") +
-    theme(axis.text.x = element_text(size = 10, angle = 65))
+    theme(axis.text.x = element_text(size = 10, angle = 65)) + 
+    theme(panel.background = element_blank())
+
 
 ```
 
+Figure 10 is a bar graph of the number of debut songs performed by Phish over the years.  The shape of the graph is an inverse shape, with the highest numbers of debuts at 20 per year, during 1990 and 1997.  The lowest number of debuts is 1, during 2000.  
+
+
+#Figure 11
 ```{r}
+library(ggmap)
+library (tibble)
+library(dplyr)
 
-Phish_1990 <- phish_songs[phish_songs$debut == "1990", ]
+#Reading in tibble with latitute and longitude data for locations
+coordinates <- read.csv("phanalytix_cities.csv")
+coordinates <- add_column(coordinates, random_num = 373)
+coordinates$random_num = floor(runif(coordinates$random_num, min=1, max=length(coordinates$location)))
+
+#Creating new tibble, with only song name, debut date, location, debut dummy, and n()
+map_plot <- phanalytix %>% 
+    select(location,artist, song, debut, debut_dummy) %>% 
+    filter(debut_dummy == "1") %>% 
+    filter(artist == "Phish")%>%
+    na.omit(artist_phish$artist) %>%
+    group_by(song, debut, location, debut_dummy)%>%
+    summarize(n())
+
+#Joining coordinates tibble with map_plot
+map_debuts <- left_join(map_plot, coordinates, by = "location")
+
+library(maps)
+library(ggplot2)
+
+#Using maps to obtain world latitud and longitude data
+world_map <- map_data("world") 
+
+#Creating a base plot 
+base_map <- ggplot() + 
+            coord_fixed() +
+            xlab("") + 
+            ylab("") +
+            labs(title = "Debut Songs' Performance Concentrated in North East and Western US")
+
+#Adding map to base plot
+base_map_basic <- base_map + 
+                  geom_polygon(data=world_map, 
+                  aes(x=long, y=lat, group=group), 
+                  color="white", 
+                  fill="Light Blue")
+
+#Cleaning up base plot of map
+base_map_details <- theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+                    panel.background = element_rect(fill = 'white', color = 'white'), 
+                    axis.line = element_line(color = "white"), legend.position="none",
+                    axis.ticks=element_blank(), axis.text.x=element_blank(),
+                    axis.text.y=element_blank())
+
+#Combining basic plot and cleaned up basic map 
+base_map <- base_map_basic + base_map_details
+
+#Mapping locations from map_plot tibble to base map
+map_debut <- base_map +
+             geom_point(data=map_debuts, 
+             aes(x=longitude, y=latitude), 
+             color="Red", 
+             fill="White",
+             pch=21, 
+             size=0.5, 
+             alpha=I(0.7))
 
 
-#total_loc <- group_by(Phish_1990, location) %>% summarise(total_refs = sum(location))
-
-
+map_debut
 ```
 
+Figure 11 is a basic map of the world which shows the locations of the debuts of each song.  The red points indicate these observations.  We can see that most of the debuts occurred in the Northeast and Western parts of the US. 
