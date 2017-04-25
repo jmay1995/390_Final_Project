@@ -9,34 +9,151 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{r Significance}
+#Parse Song Time as seconds
+song_length <- tibble(minutes = str_extract_all(phanalytix$duration_song, "[0-9]+(?=:)"), 
+                      seconds = str_extract_all(phanalytix$duration_song, "(?<=:)[0-9]+"))
+
+song_length <- song_length %>% 
+    mutate(minutes = as.numeric(minutes), 
+           seconds = as.numeric(seconds))
+
+significance <- mutate(phanalytix, song_seconds = (song_length$minutes*60+song_length$seconds))
+
+
+##Song Rotation: The percentage of times the show is played
+#Count the number of shows played
+numOfShows <- dim(
+                summarise(
+                    group_by(
+                        significance, date)))[1]
+#Add the ratio to the phanalytix dataset
+significance <- significance %>% 
+    mutate(rotation = total_times_played/numOfShows)
+
+
+##Add in the Significance Metrics
+significance <-  significance %>% 
+#Length Rating
+    mutate(length_rating = song_seconds/max(significance$song_seconds, na.rm = TRUE),
+#Gap Rating
+            gap_rating = adj_gap/max(significance$adj_gap, na.rm = TRUE),
+#Rotation Rating
+            rotation_rating = rotation/max(significance$rotation, na.rm = TRUE),
+#Rating Rating
+            rating_rating = ratings/max(significance$ratings, na.rm = TRUE),
+#Debut Rating
+            date = parse_date(date),
+            debut = parse_date(debut),
+            since_debut = ifelse(as.numeric(date - debut) > 0, as.numeric(date - debut), 0),
+            since_debut_rating = since_debut/max(significance$since_debut, na.rm = TRUE)
+#Cover Bonus
+#Notes Bonus
+)
+
+
+#Different People Value things differently, Here we can input our preferences.
+lengthValue <- .25
+gapValue <- .25
+rotationValue <- .15
+ratingValue <- .25
+sinceDebutValue <- .1
+coverBonus <- 1.1
+debutBonus <- 1.1
+notesBonus <- 1.1
+
+#Final Significance Rating
+significance <- significance %>% 
+    mutate(significance_rating = length_rating*lengthValue +
+                                 gap_rating*gapValue +
+                                 rotation_rating*rotationValue +
+                                 rating_rating*ratingValue +
+                                 since_debut_rating*sinceDebutValue +
+                                 cover_dummy*coverBonus +
+                                 debut_dummy*debutBonus +
+                                 notes_dummy*notesBonus)
+
+# significance <- significance %>% 
+#     mutate(significance_rating = ifelse(is.na(length_rating*lengthValue), 0, 
+#                                         length_rating*lengthValue) +
+#                                  ifelse(is.na(gap_rating*gapValue), 0, 
+#                                         gap_rating*gapValue) +
+#                                  ifelse(is.na(rotation_rating*rotationValue), 0, 
+#                                         rotation_rating*rotationValue) +
+#                                  ifelse(is.na(rating_rating*ratingValue), 0, 
+#                                         rating_rating*ratingValue) +
+#                                  ifelse(is.na(since_debut_rating*sinceDebutValue), 0, 
+#                                         since_debut_rating*sinceDebutValue) +
+#                                  ifelse(is.na(cover_dummy*coverBonus), 0, 
+#                                         cover_dummy*coverBonus) +
+#                                  ifelse(is.na(debut_dummy*debutBonus), 0, 
+#                                         debut_dummy*debutBonus) +
+#                                  ifelse(is.na(notes_dummy*notesBonus), 0, 
+#                                         notes_dummy*notesBonus))
+
+significance <-  significance  %>% 
+    mutate(tease_dummy = as.numeric(grepl('tease|quote', notes)))
+
+write_csv(significance, 'significance.csv')
+```
+
 ```{r EDA1}
-phanalytix %>% 
+significance %>% 
     group_by(date, ratings) %>% 
     summarise(debuts = sum(debut_dummy)) %>% 
     arrange(desc(debuts)) %>% 
     ggplot() +
     geom_smooth(aes(x = debuts, y = ratings)) +
-    geom_jitter(aes(x = debuts, y = ratings))
+    geom_jitter(aes(x = debuts, y = ratings)) +
+    ggtitle('How the number of first time song performances in a show affect percieved quality') +
+    xlab('Number of live Debuts in one night') +
+    ylab("Rating from Phish.Net")
+
+
+# ggtitle() +
+#     xlab() +
+#     ylab()
 ```
 
 ```{r EDA2}
-phanalytix %>% 
+# significance %>% 
+#     mutate(notesExc = notes_dummy - debut_dummy - cover_dummy,
+#            ifelse(notesExc < 0, 0, notesExc)) %>% 
+#     group_by(date, ratings) %>% 
+#     summarise(notes = sum(notesExc)) %>% 
+#     arrange(desc(notes)) %>% 
+#     ggplot() +
+#     geom_jitter(aes(notes, ratings)) +
+#     geom_smooth(aes(notes, ratings))
+#     ggtitle() +
+#     xlab() +
+#     ylab()
+    
+significance %>% 
     group_by(date, ratings) %>% 
-    summarise(notes = sum(notes_dummy)) %>% 
-    arrange(desc(notes)) %>% 
+    summarise(teases = sum(tease_dummy)) %>% 
+    arrange(desc(teases)) %>% 
     ggplot() +
-    geom_jitter(aes(notes, ratings)) +
-    geom_smooth(aes(notes, ratings))
+    geom_jitter(aes(teases, ratings), width = .5, height = .2) +
+    geom_smooth(aes(teases, ratings)) +
+    ggtitle('How the number song teases/quotes in a show affect percieved quality') +
+    xlab('Number of times Phish played one song inside of another during a show') +
+    ylab("Rating from Phish.Net")
+    
 ```
 
 ```{r EDA3}
-phanalytix %>% 
+significance %>% 
     group_by(date, ratings) %>% 
-    summarise(avgGap = mean(gap)) %>% 
+    summarise(avgGap = mean(adj_gap), debut = mean(since_debut)) %>% 
     arrange(desc(avgGap)) %>% 
     ggplot() +
-    geom_jitter(aes(avgGap, ratings)) +
-    geom_smooth(aes(avgGap, ratings))
+    geom_jitter(aes(avgGap, ratings, color = debut)) +
+    geom_smooth(aes(avgGap, ratings), method = 'lm') +
+    scale_color_gradientn(colors = c('sky blue', 'black')) +
+    ggtitle("Songs that are played less often are usually percieved as special and better") +
+    xlab("Average number of shows that passed until the song was played again") +
+    ylab("Rating from Phish.Net")
 
 ```
 
@@ -47,23 +164,126 @@ phanalytix %>%
     arrange(desc(covers)) %>% 
     ggplot() +
     geom_jitter(aes(covers, ratings)) +
-    geom_smooth(aes(covers, ratings))
+    geom_smooth(aes(covers, ratings)) +
+    ggtitle("Every year Phish covers an entire album from an artist that has inspired them, so how does the number of covers in a show effect it's percieved quality") +
+    xlab("Number of covers in a single concert") +
+    ylab('Rating from Phish.Net')
+    
+#Go in and highlight halloween shows
 ```
 
 ```{r EDA5}
+significance %>% 
+    group_by(id_tour) %>% 
+    summarise(number_of_shows_per_tour = n(), 
+              Average_Significance_Rating = mean(significance_rating, na.rm = TRUE), 
+              rating = mean(ratings)) %>% 
+    ggplot() +
+    geom_point(aes(id_tour, rating, color = number_of_shows_per_tour)) +
+    scale_color_gradientn(colors = c('blue', 'red')) +
+    geom_smooth(aes(id_tour, rating)) +
+    ggtitle("How has the percieved quality of shows changes over time - by tour") +
+    xlab("Chronological numbering of tour") +
+    ylab("Rating from Phish.Net")
+    
 ```
 
 ```{r EDA6}
+#This new significance metric takes into account the length of the song, how long it had been since it was played, how often it is played, how long phish has been playing that song for, was it performed for the first time, covers, and phish.net rating
+#Note, not all shows have this many sections, the standard sow is just two sets and an encore.
+
+significance %>% 
+    group_by(set_name) %>% 
+    summarise(Average_Significance_Rating = mean(significance_rating, na.rm = TRUE), n()) %>% 
+    ggplot() +
+    geom_point(aes(set_name, Average_Significance_Rating)) +
+    scale_x_discrete(limits = c("Soundcheck", "Set 1", "Set 2", "Set 3", "Set 4", "Encore", "Encore 2", "Encore 3")) +
+    ggtitle('How average significance moves throughout the different parts of the show') +
+    xlab("Set Name (Note: Only special shows have more than Two Sets and Two Encores") +
+    ylab("Average Significance Rating")
+    
+#     ggtitle() +
+#     xlab() +
+#     ylab()
+
 ```
 
 ```{r EDA7}
+significance %>% 
+    group_by(song, total_times_played) %>% 
+    summarise(meanSignificanceRating = mean(significance_rating, na.rm = TRUE), 
+              debut = mean(since_debut), 
+              rating = mean(ratings))%>% 
+    ggplot() +
+    geom_jitter(aes(total_times_played, rating, color = debut)) +
+    geom_smooth(aes(total_times_played, rating),method = 'lm') +
+    scale_color_gradientn(colors = rainbow(2)) +
+    ggtitle("Songs That are played the most, are othen the least significant") +
+    xlab("Total Times A Song Has Been Played") +
+    ylab("Rating from Phish.Net")
+
+#redo exluding gap and rotation or maybe with phish.net
+
 ```
 
 ```{r EDA8}
+significance %>% 
+    group_by(state) %>% 
+    summarise(rating = mean(ratings, na.rm = TRUE), number = n()) %>% 
+    arrange(desc(rating)) %>% 
+    mutate(correlation = cor(rating, number, use = 'everything')) %>% 
+    ggplot() +
+    geom_jitter(aes(rating, number)) +
+    geom_smooth(aes(rating, number)) +
+    ggtitle("Some states get more shows than others: how does the freuqnecy of phish performances effect") +
+    xlab('Rating from Phish.Net') +
+    ylab('Number of Shows Played in that State')
+
+
 ```
 
 ```{r EDA9}
+significance <- significance %>% 
+    mutate(less_ratings_significance_rating = length_rating*lengthValue +
+                                 gap_rating*gapValue +
+                                 rotation_rating*rotationValue +
+                                 since_debut_rating*sinceDebutValue +
+                                 cover_dummy*coverBonus +
+                                 debut_dummy*debutBonus +
+                                 notes_dummy*notesBonus)
+
+
+significance %>% 
+    group_by(id_show) %>% 
+    summarise(Average_Significance_Rating = mean(significance_rating, na.rm = TRUE),
+               AdjAverage_Significance_Rating = mean(less_ratings_significance_rating, na.rm = TRUE),
+                meanRating = mean(ratings, na.rm = TRUE)) %>% 
+    ggplot() +
+    geom_point(aes(meanRating, AdjAverage_Significance_Rating)) +
+    geom_smooth(aes(meanRating, AdjAverage_Significance_Rating), color = 'Red') +
+    ggtitle("How does a combiend metric of Song Duration, Song Gap, Rotation, Age of a Song, Covers, and Song Teases relate to Phish.Net Ratings") +
+    xlab('Rating from Phish.Net') +
+    ylab('Adjusted Significance Metric (Excluding Phish.Net Rating)')
+
+
+# significance %>% 
+#     group_by(id_show) %>% 
+#     summarise(Average_Significance_Rating = mean(significance_rating, na.rm = TRUE),
+#                AdjAverage_Significance_Rating = mean(less_ratings_significance_rating, na.rm = TRUE),
+#                 meanRating = mean(ratings, na.rm = TRUE)) %>% 
+#     ggplot() +
+#     geom_point(aes(AdjAverage_Significance_Rating, meanRating, color = Average_Significance_Rating)) +
+#     geom_smooth(aes(AdjAverage_Significance_Rating, meanRating), color = 'Red')
 ```
 
 ```{r EDA10}
+#Two correlations for how Song Duration, Song Gap, Song Rotation, Days Since it was Debuted, Notes, and Covers have predictive power on Phish.Net ratings. All of the variables are significant and generated a very significant F statistic. One regression is on the 0-1 variables ranking each category, and the second regression is on the raw, non-normalized values. For the normalized regression, it is interesting to note that Length and Gap have the largest correlation coeficcients, with covers being the lowest, while rotation and days since debut are the most significant.
+lm(ratings ~ 
+           length_rating + gap_rating + rotation_rating + since_debut_rating + notes_dummy + cover_dummy,     significance) %>% 
+    summary()
+
+lm(ratings ~ 
+           song_seconds + adj_gap + rotation + since_debut + notes_dummy + cover_dummy, significance) %>% 
+    summary()
+  
 ```
