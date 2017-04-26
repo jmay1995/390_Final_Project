@@ -1,0 +1,233 @@
+---
+title: "12_eda"
+author: "Rachel"
+date: "April 24, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load data, warning = FALSE}
+library(dplyr)
+library(ggplot2)
+library(rvest)
+library(jsonlite)
+library(tidyverse)
+library(stringr)
+library(readr)
+library(ggmap)
+library(scales)
+
+phanalytix <- read.csv('phanalytix.csv', stringsAsFactors = FALSE)
+phanalytix <- mutate(phanalytix, date = as.Date(date))
+
+significance <- read.csv('significance.csv', stringsAsFactors = FALSE)
+
+```
+
+#Phanalytix: An Exploration of Phish
+
+![The band's logo.](http://sensiblereason.com/wp-content/uploads/2014/07/phish.jpg)
+
+Phish is a jam band whose fans have curated several websites documenting their songs, shows, and tours. We sought to compile all of the information available on the web about this band into one giant dataset. Thus the main product of our project is the phanalytix.csv file. The creation of this file involved countless hours of troubleshooting, three different APIs, web-scraping, and significant data cleaning. The three APIs were from Phish.in, Phish.net, and Google's map API. We also used web-scraping to gather additional information from Phish.in and Phish.net.
+
+This document provides an introduction to the dataset and some of the findings from our exploratory data analysis that we found most interesting. 
+
+![The band members.](https://media.npr.org/assets/img/2016/09/12/phish_wide-9a20cc91db41b6ab8e00797ebccdbc9835368672.jpg?s=1400)
+
+
+##Introduction to the Dataset
+
+This graph provides a nice summary introduction to the dataset. It plots the number of shows performed in each year from 1983 to 2017. The dip in the 2000s can be explained by the tumultuous status of the band: they broke up several times in the period from 2000 to 2010. The most shows were performed in 1994. From the graph, it seems like the early 90s were the peak time for Phish concerts. 
+
+```{r Rachel contributions 1, warning = FALSE}
+yearly_tours <- group_by(phanalytix, year, id_show)%>%
+    summarize(num_songs = n())
+yearly_shows <- group_by(yearly_tours, year)%>%
+    summarize(num_shows = n())
+yearly <- group_by(phanalytix, year)%>%
+    summarize(num_songs = n())%>%
+    mutate(num_shows = yearly_shows$num_shows)
+
+ggplot(data=yearly, aes(x=year, y=num_shows))+
+    geom_point(color = "black")+
+    geom_line(color = "purple")+
+    theme(panel.background = element_blank(), # backgound/axis
+        axis.line = element_line(colour = "black", size=.1),
+        legend.position='none')+
+    labs(x='Year',
+         y='Number of shows performed',
+         title='The most shows were performed in 1994')
+
+```
+
+This is a jitter plot of the total number of covers performed versus the Tour ID (which is a variable representing time). As it shows, over time, the total number of covers performed per tour has been relatively stagnant, after about the 40th tour. For the first 25 tours, there were more covers performed. Note: There is a patch without any observations, around tour ID 75. This was during the years 2005-2010, when the band was not together.
+
+```{r Aish contributions 1, warning = FALSE}
+tours_phish <- phanalytix %>% 
+    na.omit(phanalytix$artist) %>% 
+    group_by(id_tour, cover_dummy) %>% 
+    summarize(total_covers = n()) %>% 
+    arrange(id_tour) 
+
+ggplot(tours_phish) +
+    aes(id_tour, total_covers) +
+    geom_jitter () + 
+    geom_smooth() +
+    ggtitle ("Larger Spike in Total Numbers of Covers per Tour within First 25 Tours") +
+    labs(x="Tour ID", y = "Total Covers") +
+    theme(panel.background = element_blank()) + 
+    theme(axis.text.x = element_text(size = 10))
+```
+
+##Debuting New Songs
+
+This plot is a bar graph of the number of debut songs performed by Phish over the years.  The shape of the graph is an inverse shape, with the highest numbers of debuts at 20 per year, during 1990 and 1997. The lowest number of debuts is 1, during 2000. Once again, we see that the 90s were an active time for the band, as they released many new songs. 
+
+```{r Aish contributions 2, warning = FALSE}
+artist_phish <- phanalytix %>% 
+    select(location,artist, song, debut, debut_dummy) %>% 
+    filter(debut_dummy == "1") %>% 
+    filter(artist == "Phish")%>%
+    na.omit(artist_phish$artist)%>%
+    group_by(song, debut, debut_dummy)%>%
+    summarize(n())
+
+phish_songs <- artist_phish
+
+phish_songs$debut <- strftime(phish_songs$debut, format("%Y"))
+
+ggplot(phish_songs) +
+    aes(debut) +
+    geom_bar() +
+    ggtitle ("Number of Debut Phish Songs Performed Over the Years ") + 
+    geom_text(stat = 'count',aes(label=..count..), vjust=-1, color="red", size = 3) +
+    labs(x="Year of Debut", y = "Number of Songs") +
+    theme(axis.text.x = element_text(size = 10, angle = 65)) + 
+    theme(panel.background = element_blank())
+```
+
+##Measures of quality/significance
+
+![The highest rated show according to Phish.net users occured in 1999 at the Big Cypress National Reserve. it was a legendary New Year's Eve concert which lasted 7.5 hours long, from midnight on New Years Eve until sunrise on New Years Day](https://s-media-cache-ak0.pinimg.com/originals/ed/ea/67/edea673e39bbd160cc692b5a9c0ba0f5.jpg)
+
+This plot looks at information from the "notes" variable, pulling out songs that included the words "tease" or "quote", meaning that the band played bits of one song inside of another. This musical action was frequently used in the late 90's and is less common now. Often times they would interweave countless other songs inside of one song's structure, while carrying that song on for an extended period of time. These performances, when executed well, were very enjoyable, and the plot shows that concerts with the highest number of teases and quotes are correlated with a higher average rating on Phish.net.
+
+```{r Joe contributions 1, warning = FALSE}
+significance %>% 
+    group_by(date, ratings) %>% 
+    summarise(teases = sum(tease_dummy)) %>% 
+    arrange(desc(teases)) %>% 
+    ggplot() +
+    geom_jitter(aes(teases, ratings), width = .5, height = .2) +
+    geom_smooth(aes(teases, ratings), method = 'lm') + 
+    ggtitle('Higher rated shows are correlated with more song teases') +
+    xlab('Number of times Phish played one song inside of another during a show') +
+    ylab("Rating from Phish.Net")
+
+```
+
+There are many factors that go into what making Phish shows and songs special to concert-goers. One that particularly interested Joe is which songs are considered 'rare.' The people who follow the tours closely know what hasn't been played, and anytime something new is busted out, the crowd usually picks up on it very quickly, even if the song hasn't been played in 10-20 years. This plot groups the data by show and summarises the average song gap for each concert, the rating from Phish.Net, and the days between the song performance and its debut. It shows that concerts with high average song gaps are correlated with higher phish.net ratings, with only one significant outlier. We also include days since the debut as a color pattern, because more recent songs been around long enough to be brought out years later, so the color seeks to point out that confounding factor.
+
+```{r Joe contributions 2, warning = FALSE}
+significance %>% 
+    group_by(date, ratings) %>% 
+    summarise(avgGap = mean(adj_gap), debut = mean(since_debut)) %>% 
+    arrange(desc(avgGap)) %>% 
+    ggplot() +
+    geom_jitter(aes(avgGap, ratings, color = debut)) +
+    geom_smooth(aes(avgGap, ratings), method = 'lm') +
+    scale_color_gradientn(colors = c('sky blue', 'black')) +
+    ggtitle("Songs that are played less often are usually percieved more highly") +
+    xlab("Average number of shows that passed until the song was played again") +
+    ylab("Rating from Phish.Net")
+
+```
+
+Though Phish has kept the original members for the entirety of the band's existance, they have gone through many aristic phases. Objectively speaking, their career is broken into three chunks: 1.0 is from 1984 until 2000, when they went on a hiatus. 2.0 lasts from 2000 until 2004 when they broke up indefinitely. Lastly, 3.0 spans from 2009 (when they got back together) until now. Each phase is defined by very different sounds, improvisational styles, and lifestyle influences that have moulded their live sound, and each era has its rabid fans and doubters. This chart maps each year's shows and their average of ratings from Phish.Net. It seems that there was a peak right before they band broke up, at the end of chunk 1.0 of their career. Since they've gotten back together (chunk 3.0 of their career), the Phish.net ratings of their shows have again started to rise. 
+
+```{r Joe contributions 3, warning = FALSE}
+significance %>% 
+    group_by(year) %>% 
+    summarise(number_of_shows_per_tour = n(), 
+              Average_Significance_Rating = mean(significance_rating, na.rm = TRUE), 
+              rating = mean(ratings)) %>% 
+    ggplot() +
+    geom_jitter(aes(year, rating, color = number_of_shows_per_tour)) +
+    scale_color_gradientn(colors = c('sky blue', 'black')) +
+    geom_smooth(aes(year, rating), color = 'red') +
+    ggtitle("How the perceived quality of shows has changed over time") +
+    xlab("Year") +
+    ylab("Average Show Rating from Phish.Net")+
+    labs(colour = "Number of Shows per Tour") +
+    theme(panel.background = element_blank(), # backgound/axis
+        axis.line = element_line(colour = "black", size=.1))
+```
+
+##Mapping concert locations
+
+This map portrays the locations of the cities where Phish performed concerts during the entirety of their time as a band. The states are shaded based on the number of concerts that have been played in each state. By far, New York has hosted the most concerts over Phish's career, followed by Vermont, California, Massachusetts, and Colorado. Phish has never held a concert in Arkansas, North Dakota, South Dakota, and Wyoming. The cities they have performed in seem to be concentrated in three groups: one along the west coast especially in California, one on the East Coast in the New York area, and one smaller cluster in Colorado. 
+
+```{r Rachel contributions 2, warning = FALSE}
+#code to create map grabbed from Brendan's lecture on advanced EDA
+us <- map_data('state')
+
+#states.csv taken from http://www.fonz.net/blog/archives/2008/04/06/csv-of-states-and-state-abbreviations/
+states_names <- read_csv("states.csv")
+states_names$State <- tolower(states_names$State)
+
+#making a dataset of states and the number of shows played
+shows_us <- phanalytix%>%
+    filter(country== "United States")%>%
+    group_by(venue_name, date, state)%>%
+    summarize(num_songs = n())%>%
+    group_by(state)%>%
+    summarize(num_shows = n())
+shows_us <- mutate(shows_us, state = str_extract_all(state, "(?<=\\s)[A-Z]+"))
+
+#joining the state data with full state names
+shows_us <- mutate(shows_us, state = as.character(state))
+shows_us <- left_join(states_names, shows_us, by = c("Abbreviation" = "state")) 
+
+#joining the state data with the map data
+us <- left_join(us, shows_us, by = c("region" = "State"))
+
+#if there were no shows in a particular state, fill in 0 rather than NA
+for(i in 1:15537){
+    index <- i
+    if(is.na(us$num_shows[index])){
+        us$num_shows[index] <- 0
+    }
+}
+
+ggplot(data = us, aes(x = long, y = lat)) + 
+    geom_polygon(color = "transparent", aes(group = group, fill = num_shows)) +
+    theme_minimal() +
+    scale_fill_gradient(name = "Number of Phish concerts played in each state", 
+                        high = "#e06969", 
+                        low = "#fce0e0") +
+    theme(panel.grid.major = element_blank(), 
+          panel.grid.minor = element_blank(), 
+          axis.ticks = element_blank(),
+          legend.position="bottom", 
+          legend.box = "horizontal") + 
+    scale_x_continuous("", breaks = NULL) + 
+    scale_y_continuous("", breaks = NULL)+
+    geom_point(data = filter(phanalytix, longitude<0, latitude < 50, latitude > 25), 
+                aes(x = longitude, y = latitude), 
+                color = 'red', 
+                size = 2.75, 
+                alpha = 1, 
+                shape = "o")+
+    geom_point(data = filter(phanalytix, longitude<0, latitude < 50, latitude > 25), 
+                aes(x = longitude, y = latitude), 
+                color = 'red', 
+                size = 2.75, 
+                alpha = 1, 
+                shape = "o")+
+    labs(title='Cities where Phish performed')
+
+```
+
