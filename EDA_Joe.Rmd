@@ -9,6 +9,12 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{r setup}
+library(tidyverse)
+library(stringr)
+phanalytix <- read.csv('phanalytix.csv', stringsAsFactors = FALSE)
+```
+
 ```{r Significance}
 #Parse Song Time as seconds
 song_length <- tibble(minutes = str_extract_all(phanalytix$duration_song, "[0-9]+(?=:)"), 
@@ -128,6 +134,7 @@ significance %>%
 #     ggtitle() +
 #     xlab() +
 #     ylab()
+
     
 significance %>% 
     group_by(date, ratings) %>% 
@@ -135,11 +142,12 @@ significance %>%
     arrange(desc(teases)) %>% 
     ggplot() +
     geom_jitter(aes(teases, ratings), width = .5, height = .2) +
-    geom_smooth(aes(teases, ratings)) +
+    geom_smooth(aes(teases, ratings), method = 'lm') + 
     ggtitle('How the number song teases/quotes in a show affect percieved quality') +
     xlab('Number of times Phish played one song inside of another during a show') +
     ylab("Rating from Phish.Net")
-    
+
+    #This Takes the variable that checks to see if the "Notes" variable includes the words "tease" or "quote", meaning that they played bits of one song inside of another. This musical action was frequent in the late 90's and is less often now, often times they would interweave countles songs, inside of one songs structure, while carrying that song for extended periods of time. These performances, when executed well, are very intersting, and this chart shows that concerts with the highest number of teases and quotes are related to a higher average rating on Phish.Net
 ```
 
 ```{r EDA3}
@@ -155,6 +163,7 @@ significance %>%
     xlab("Average number of shows that passed until the song was played again") +
     ylab("Rating from Phish.Net")
 
+#There are many factors that go into what making phish shows and songs special to concert-goers. One that interests me is songs that are considered 'rare', people that follow the tour closely know what hasnt been played, and anytime something is busted out, the crowd usually picks up on it very quickly, even if the song hasnt been played in 10-20 years. This chart groups the data by show, and summarises the average song gap for that concert (where we want large outliers to skew the mean upwards), the rating from Phish.Net, and the days since the song was debuted when it was performed. It shows that concerts with high average song gaps generate significantly higher phish.net ratings with only one significant outlier. We also include days since the debut as a color pattern, because more recent sons havnt had the opportunity to have been held for a while to bust out later, so the color seeks to point out that confounding factor.
 ```
 
 ```{r EDA4}
@@ -174,18 +183,20 @@ phanalytix %>%
 
 ```{r EDA5}
 significance %>% 
-    group_by(id_tour) %>% 
+    group_by(date) %>% 
     summarise(number_of_shows_per_tour = n(), 
               Average_Significance_Rating = mean(significance_rating, na.rm = TRUE), 
               rating = mean(ratings)) %>% 
     ggplot() +
-    geom_point(aes(id_tour, rating, color = number_of_shows_per_tour)) +
-    scale_color_gradientn(colors = c('blue', 'red')) +
-    geom_smooth(aes(id_tour, rating)) +
-    ggtitle("How has the percieved quality of shows changes over time - by tour") +
-    xlab("Chronological numbering of tour") +
-    ylab("Rating from Phish.Net")
-    
+    geom_jitter(aes(date, rating, color = number_of_shows_per_tour)) +
+    scale_color_gradientn(colors = c('sky blue', 'black')) +
+    geom_smooth(aes(date, rating), color = 'red') +
+    ggtitle("How the percieved quality of shows has changed over time") +
+    xlab("Year") +
+    ylab("Average Rating from Phish.Net")
+   
+
+#Though Phish has kept the original members for the entirety of the band's existance, they have have gone through many aristic phases. Objectively speaking, their career is broken into three chunks: 1.0 is from 1984 until 2000, when they went on a hiatus. 2.0 from 200 until 2004 when they broke up indefinitely. Lastly, 3.0 from 2009 until now, when they got back together. Each phase has has very different sounds, improvisational styles, and lifestyle influences that have moulded their live sound, and each era has fans and doubters. This chart maps each year's shows and maps them with the average of ratings from Phish.Net.
 ```
 
 ```{r EDA6}
