@@ -133,9 +133,9 @@ orig_phish <- orig_phish  %>%
            Phish_dummy = as.numeric(grepl('Phish',artist)))
 
 ggplot(orig_phish) +
-    aes(Phish_dummy == 1) +
+    aes(Phish_dummy == "1") +
     geom_bar() + 
-    ggtitle ("36% of Total Songs Performed are Originally Written by Phish") + 
+    ggtitle ("50% of Total Songs Performed are Originally Written by Phish") + 
     geom_text(stat = 'count',aes(label=..count..), vjust=1.25, color="white") +
     labs(x="The Artist is Phish", y = "Number of Songs") +
     #geom_text(data = text_df, aes( x = x, y = y,label=text), color="Maroon") + 
@@ -143,7 +143,7 @@ ggplot(orig_phish) +
 
 ```
 
-Figure 7 shows that, out of all the songs performed by Phish, only 36% are originally written by the band.  
+Figure 7 shows that, out of all the songs performed by Phish, 50% are originally written by the band.  
 
 #Figure 8
 ```{r}
@@ -156,14 +156,14 @@ covers_phish <- phanalytix %>%
 ggplot(covers_phish) +
     aes(cover_dummy == "1") +
     geom_bar () +
-    ggtitle ("63% of Total Songs Performed are Covers") +
+    ggtitle ("50% of Total Songs Performed are Covers") +
     geom_text(stat = 'count',aes(label=..count..), vjust=1.25, color="white") +
     labs(x="The Song is a Cover", y = "Number of Songs") +
     theme(panel.background = element_blank())
 
 ```
 
-Figure 8 shows, out of all the songs performed by Phish, 63% are covers.  This makes sense, because, from the earlier plot, we know that 36% are originally written by Phish, so most of the other songs have to be covers.  
+Figure 8 shows, out of all the songs performed by Phish, 50% are covers.  This makes sense, because, from the earlier plot, we know that 50% are originally written by Phish, so most of the other songs have to be covers.  
 
 #Figure 9
 ```{r}
