@@ -195,17 +195,17 @@ artist_phish <- phanalytix %>%
     filter(artist == "Phish")%>%
     na.omit(artist_phish$artist)%>%
     group_by(song, debut, debut_dummy)%>%
-    summarize(n())
+    summarize(num_songs = n())
 
 phish_songs <- artist_phish
 
 phish_songs$debut <- strftime(phish_songs$debut, format("%Y"))
 
 ggplot(phish_songs) +
-    aes(debut) +
-    geom_bar() +
-    ggtitle ("Number of Debut Phish Songs Performed Over the Years ") + 
-    geom_text(stat = 'count',aes(label=..count..), vjust=-1, color="red", size = 3) +
+    aes(debut, num_songs) +
+    geom_line() +
+    geom_point() +
+    ggtitle ("Number of Debut Phish Songs Performed Over the Years ") +
     labs(x="Year of Debut", y = "Number of Songs") +
     theme(axis.text.x = element_text(size = 10, angle = 65)) + 
     theme(panel.background = element_blank())
@@ -213,7 +213,7 @@ ggplot(phish_songs) +
 
 ```
 
-Figure 10 is a bar graph of the number of debut songs performed by Phish over the years.  The shape of the graph is an inverse shape, with the highest numbers of debuts at 20 per year, during 1990 and 1997.  The lowest number of debuts is 1, during 2000.  
+Figure 10 is a bar graph of the number of debut songs performed by Phish over the years.  The shape of the graph is an inverted U shape, with the highest numbers of debuts at 20 per year, during 1990 and 1997.  The lowest number of debuts is 1, during 2000.  
 
 
 #Figure 11
