@@ -176,7 +176,7 @@ significance %>%
     summarise(avg_rating = mean(ratings)) %>% 
     ggplot() +
     geom_jitter(aes(year, avg_rating), width = .3, height = .4) +
-    geom_smooth(aes(year, avg_rating)) +
+    geom_smooth(aes(year, avg_rating), se = FALSE) +
     ylim(0,5) +
     scale_x_continuous(breaks=seq(from=1980, to=2020, by=5)) +
     ggtitle("How the percieved quality of shows has changed over time") +
