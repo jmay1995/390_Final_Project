@@ -189,6 +189,7 @@ Figure 9 is a jitter plot of the Tour ID (which is a variable representing time)
 #Figure 10
 ```{r}
 
+
 artist_phish <- phanalytix %>% 
     select(location,artist, song, debut, debut_dummy) %>% 
     filter(debut_dummy == "1") %>% 
@@ -197,9 +198,11 @@ artist_phish <- phanalytix %>%
     group_by(song, debut, debut_dummy)%>%
     summarize(num_songs = n())
 
-phish_songs <- artist_phish
+phish_songs <- artist_phish 
+
 
 phish_songs$debut <- strftime(phish_songs$debut, format("%Y"))
+
 
 ggplot(phish_songs) +
     aes(debut, num_songs) +
@@ -213,7 +216,7 @@ ggplot(phish_songs) +
 
 ```
 
-Figure 10 is a bar graph of the number of debut songs performed by Phish over the years.  The shape of the graph is an inverted U shape, with the highest numbers of debuts at 20 per year, during 1990 and 1997.  The lowest number of debuts is 1, during 2000.  
+Figure 10 is a line graph of the number of debut songs performed by Phish over the years.  The shape of the graph is an inverted U shape, with the highest numbers of debuts at during 1991.  
 
 
 #Figure 11
