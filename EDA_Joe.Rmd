@@ -13,9 +13,10 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(stringr)
 phanalytix <- read.csv('phanalytix.csv', stringsAsFactors = FALSE)
+significance <- read.csv('significance.csv', stringsAsFactors = FALSE)
 ```
 
-```{r Significance}
+```{r Significance, eval = FALSE}
 #length minus regular length
 #Parse Song Time as seconds
 song_length <- tibble(minutes = str_extract_all(phanalytix$duration_song, "[0-9]+(?=:)"), 
