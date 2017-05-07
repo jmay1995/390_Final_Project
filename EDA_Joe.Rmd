@@ -16,15 +16,14 @@ phanalytix <- read.csv('phanalytix.csv', stringsAsFactors = FALSE)
 ```
 
 ```{r Significance}
+#length minus regular length
 #Parse Song Time as seconds
 song_length <- tibble(minutes = str_extract_all(phanalytix$duration_song, "[0-9]+(?=:)"), 
-                      seconds = str_extract_all(phanalytix$duration_song, "(?<=:)[0-9]+"))
-
-song_length <- song_length %>% 
+                      seconds = str_extract_all(phanalytix$duration_song, "(?<=:)[0-9]+")) %>% 
     mutate(minutes = as.numeric(minutes), 
            seconds = as.numeric(seconds))
 
-significance <- mutate(phanalytix, song_seconds = (song_length$minutes*60+song_length$seconds))
+phanalytix <- mutate(phanalytix, song_seconds = (song_length$minutes*60+song_length$seconds))
 
 
 ##Song Rotation: The percentage of times the show is played
@@ -40,33 +39,46 @@ significance <- significance %>%
 
 ##Add in the Significance Metrics
 significance <-  significance %>% 
-#Length Rating
-    mutate(length_rating = song_seconds/max(significance$song_seconds, na.rm = TRUE),
-#Gap Rating
-            gap_rating = adj_gap/max(significance$adj_gap, na.rm = TRUE),
-#Rotation Rating
-            rotation_rating = rotation/max(significance$rotation, na.rm = TRUE),
-#Rating Rating
-            rating_rating = ratings/max(significance$ratings, na.rm = TRUE),
-#Debut Rating
-            date = parse_date(date),
-            debut = parse_date(debut),
-            since_debut = ifelse(as.numeric(date - debut) > 0, as.numeric(date - debut), 0),
-            since_debut_rating = since_debut/max(significance$since_debut, na.rm = TRUE)
-#Cover Bonus
-#Notes Bonus
-)
+        #Length Rating
+        mutate(length_rating = song_seconds/max(significance$song_seconds, na.rm = TRUE),
+               #Gap Rating
+               gap_rating = adj_gap/max(significance$adj_gap, na.rm = TRUE),
+               #Rotation Rating
+               rotation_rating = 1 - rotation/max(significance$rotation, na.rm = TRUE),
+               #Rating Rating
+               rating_rating = ratings/max(significance$ratings, na.rm = TRUE),
+               #Debut Rating
+               date = parse_date(date),
+               debut = parse_date(debut),
+               # since_debutThen = ifelse(as.numeric(date - debut) > 0, as.numeric(date - debut), 0),
+               # since_debutNow = ifelse(as.numeric(Sys.Date() - debut) > 0, as.numeric(Sys.Date() - debut), 0),
+               # since_debutThen_rating = since_debutThen/max(significance$since_debutThen, na.rm = TRUE),
+               # since_debutNow_rating = since_debutNow/max(significance$since_debutNow, na.rm = TRUE),
+               # since_debut_rating = (since_debutThen_rating + (since_debutNow_rating*5))/6,
+               showAge = ifelse(as.numeric(Sys.Date() - date) > 0, as.numeric(Sys.Date() - date), 0),
+               showAge_rating = showAge/max(showAge, na.rm = TRUE),
+               #Debut Dummy Bonus
+               debut_dummy = as.numeric(grepl('debut|first known', notes)),
+               #Tease Dummy Bonus
+               tease_dummy = as.numeric(grepl('tease|quote', notes)),
+               #Notes Bonus
+               notes_dummy = as.numeric(grepl('[qwertyuiopasdfghjklzxcvbnm]', notes)) 
+                            - debut_dummy - tease_dummy, 
+               notes_dummy = ifelse(notes_dummy<0, 0, notes_dummy)
+        ) %>% 
+    select(-showAge)
 
 
 #Different People Value things differently, Here we can input our preferences.
-lengthValue <- .25
-gapValue <- .25
-rotationValue <- .15
-ratingValue <- .25
-sinceDebutValue <- .1
-coverBonus <- 1.1
-debutBonus <- 1.1
-notesBonus <- 1.1
+lengthValue <- 3/15
+gapValue <- 4/15
+rotationValue <- 2/15
+ratingValue <- 5/15
+sinceDebutValue <- 1/30
+coverBonus <- 0.02
+debutBonus <- 0.01
+notesBonus <- 0.03
+teaseBonus <- 0.04
 
 #Final Significance Rating
 significance <- significance %>% 
@@ -77,7 +89,12 @@ significance <- significance %>%
                                  since_debut_rating*sinceDebutValue +
                                  cover_dummy*coverBonus +
                                  debut_dummy*debutBonus +
-                                 notes_dummy*notesBonus)
+                                 notes_dummy*notesBonus +
+                                 tease_dummy*teaseBonus)
+
+bestShows <- significance %>% 
+    group_by(date) %>% 
+    summarise(avgRating = mean(significance_rating, na.rm = TRUE))
 
 # significance <- significance %>% 
 #     mutate(significance_rating = ifelse(is.na(length_rating*lengthValue), 0, 
@@ -97,10 +114,76 @@ significance <- significance %>%
 #                                  ifelse(is.na(notes_dummy*notesBonus), 0, 
 #                                         notes_dummy*notesBonus))
 
-significance <-  significance  %>% 
-    mutate(tease_dummy = as.numeric(grepl('tease|quote', notes)))
+ggplot(significance) +
+    geom_histogram(aes(significance_rating))
+
+mean(significance$length_rating, na.rm = TRUE)
+mean(significance$gap_rating, na.rm = TRUE)
+mean(significance$rotation_rating, na.rm = TRUE)
+mean(significance$rating_rating, na.rm = TRUE)
+mean(significance$since_debut_rating, na.rm = TRUE)
+
 
 write_csv(significance, 'significance.csv')
+significance <- read.csv('significance.csv', stringsAsFactors = FALSE)
+```
+
+```{r final EDA3}
+# significance %>% 
+#     group_by(date, ratings) %>% 
+#     summarise(avgGap = mean(adj_gap), debut = mean(since_debut)) %>% 
+#     arrange(desc(avgGap)) %>% 
+#     ggplot() +
+#     geom_jitter(aes(avgGap, ratings, color = debut)) +
+#     geom_smooth(aes(avgGap, ratings), method = 'lm') +
+#     scale_color_gradientn(colors = c('sky blue', 'black')) +
+#     ggtitle("Songs that are played less often are usually percieved as special and better") +
+#     xlab("Average number of shows that passed until the song was played again") +
+#     ylab("Rating from Phish.Net")
+
+significance %>% 
+    mutate(days_since_debut = since_debut) %>% 
+    ggplot() +
+    geom_jitter(aes(adj_gap, ratings, color = days_since_debut), na.rm = TRUE, width = .5) +
+    geom_smooth(aes(adj_gap, ratings), method = 'lm', na.rm = TRUE, se = FALSE, color = 'Red') +
+    scale_color_gradientn(colors = c('sky blue', 'black')) +
+    ggtitle("Shows which include rarely performed songs are percieved as better") +
+    xlab("Number of shows passed between live performances") +
+    ylab("Rating from Phish.Net")
+
+#There are many factors that go into what making phish shows and songs special to concert-goers. One that interests me is songs that are considered 'rare', people that follow the tour closely know what hasnt been played, and anytime something is busted out, the crowd usually picks up on it very quickly, even if the song hasnt been played in 10-20 years. This chart groups the data by show, and summarises the average song gap for that concert (where we want large outliers to skew the mean upwards), the rating from Phish.Net, and the days since the song was debuted when it was performed. It shows that concerts with high average song gaps generate significantly higher phish.net ratings with only one significant outlier. We also include days since the debut as a color pattern, because more recent sons havnt had the opportunity to have been held for a while to bust out later, so the color seeks to point out that confounding factor.
+```
+
+```{r final EDA5}
+# significance %>% 
+#     group_by(date) %>% 
+#     summarise(number_of_shows_per_tour = n(), 
+#               Average_Significance_Rating = mean(significance_rating, na.rm = TRUE), 
+#               rating = mean(ratings)) %>% 
+#     ggplot() +
+#     geom_jitter(aes(date, rating, color = number_of_shows_per_tour), width = .1) +
+#     scale_color_gradientn(colors = c('sky blue', 'black')) +
+#     geom_smooth(aes(date, rating), color = 'red') +
+#     ggtitle("How the percieved quality of shows has changed over time") +
+#     xlab("Year") +
+#     ylab("Average Rating from Phish.Net")
+
+
+text_df <- tibble(x = c(2001.5,2007), y = c(5,2), text = c('Two Year Hiatus', 'Four Year Break-Up'))
+significance %>% 
+    group_by(date, year) %>% 
+    summarise(avg_rating = mean(ratings)) %>% 
+    ggplot() +
+    geom_jitter(aes(year, avg_rating), width = .3, height = .4) +
+    geom_smooth(aes(year, avg_rating)) +
+    ylim(0,5) +
+    scale_x_continuous(breaks=seq(from=1980, to=2020, by=5)) +
+    ggtitle("How the percieved quality of shows has changed over time") +
+    xlab("Year") +
+    ylab("Average Rating from Phish.Net") +
+    geom_text(data = text_df, aes(x=x, y=y, label = text), color = 'red')
+
+#Though Phish has kept the original members for the entirety of the band's existance, they have have gone through many aristic phases. Objectively speaking, their career is broken into three chunks: 1.0 is from 1984 until 2000, when they went on a hiatus. 2.0 from 200 until 2004 when they broke up indefinitely. Lastly, 3.0 from 2009 until now, when they got back together. Each phase has has very different sounds, improvisational styles, and lifestyle influences that have moulded their live sound, and each era has fans and doubters. This chart maps each year's shows and maps them with the average of ratings from Phish.Net.
 ```
 
 ```{r EDA1}
@@ -150,22 +233,6 @@ significance %>%
     #This Takes the variable that checks to see if the "Notes" variable includes the words "tease" or "quote", meaning that they played bits of one song inside of another. This musical action was frequent in the late 90's and is less often now, often times they would interweave countles songs, inside of one songs structure, while carrying that song for extended periods of time. These performances, when executed well, are very intersting, and this chart shows that concerts with the highest number of teases and quotes are related to a higher average rating on Phish.Net
 ```
 
-```{r EDA3}
-significance %>% 
-    group_by(date, ratings) %>% 
-    summarise(avgGap = mean(adj_gap), debut = mean(since_debut)) %>% 
-    arrange(desc(avgGap)) %>% 
-    ggplot() +
-    geom_jitter(aes(avgGap, ratings, color = debut)) +
-    geom_smooth(aes(avgGap, ratings), method = 'lm') +
-    scale_color_gradientn(colors = c('sky blue', 'black')) +
-    ggtitle("Songs that are played less often are usually percieved as special and better") +
-    xlab("Average number of shows that passed until the song was played again") +
-    ylab("Rating from Phish.Net")
-
-#There are many factors that go into what making phish shows and songs special to concert-goers. One that interests me is songs that are considered 'rare', people that follow the tour closely know what hasnt been played, and anytime something is busted out, the crowd usually picks up on it very quickly, even if the song hasnt been played in 10-20 years. This chart groups the data by show, and summarises the average song gap for that concert (where we want large outliers to skew the mean upwards), the rating from Phish.Net, and the days since the song was debuted when it was performed. It shows that concerts with high average song gaps generate significantly higher phish.net ratings with only one significant outlier. We also include days since the debut as a color pattern, because more recent sons havnt had the opportunity to have been held for a while to bust out later, so the color seeks to point out that confounding factor.
-```
-
 ```{r EDA4}
 phanalytix %>% 
     group_by(date, ratings) %>% 
@@ -179,24 +246,6 @@ phanalytix %>%
     ylab('Rating from Phish.Net')
     
 #Go in and highlight halloween shows
-```
-
-```{r EDA5}
-significance %>% 
-    group_by(date) %>% 
-    summarise(number_of_shows_per_tour = n(), 
-              Average_Significance_Rating = mean(significance_rating, na.rm = TRUE), 
-              rating = mean(ratings)) %>% 
-    ggplot() +
-    geom_jitter(aes(date, rating, color = number_of_shows_per_tour)) +
-    scale_color_gradientn(colors = c('sky blue', 'black')) +
-    geom_smooth(aes(date, rating), color = 'red') +
-    ggtitle("How the percieved quality of shows has changed over time") +
-    xlab("Year") +
-    ylab("Average Rating from Phish.Net")
-   
-
-#Though Phish has kept the original members for the entirety of the band's existance, they have have gone through many aristic phases. Objectively speaking, their career is broken into three chunks: 1.0 is from 1984 until 2000, when they went on a hiatus. 2.0 from 200 until 2004 when they broke up indefinitely. Lastly, 3.0 from 2009 until now, when they got back together. Each phase has has very different sounds, improvisational styles, and lifestyle influences that have moulded their live sound, and each era has fans and doubters. This chart maps each year's shows and maps them with the average of ratings from Phish.Net.
 ```
 
 ```{r EDA6}
@@ -264,7 +313,7 @@ significance <- significance %>%
                                  notes_dummy*notesBonus)
 
 
-significance %>% 
+ significance %>% 
     group_by(id_show) %>% 
     summarise(Average_Significance_Rating = mean(significance_rating, na.rm = TRUE),
                AdjAverage_Significance_Rating = mean(less_ratings_significance_rating, na.rm = TRUE),
