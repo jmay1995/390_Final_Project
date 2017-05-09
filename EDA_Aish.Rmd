@@ -77,7 +77,7 @@ Figure 4 is a copy of the plot in figure 3, but uses the whole dataset and all i
 
 #Figure 5 & 6
 ```{r}
-#Can try Shiny App!
+
 
 venue_ratings <- phanalytix %>% 
         select(id_show, song, location, venue_name, tour, ratings, like_count_show, date) %>% 
