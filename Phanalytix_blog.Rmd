@@ -1,0 +1,155 @@
+---
+title: "Phanalytix"
+author: "Rachel, Joe, Aish"
+date: "May 9, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load dataset, echo=FALSE, warning=FALSE, message=FALSE}
+library(dplyr)
+library(ggplot2)
+library(rvest)
+library(jsonlite)
+library(tidyverse)
+library(stringr)
+library(readr)
+library(ggmap)
+library(scales)
+
+phanalytix <- read.csv('phanalytix.csv', stringsAsFactors = FALSE)
+phanalytix <- mutate(phanalytix, date = as.Date(date))
+```
+
+#Phanalytix: An Analysis of Phish
+By Aishwarya Hariharan, Joe May, and Rachel Nesbit
+
+*A project completed by three students from the STOR 390 class of the University of North Carolina at Chapel Hill.*
+
+**[This link](https://idc9.github.io/stor390/) takes you to the course page, showing what was covered in the course.**
+
+**[This link](https://phanalytix.shinyapps.io/app390/) takes you to our Shiny app.**
+
+###Introduction to the Band and our App:
+
+Phish: though many have never even heard the name, the band fringes on being a way of life for the hundreds of thousands who follow them around the country yearly. Formed in 1984 at the University of Vermont, the band has transformed from a small college group to selling out Madison Square Garden yearly. Phish sought to revolutionize the live music experience by drawing influence from the Grateful Dead, playing different shows every night, never repeating the same concert, playing songs differently each time, and including extended improvisation. Through these tactics they took each song to a different musical place every night. Their goal along the grueling "way up" was to make each performance the best and most authentic live event the fans could experience; to do this they avoided collaboration with major record labels and publications for advertising. Instead, they relied on word of mouth for their fan base to grow, letting their music speak for itself. In doing this they not only developed an extremely large and loyal fanbase, but also avoided fair-weather fans and those in the mainstream music scene who would not care for their sound.
+
+Flash forward ten years to 1994, and the band was playing civic centers and arenas all across the United States, performing for upwards of 20,000 people a night. Their largest show to this date was on Big Cypress Indian Reserve in Florida where 80,000 people came from all over for the millennial New Year's celebration. Their following grew yet again after the guitarist of the Grateful Dead, Jerry Garcia, passed away in 1995. Countless "deadheads" joined the ranks of "phans" following Phish, unofficially deeming the bands the successive torch-bearers of the jam band music scene.
+
+![Phish on Halloween 2016 at the MGM Grand Garden Arena](http://songmango.com/wp-content/uploads/2014/11/PhishHalloweenMGM-SongMango.com_.jpg)
+
+Throughout their whole career they have continued to take musical risks by covering obscure songs, doing goofy on-stage antics, and playing 15 - 30 minute improvisational jams to see where the music would take them each night. Some nights had great jams while other times the jams didn't go anywhere special, but on the nights where they were firing on all four cylinders, they would mesmerize full arenas, with guitarist Trey Anastasio leading the crowd on a sonic adventure through the cosmos. So to ensure that they were present whenever the band was having one of those nights, dedicated fans began attending every show and following them across the country each summer. 
+
+![Attending a Phish concert is a colorful experience!](https://www.morrisonhotelgallery.com/images/big/DPV-balloons%2030x40%20(1).jpg)
+
+This summer they will be performing 13 nights in a row at Madison Square Garden and a few other shows. After playing 254 different songs in 2016, there are many who believe that the band will not repeat a single song during this stretch of shows. Because Phish has played 1514 concerts in their career, and over 1000 different songs throughout that time, getting into the band can seem very daunting. This is especially true when people go to their first show and suddenly thousands of people simultaneously clap the same syncopated rhythm, then an hour later all scream "woo!" at the same time. Fans also often listen to live recordings, instead of studio albums, and you often have to be in the know to have any idea as to what shows are best and what you should listen to. That's where we come in!
+
+Our app, Phanalytix, is a tool to help you get into the band or a tool to help an old Phish veteran figure out what show to listen to next. Simultaneously, the research and data collection that went into creating the app helped uncover some interesting information. There are many resources out there that archive phish shows and analyze trends, but Phanalytix seeks to create applications for all this data, making it interactive and insightful.
+
+###Interesting Findings
+
+```{r, warning=FALSE, echo=FALSE}
+
+debuts <- phanalytix %>% 
+    filter(debut_dummy == "1") %>% 
+    group_by(year, debut_dummy)%>%
+    summarize(num_songs = n())
+
+
+data_debuts <- data.frame(x = rnorm(100), y = rnorm(100))
+number_ticks <- function(n) {function(limits) pretty(limits, n)}
+
+ggplot(debuts) +
+    aes(year, num_songs) +
+    geom_line(color = "red") +
+    geom_point(color = "black") +
+    ggtitle ("Most Number of Debut Songs Performed in 1998 and Least in 1983") +
+    labs(x="Year of Debut", y = "Number of Songs") +
+    theme(axis.text.x = element_text(size = 10, angle = 65)) + 
+    theme(panel.background = element_blank()) +
+    scale_x_continuous(breaks=number_ticks(25)) +
+  scale_y_continuous(breaks=number_ticks(15))
+
+
+```
+
+We decided to look into Phish's debut song perfomance pattern over the years.  From the plot, we can see that there are a couple of years when the debut performances rose up to about 55 - 60 songs.  Likewise, there have been lows, in 1982, 2002, and 2012.  Overall, the band starts off with low number of debuts, slowly increasing and reaches a peak in 1994, dips, and again peaks in 1998, dips again, and increases.  So, there have been quite a few fluctuations between a low and high number of debut performances. 
+
+```{r, warning = FALSE, echo=FALSE, message=FALSE}
+#code to create map grabbed from Brendan's lecture on advanced EDA
+us <- map_data('state')
+
+#states.csv taken from http://www.fonz.net/blog/archives/2008/04/06/csv-of-states-and-state-abbreviations/
+states_names <- read_csv("states.csv")
+states_names$State <- tolower(states_names$State)
+
+#making a dataset of states and the number of shows played
+shows_us <- phanalytix%>%
+    filter(country== "United States")%>%
+    group_by(venue_name, date, state)%>%
+    summarize(num_songs = n())%>%
+    group_by(state)%>%
+    summarize(num_shows = n())
+shows_us <- mutate(shows_us, state = str_extract_all(state, "(?<=\\s)[A-Z]+"))
+
+#joining the state data with full state names
+shows_us <- mutate(shows_us, state = as.character(state))
+shows_us <- left_join(states_names, shows_us, by = c("Abbreviation" = "state")) 
+
+#joining the state data with the map data
+us <- left_join(us, shows_us, by = c("region" = "State"))
+
+#if there were no shows in a particular state, fill in 0 rather than NA
+for(i in 1:15537){
+    index <- i
+    if(is.na(us$num_shows[index])){
+        us$num_shows[index] <- 0
+    }
+}
+
+ggplot(data = us, aes(x = long, y = lat)) + 
+    geom_polygon(color = "transparent", aes(group = group, fill = num_shows)) +
+    theme_minimal() +
+    scale_fill_gradient(name = "Number of Phish concerts played in each state", 
+                        high = "#e06969", 
+                        low = "#fce0e0") +
+    theme(panel.grid.major = element_blank(), 
+          panel.grid.minor = element_blank(), 
+          axis.ticks = element_blank(),
+          legend.position="bottom", 
+          legend.box = "horizontal") + 
+    scale_x_continuous("", breaks = NULL) + 
+    scale_y_continuous("", breaks = NULL)+
+    geom_point(data = filter(phanalytix, longitude<0, latitude < 50, latitude > 25), 
+                aes(x = longitude, y = latitude), 
+                color = 'red', 
+                size = 2.75, 
+                alpha = 1, 
+                shape = "o")+
+    geom_point(data = filter(phanalytix, longitude<0, latitude < 50, latitude > 25), 
+                aes(x = longitude, y = latitude), 
+                color = 'red', 
+                size = 2.75, 
+                alpha = 1, 
+                shape = "o")+
+    labs(title='Cities where Phish performed')
+
+```
+
+This map portrays the locations of the cities in the US where Phish performed concerts during the entirety of their time as a band. The states are shaded based on the number of concerts that have been played in each state. By far, New York has hosted the most concerts over Phish's career, followed by Vermont, California, Massachusetts, and Colorado. Phish has never held a concert in Arkansas, North Dakota, South Dakota, and Wyoming. The cities they have performed in seem to be concentrated in three groups: one along the west coast especially in California, one on the East Coast in the New York area, and one smaller cluster in Colorado. 
+
+###So What Did We Do With the App?
+
+!["Find a Show"](VCR.png)
+
+After exploring the data and finding interesting trends, we decided to create a Shiny app for fans of the band to use in the future.  Our interactive app has two components, "Find a Show" and "Show Map".  The "Find a Show" component is great for Phish fans! It allows them to create a virtual concert with the given inputs for song/show recommendations.  These inputs are dates, song length, rarity of songs, rating from Phish.net (Phish's website), number of covers, number of debuts, number of teases within the song, oddities, and a time frame for year.  Given these inputs, the app extracts a set of songs which fulfill your criteria. It also provides the link so that you can stream the songs, and some basic information about the show date, location, and venue. The "Show Map" component is another cool feature in the app. It's a map of the world with pinpoints which indicate locations Phish has performed in the past. Upon clicking on the pins, you can see the venue name and the number of shows performed there. Both the components of the app serve as a great interactive tool for users, especially Phish fans!
+
+!["Show Map"](MAP.png)
+
+###How to Use the "Find a Show" tool
+
+Our interactive website application takes a series of 8 user preference inputs on an arbitrary scale of -3 to 3, where 3 indicates the highest degree of preference, 0 excludes that metric from the calculation, and -3 makes the category detract value. First the user has the option to filter by a specific date range, then they can rank their preference of song length, with 3 being longer songs. Next is rarity of songs, which is rated by the number of shows that had passed between performances of a song. For example, they played a song in 2012 that had not been played since 1988 (1417 shows). The next is show rating from Phish.Net, which is a website that is the centerpiece for most Phish recordkeeping, statistics, reviews, and user ratings. It gives us our closest measure of subjectivity. Then you can select your preference for covers, where 3 indicates shows with more songs that were not written by Phish, as they often cover classic rock hits. The next category, Live Debuts, is the value of shows that include songs that are being played live for the first time. Teases & Quotes refers to when they play bits of other songs inside the structure of one song, often a fan favorite. Oddities includes a capella songs, musical guests, acoustic sets, crowd interaction, stage banter, on stage dances, bizarre musical instruments, singing through a loudspeaker, rotating instruments, etc. Lastly, the Year metric allows the user to slide right for preference added to more recent shows, and left for preference for older shows. Once you have input your preferences it will generate a table with a series of recommended shows and URLs to stream them.
+
